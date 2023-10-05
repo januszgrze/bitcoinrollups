@@ -1,4 +1,4 @@
-# bitcoinrollups
+# [bitcoinrollups.io](bitcoinrollups.io)
 
 Bitcoinrollups.io is an educational website documenting the development of rollups on Bitcoin. It is open source and depedent on community volunteers.
 
