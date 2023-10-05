@@ -1,3 +1,5 @@
+_This page is not complete. Please join our [telegram group](https://t.me/+8rv-1I2gkmQ4ZmJh) to get involved._
+
 Thanks for checking out the contributor section for Bitcoinrollups.io!
 
 We're building an information resource about the development of zk-rollups on Bitcoin. Everything we do is initially documented in GitHub and distributed via our website or social media accounts. This includes, but is not limited to, tweet threads for @Bitcoinrollups, The Bitcoin Rollup Newsletter, and our website.
