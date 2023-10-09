@@ -15,6 +15,7 @@ It asked a number of questions around zk-rollups improving Bitcoin scaling, priv
 The first things you should do is:
 
 -[Read the HRF's call for proposals](https://hrf.org/zkrollups)
+
 -[Read the research report "Validity rollups on Bitcoin"](https://bitcoinrollups.org/)
 
 ## Understand the "problem"
