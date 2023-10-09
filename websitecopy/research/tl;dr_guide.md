@@ -14,9 +14,8 @@ It asked a number of questions around zk-rollups improving Bitcoin scaling, priv
 
 The first things you should do is:
 
--[Read the HRF's call for proposals](https://hrf.org/zkrollups)
-
--[Read the research report "Validity rollups on Bitcoin"](https://bitcoinrollups.org/)
+- [Read the HRF's call for proposals](https://hrf.org/zkrollups)
+- [Read the research report "Validity rollups on Bitcoin"](https://bitcoinrollups.org/)
 
 ## Understand the "problem"
 
@@ -36,8 +35,8 @@ So, the issues of high on-chain fees, coupled with the stress put on the Lightni
 
 To further understand the "problem", you should:
 
--[Read Trust Machines' blog post on Ordinals](https://trustmachines.co/learn/what-are-bitcoin-ordinals-inscriptions/)
--[Read Bitcoin Magazine's analysis on Ordinals and BRC-20 controversy](https://bitcoinmagazine.com/technical/bitcoins-high-fees-create-controversy-and-challenges)
+- [Read Trust Machines' blog post on Ordinals](https://trustmachines.co/learn/what-are-bitcoin-ordinals-inscriptions/)
+- [Read Bitcoin Magazine's analysis on Ordinals and BRC-20 controversy](https://bitcoinmagazine.com/technical/bitcoins-high-fees-create-controversy-and-challenges)
 
 ## Where rollups come into play
 
@@ -53,23 +52,23 @@ Additionally, many of the proponents for zk-rollups on Bitcoin have voiced their
 
 To get up to date on the development of zk-rollups on Bitcoin, you should read the following:
 
-[Rollkit introducing their Bitcoin sovereign rollup framework](https://rollkit.dev/blog/sovereign-rollups-on-bitcoin)
-[Chainway outlining their Bitcoin zk-rollup](https://medium.com/@chainway_xyz/a-sovereign-zk-rollup-on-bitcoin-full-bitcoin-security-without-a-soft-fork-ca0389a0b658)
-[Chainway open-sourcing its Bitcoin DA Adapter and outlining the need for rollups](https://ordinals.com/content/7b27406bb7b0c90da6cbef5074eaa56f1dbb92a9806a6a3c730c027e2b33b3e4i0)
-[ZK rollups are coming to Bitcoin by Bitcoin Magazine](https://bitcoinmagazine.com/technical/zk-rollups-are-coming-to-bitcoin-heres-all-you-need-to-know)
-[Blog outlining how zk-rollups might work on Bitcoin](https://trustmachines.co/learn/what-are-rollups-and-how-can-they-work-on-bitcoin/)
-[Comparing Bitcoin rollups with another Bitcoin Layer 2, Stacks](https://github.com/stacks-network/stacks/blob/master/bitcoin-rollups.md)
+- [Rollkit introducing their Bitcoin sovereign rollup framework](https://rollkit.dev/blog/sovereign-rollups-on-bitcoin)
+- [Chainway outlining their Bitcoin zk-rollup](https://medium.com/@chainway_xyz/a-sovereign-zk-rollup-on-bitcoin-full-bitcoin-security-without-a-soft-fork-ca0389a0b658)
+- [Chainway open-sourcing its Bitcoin DA Adapter and outlining the need for rollups](https://ordinals.com/content/7b27406bb7b0c90da6cbef5074eaa56f1dbb92a9806a6a3c730c027e2b33b3e4i0)
+- [ZK rollups are coming to Bitcoin by Bitcoin Magazine](https://bitcoinmagazine.com/technical/zk-rollups-are-coming-to-bitcoin-heres-all-you-need-to-know)
+- [Blog outlining how zk-rollups might work on Bitcoin](https://trustmachines.co/learn/what-are-rollups-and-how-can-they-work-on-bitcoin/)
+- [Comparing Bitcoin rollups with another Bitcoin Layer 2, Stacks](https://github.com/stacks-network/stacks/blob/master/bitcoin-rollups.md)
 
 ## Follow the developments
 
 The development of zk-rollups on Bitcoin is very early and is an evolving space. I'll do my best to keep this document update, but recommend that you follow these accounts on Twitter to stay up to date on everything:
 
--[Chainway](https://twitter.com/chainway_xyz)
--[Kasar Labs](https://twitter.com/kasarLabs)
--[Rollkit](https://twitter.com/RollkitDev)
--[Sovereign Labs](https://twitter.com/sovereign_labs)
--[Rootstock](https://twitter.com/rootstock_io)
--[Build on Bitcoin (BOB)](https://twitter.com/build_on_bob)
+- [Chainway](https://twitter.com/chainway_xyz)
+- [Kasar Labs](https://twitter.com/kasarLabs)
+- [Rollkit](https://twitter.com/RollkitDev)
+- [Sovereign Labs](https://twitter.com/sovereign_labs)
+- [Rootstock](https://twitter.com/rootstock_io)
+- [Build on Bitcoin (BOB)](https://twitter.com/build_on_bob)
 
 I'll update this list as I see more teams building (or mentioning they might build) rollups on Bitcoin.
 
@@ -77,15 +76,15 @@ I'll update this list as I see more teams building (or mentioning they might bui
 
 There are also a number of really good podcasts and conference talks on Bitcoin rollups. Some of those are listed below:
 
--[John Light and Eric wall discuss Bitcoin rollups on Bankless](https://www.youtube.com/watch?v=qChILPxdOA4)
--[ZK rollups on Bitcoin panel at Bitcoin Miami 2023](https://www.youtube.com/watch?v=CJ8HUKeDy4Q&t=1s)
--[Bitcoin rollups panel at Modular Summit](https://www.youtube.com/watch?v=xOn2vjg27nM&t=1216s)
--[Eric wall shares "Why a Bitcoiner loves a rollup" at Starkware Sessions](https://www.youtube.com/watch?v=_hLvvZGST_E)
--[John Light explaining bitcoin rollups and ZKPs](https://www.youtube.com/watch?v=feODuDF2xv0)
+- [John Light and Eric wall discuss Bitcoin rollups on Bankless](https://www.youtube.com/watch?v=qChILPxdOA4)
+- [ZK rollups on Bitcoin panel at Bitcoin Miami 2023](https://www.youtube.com/watch?v=CJ8HUKeDy4Q&t=1s)
+- [Bitcoin rollups panel at Modular Summit](https://www.youtube.com/watch?v=xOn2vjg27nM&t=1216s)
+- [Eric wall shares "Why a Bitcoiner loves a rollup" at Starkware Sessions](https://www.youtube.com/watch?v=_hLvvZGST_E)
+- [John Light explaining bitcoin rollups and ZKPs](https://www.youtube.com/watch?v=feODuDF2xv0)
 
 To understand why Bitcoin should leverage zk-rollups, this podcast outlines the problem very well:
 
-[Udi Wertheimer on What Bitcoin Did](https://www.youtube.com/watch?v=97-hufd4M7s)
+- [Udi Wertheimer on What Bitcoin Did](https://www.youtube.com/watch?v=97-hufd4M7s)
 
 ## To close
 
