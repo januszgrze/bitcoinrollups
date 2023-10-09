@@ -69,6 +69,7 @@ The development of zk-rollups on Bitcoin is very early and is an evolving space.
 - [Sovereign Labs](https://twitter.com/sovereign_labs)
 - [Rootstock](https://twitter.com/rootstock_io)
 - [Build on Bitcoin (BOB)](https://twitter.com/build_on_bob)
+- [ZeroSync](https://twitter.com/ZeroSync_)
 
 I'll update this list as I see more teams building (or mentioning they might build) rollups on Bitcoin.
 
