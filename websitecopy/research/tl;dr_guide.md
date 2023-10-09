@@ -10,7 +10,7 @@ In 2021, the Human Rights Foundation and Starkware put out an RFP for a research
 
 _"The fellowship is being created with the acknowledgment that ZK-rollups may not be a helpful or appropriate addition to Bitcoin, but with the open mind that they might be."_
 
-It asked a number of questions around zk-rollups improving Bitcoin scaling, privacy and user experience. John Light was awarded the fellowship and produced a the first and most comprehensive research report on the subject.
+It asked a number of questions around zk-rollups improving Bitcoin scaling, privacy and user experience. John Light was awarded the fellowship and produced the first and most comprehensive research report on the subject.
 
 The first things you should do is:
 
@@ -21,15 +21,15 @@ The first things you should do is:
 
 Earlier in 2023, the Bitcoin protocol saw a spike in usage due to new interest in Ordinals and BRC-20 tokens. Let's cover the two things that enabled this.
 
-The Ordinal protocol is a tracking system that assigns a number to a single satoshi (a denomination of Bitcoin). Inscriptions are the result of inscribing digital artifacts to specific satoshis. The Ordinal protocol enables inscriptions by combining compontents of two protocol upgrades to Bitcoin, "Taproot" and "SegWit". SegWit can see more data be stored in a Bitcoin block, up to 4 MB when comprised of arbitrary data. And Taproot enables inscribing a single file, just below this 4 MB limit, to a single satoshi (deonmination of Bitcoin).
+The Ordinal protocol is a tracking system that assigns a number to a single satoshi (a denomination of Bitcoin). Inscriptions are the result of inscribing digital artifacts to specific satoshis. The Ordinal protocol enables inscriptions by combining compontents of two protocol upgrades to Bitcoin, "Taproot" and "SegWit". SegWit can see more data be stored in a Bitcoin block, up to 4 MB when comprised of arbitrary data. And Taproot enables inscribing a single file, just below this 4 MB limit, to a single satoshi.
 
-When people figured out that you could (again, basically) create NFTs and shitcoins by inscribing files to single satoshis, everyone went nuts. This created a new phase of development, applications and financial speculation on the Bitcoin protocol. Some results of this?
+When people figured out that you could (basically) create NFTs and shitcoins by inscribing files to single satoshis, everyone went nuts. This created a new phase of development, applications and financial speculation on the Bitcoin protocol. Some results of this?
 
 New interest in Bitcoin and more usage of the Bitcoin protocol. This is good right?!
 
 Yes, Bitcoin needs more transaction fees to sustain its 21 million supply cap. As of today, only 3% of rewards paid to miners are from transaction fees. So more usage of Bitcoin is needed.
 
-But, the Bitcoin protocol hadn't gone under a recent stress test like this, so users experienced high fees and a poor user experience. Lightning, a layer 2 scaling solution on Bitcoin, had major problems operating in a self-custodial manner during this phase.
+But, the Bitcoin protocol hadn't gone under a recent stress test like this, so users experienced high fees and poor UX. Lightning, a layer 2 scaling solution on Bitcoin, had major problems operating in a self-custodial manner during this phase.
 
 So, the issues of high on-chain fees, coupled with the stress put on the Lightning network, have caused developers to explore other scaling solutions.
 
@@ -48,7 +48,7 @@ Various teams are now exploring how they can use the Ordinal protocol deploy bui
 
 Note that these rollups are sovereign rollups and do not use a Layer 1 smart contract to update the rollup's state. Also, in Bitcoin you cannot have trustless bridging without implementing a soft fork, so these rollups would likely use their own native token versus BTC. However, there are benefits to using Bitcoin as a data availability and consensus layer, which is a reason developers are exploring these rollup designs.
 
-Additionally, many of the proponents for zk-rollups on Bitcoin have voiced their support for a soft fork that would enable trustless smart contract validity rollups (highlighted in the research shared in this guide), so you could view initial implementations as the first step in enabling trustless bridging on Bitcoin, so users could trustlessly use their BTC in a number of ways via different execution environments enabled by rollups.
+Additionally, many of the proponents for zk-rollups on Bitcoin have voiced their support for a soft fork that would enable trustless smart contract validity rollups (highlighted in the research shared in this guide). You could view these initial sovereign rollup deployments as the first step to showing why Bitcoin should enable trustless bridging. In this future state, users could trustlessly use their BTC in a number of ways via different execution environments that are enabled by rollups.
 
 To get up to date on the development of zk-rollups on Bitcoin, you should read the following:
 
@@ -76,10 +76,10 @@ I'll update this list as I see more teams building (or mentioning they might bui
 
 There are also a number of really good podcasts and conference talks on Bitcoin rollups. Some of those are listed below:
 
-- [John Light and Eric wall discuss Bitcoin rollups on Bankless](https://www.youtube.com/watch?v=qChILPxdOA4)
+- [John Light and Eric Wall discuss Bitcoin rollups on Bankless](https://www.youtube.com/watch?v=qChILPxdOA4)
 - [ZK rollups on Bitcoin panel at Bitcoin Miami 2023](https://www.youtube.com/watch?v=CJ8HUKeDy4Q&t=1s)
 - [Bitcoin rollups panel at Modular Summit](https://www.youtube.com/watch?v=xOn2vjg27nM&t=1216s)
-- [Eric wall shares "Why a Bitcoiner loves a rollup" at Starkware Sessions](https://www.youtube.com/watch?v=_hLvvZGST_E)
+- [Eric Wall shares "Why a Bitcoiner loves a rollup" at Starkware Sessions](https://www.youtube.com/watch?v=_hLvvZGST_E)
 - [John Light explaining bitcoin rollups and ZKPs](https://www.youtube.com/watch?v=feODuDF2xv0)
 
 To understand why Bitcoin should leverage zk-rollups, this podcast outlines the problem very well:
