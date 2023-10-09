@@ -1,6 +1,6 @@
 _This is a living document and will be updated regularly. Please feel free to request edits and add additional content._
 
-As I'm building [bitcoinrollups.io](bitcoinrollups.io), I saw someone ask what would be the best resource for someone who wanted to catch up on Bitcoin development. In response to that, I wanted to build a guide that provides a tl;dr for the latest zk-rollup development on Bitcoin.
+As I'm building [bitcoinrollups.io](https://bitcoinrollups.io), I saw someone ask what would be the best resource for someone who wanted to catch up on Bitcoin development. In response to that, I wanted to build a guide that provides a tl;dr for the latest zk-rollup development on Bitcoin.
 
 So, if you haven't paid attention to the Bitcoin space in 7-ish years, grab a coffee (or a whisky) and get comfortable. Reading all the materials listed in this guide will take you an evening to get through.
 
