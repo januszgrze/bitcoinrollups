@@ -74,13 +74,13 @@ I'll update this list as I see more teams building (or mentioning they might bui
 
 ## Additional materials you can watch or listen to
 
-There are also a number of really good podcasts and conference talks on Bitcoin rollups. Some of those are listed below:
+There are a number of really good podcasts and conference talks on Bitcoin rollups. Some of those are listed below:
 
 - [John Light and Eric Wall discuss Bitcoin rollups on Bankless](https://www.youtube.com/watch?v=qChILPxdOA4)
 - [ZK rollups on Bitcoin panel at Bitcoin Miami 2023](https://www.youtube.com/watch?v=CJ8HUKeDy4Q&t=1s)
 - [Bitcoin rollups panel at Modular Summit](https://www.youtube.com/watch?v=xOn2vjg27nM&t=1216s)
 - [Eric Wall shares "Why a Bitcoiner loves a rollup" at Starkware Sessions](https://www.youtube.com/watch?v=_hLvvZGST_E)
-- [John Light explaining bitcoin rollups and ZKPs](https://www.youtube.com/watch?v=feODuDF2xv0)
+- [John Light explaining Bitcoin rollups and ZKPs](https://www.youtube.com/watch?v=feODuDF2xv0)
 
 To understand why Bitcoin should leverage zk-rollups, this podcast outlines the problem very well:
 
