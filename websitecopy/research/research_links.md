@@ -8,7 +8,7 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 
 - [Bitcoin zk-rollups](https://tr3y.io/articles/crypto/bitcoin-zk-rollups.html)
 
-### Relevant Bitcoin scaling research reports
+### Relevant Bitcoin scaling research papers
 
 - [BitVM: Compute Anything on Bitcoin](https://bitvm.org/bitvm.pdf)
 - [ZeroSync: Introducing Validity Proofs to Bitcoin](https://zerosync.org/zerosync.pdf)
@@ -19,4 +19,17 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 
 - [A Light Introduction to ZeroSync](https://geometry.xyz/notebook/A-light-introduction-to-ZeroSync)
 - [Rollkit documentation](https://rollkit.dev/learn/overview)
+- [RootStock RIF Rollup documentation](https://dev.rootstock.io/rif/rollup/)
+- [Build on Bitcoin Rollup documentation](https://docs.gobob.xyz/)
+
+### Code repositories
+
+- [Chainway Bitcoin DA Github repository](https://github.com/chainwayxyz/bitcoin-da)
+- [ZeroSync Github repository](https://github.com/zerosync)
+- [Rollkit Bitcoin DA Github repository](https://github.com/rollkit/bitcoin-da)
+- [BOB Collective Github repository](https://github.com/bob-collective/bob)
+- [Sovereign SDK Github repository](https://github.com/Sovereign-Labs/sovereign-sdk)
+
+### Whitepapers
+
 - 
