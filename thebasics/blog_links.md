@@ -1,8 +1,8 @@
 ### The basics
 
-## Videos and podcasts on Bitcoin rollups
+## Blogs, articles and threads on Bitcoin rollups
 
-In this page, you'll find a comprehensive list of talks, podcasts and panels around Bitcoin rollups. Watch or listen at home, on a run or in the car!
+You can find the full list of video and audio materials in the sections below.
 
 ---
 
