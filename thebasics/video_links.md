@@ -21,12 +21,27 @@ You can find the full list of video and audio materials in the sections below.
 - [ZK Rollups on Bitcoin - Bitcoin 2023](https://www.youtube.com/watch?v=rvOrbejf6_A&list=PLe0djdakvnFb0T-oZAeF49A-EZChise4n&index=92)
 - [Rollups on Bitcoin - Modular Summit](https://www.youtube.com/watch?v=xOn2vjg27nM&t=1226s)
 - [Why a Bitcoiner loves a rollup - Starkware Sessions 23](https://www.youtube.com/watch?v=xOn2vjg27nM&t=1226s)
+- [Scaling BTC: Rollups, ZKproofs, & More - Bitcoin Builders Conference](https://www.youtube.com/watch?v=XsHjpkWbzo8)
 
-### Podcasts covering ZK Rollups on Bitcoin
+### Podcasts that cover ZK Rollups on Bitcoin
 
 - [John Light on Validity Rollups on Bitcoin, ZK-proofs, and the Lightning Network - Kevin Rooke Show](https://www.youtube.com/watch?v=feODuDF2xv0)
 - [Bitcoin. Censorship resistance decentralized money. ZK Rollups. Eric Wall. - Cointelegram](https://www.youtube.com/watch?v=leNF_v3igl4)
+- [The Future of Bitcoin with Nic Carter, Eric Wall, & Udi Wertheimer - Bankless](https://www.youtube.com/watch?v=yXnhKU7n_L8)
+- [Open Source Bitcoin and Validity Rollups with John Light - The Bitcoin Source](https://www.youtube.com/watch?v=rhRMpXUC2wM)
+- [The Bull Case for zkBTC - Bankless](https://www.youtube.com/watch?v=qChILPxdOA4)
+- [Rollups on Bitcoin - John Light Interview - Author of Bitcoin Rollups Research Paper - Built on Bitcoin](https://www.youtube.com/watch?v=9CYzqwNMS3M)
+- [A Deep Dive on Bitcoin Scaling Solutions with John Light](https://www.youtube.com/watch?v=zShADH2rJkE)
+- [Why Rollups Could Be Important For Bitcoin Miners - The Mining Pod](https://www.youtube.com/watch?v=p-ZQfAo5qaY)
 
-### Conference talks on Zero Knowledge Proofs on Bitcoin
+### Podcasts covering why we should reject maximalism
+
+- [The Role of Bitcoin Maximalism with Udi Wertheimer - What Bitcoin Did](https://www.youtube.com/watch?v=97-hufd4M7s)
+- [Bitcoin’s Wall’d Garden with Eric Wall - What Bitcoin Did](https://www.youtube.com/watch?v=N7iMK0MbWr8)
+- [Defending Bitcoin: Operation Chokepoint 2.0 with Nic Carter - What Bitcoin Did](https://www.youtube.com/watch?v=_Ns7wFJa92M&t=1539s)
+- [Everything You Need to Know About Ordinals - The Aubservation](https://www.youtube.com/watch?v=QdEiS15Hfwo)
+
+### Other media pieces related to ZK Rollups, Bitcoin fee markets, Ordinals and Zero-Knowledge Proofs on Bitcoin
 
 - [ZeroSync - Bitcoin 2023](https://www.youtube.com/watch?v=rvOrbejf6_A&list=PLe0djdakvnFb0T-oZAeF49A-EZChise4n&index=92)
+- [The Great Ordinal Debate - Bitcoin 2023](https://www.youtube.com/watch?v=AdYsQ2DWt5M)
