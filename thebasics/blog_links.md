@@ -2,7 +2,7 @@
 
 ## Blogs, articles and threads on Bitcoin rollups
 
-You can find the full list of video and audio materials in the sections below.
+You can find the full list of written materials in the sections below.
 
 ---
 
