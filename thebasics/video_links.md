@@ -41,6 +41,12 @@ You can find the full list of video and audio materials in the sections below.
 - [Defending Bitcoin: Operation Chokepoint 2.0 with Nic Carter - What Bitcoin Did](https://www.youtube.com/watch?v=_Ns7wFJa92M&t=1539s)
 - [Everything You Need to Know About Ordinals - The Aubservation](https://www.youtube.com/watch?v=QdEiS15Hfwo)
 
+### Twitter spaces covering ZK Rollups on Bitcoin
+
+- [Scaling to Billions - Bitcoin Rollups - Bitcoin Magazine](https://twitter.com/i/spaces/1OwxWwZmOmZxQ?s=20)
+- [Sovereign Rollups on Bitcoin - Celestia](https://twitter.com/i/spaces/1jMJgLoEnoexL?s=20)
+- [What can Bitcoiners learn from Ethereum with Vitalik Buterin - Taproot Wizards](https://twitter.com/i/spaces/1DXGyvDBObeJM?s=20)
+
 ### Other media pieces related to ZK Rollups, Bitcoin fee markets, Ordinals and Zero-Knowledge Proofs on Bitcoin
 
 - [ZeroSync - Bitcoin 2023](https://www.youtube.com/watch?v=rvOrbejf6_A&list=PLe0djdakvnFb0T-oZAeF49A-EZChise4n&index=92)
