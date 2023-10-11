@@ -8,13 +8,6 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 
 - [Bitcoin zk-rollups](https://tr3y.io/articles/crypto/bitcoin-zk-rollups.html)
 
-### Relevant Bitcoin scaling research papers
-
-- [BitVM: Compute Anything on Bitcoin](https://bitvm.org/bitvm.pdf)
-- [ZeroSync: Introducing Validity Proofs to Bitcoin](https://zerosync.org/zerosync.pdf)
-- [Simplicity: A New Language for Blockchains](https://blockstream.com/simplicity.pdf)
-- [Enabling Blockchain Innovations with Pegged Sidechains](https://blockstream.com/sidechains.pdf)
-
 ### Documentation sites
 
 - [A Light Introduction to ZeroSync](https://geometry.xyz/notebook/A-light-introduction-to-ZeroSync)
@@ -29,7 +22,11 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [Rollkit Bitcoin DA Github repository](https://github.com/rollkit/bitcoin-da)
 - [BOB Collective Github repository](https://github.com/bob-collective/bob)
 - [Sovereign SDK Github repository](https://github.com/Sovereign-Labs/sovereign-sdk)
+- [Rootstock RIF Rollup Github repository](https://github.com/rsksmart/rif-rollup)
 
-### Whitepapers
+### Relevant Bitcoin scaling research papers
 
-- 
+- [BitVM: Compute Anything on Bitcoin](https://bitvm.org/bitvm.pdf)
+- [ZeroSync: Introducing Validity Proofs to Bitcoin](https://zerosync.org/zerosync.pdf)
+- [Simplicity: A New Language for Blockchains](https://blockstream.com/simplicity.pdf)
+- [Enabling Blockchain Innovations with Pegged Sidechains](https://blockstream.com/sidechains.pdf) 
