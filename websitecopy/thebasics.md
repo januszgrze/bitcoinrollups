@@ -2,7 +2,7 @@
 
 Rollups are Layer 2 solutions that let you do cool stuff with your bitcoin. They've been dubbed as scaling solutions in the Ethereum space, and now members of the Bitcoin community are beginning to debate whether they should be implemented in Bitcoin.
 
-This page includes a number of articles and blogs on rollups, their design and the different components within rollup architecture.
+This page includes a number of articles and blogs on rollups, their design and the different components within rollup architecture. To get straight into the resources, you can check out various blogs and articles on Bitcoin rollups here, and video and audio pieces here.
 
 ## Frequently Asked Questions
 
