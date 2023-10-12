@@ -2,7 +2,9 @@
 
 ## Blogs, articles and threads on Bitcoin rollups
 
-You can find the full list of written materials in the sections below. This a living document, and links are added every week. If you'd like to contribute to documenting the development of ZK Rollups on Bitcoin, click here.
+In this page, you can find the full list of written materials in the sections below. Make a cuppa, have a seat and dive in.
+
+This a living document, and links are added every week. If you'd like to contribute to documenting the development of ZK Rollups on Bitcoin, click here.
 
 ---
 
