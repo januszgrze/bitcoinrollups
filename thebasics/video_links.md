@@ -46,6 +46,7 @@ You can find the full list of video and audio materials in the sections below.
 - [Scaling to Billions - Bitcoin Rollups - Bitcoin Magazine](https://twitter.com/i/spaces/1OwxWwZmOmZxQ?s=20)
 - [Sovereign Rollups on Bitcoin - Celestia](https://twitter.com/i/spaces/1jMJgLoEnoexL?s=20)
 - [What can Bitcoiners learn from Ethereum with Vitalik Buterin - Taproot Wizards](https://twitter.com/i/spaces/1DXGyvDBObeJM?s=20)
+- [A conversation about Bitcoin rollups - Trust Machines](https://twitter.com/i/spaces/1YqJDowgLqwGV?s=20)
 
 ### Other media pieces related to ZK Rollups, Bitcoin fee markets, Ordinals and Zero-Knowledge Proofs on Bitcoin
 
