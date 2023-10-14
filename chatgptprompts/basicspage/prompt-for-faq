@@ -14,7 +14,7 @@ Code framework
         p {
             font-family: "Inconsolata", monospace;
             font-size: 17px;
-            line-height: 24px;
+            line-height: 24px !important;
             font-weight: 400;
             color: white;
         }
@@ -22,34 +22,32 @@ Code framework
             font-family: "Inconsolata", monospace;
             color: white;
             font-size: 40px;
-            line-height: 44px;
+            line-height: 44px !important;
             font-weight: 400;
-            margin-bottom: 15px; /* 15px margin below the headers */
+            margin-bottom: 2.5px !important; /* Add margin to the bottom of the h2 to achieve the desired spacing */
         }
         h3 {
             font-family: "Inconsolata", monospace;
             color: #f2a900;
             font-size: 24px;
-            line-height: 30px;
+            line-height: 24px !important;
             font-weight: 400;
-            margin-bottom: 2.5px; /* 15px margin below the headers */
+            margin-bottom: 7.5px !important; /* Add margin to the top of the div to achieve 7.5px spacing */
         }
         ul {
             font-family: "Inconsolata", monospace;
             list-style: inherit;
         }
         ul li {
-            margin-bottom: 7.5px; /* 10px margin between headers and hyperlinks */
             color: white;
             font-weight: 400;
         }
         a {
             font-family: "Inconsolata", monospace;
             font-size: 17px;
-            line-height: 24px;
             font-weight: 400;
             text-decoration: underline;
-            color: white; /* Match the font color */
+            color: white;
         }
     </style>
 </head>
