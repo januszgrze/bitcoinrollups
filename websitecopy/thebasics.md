@@ -46,20 +46,21 @@ The first implementations of zero-knowledge proofs required a trusted setup. Thi
 
 The argument that rollups will add shitcoins and scams to Bitcoin simply isn't true. You can do that today. What people should worry about is if the current fee market can sustain Bitcoin's 21 million supply cap. If it can't, then they should explore solutions that could drive more usage to the Bitcoin network. Rollups are one of those solutions, and offer set of different tradeoffs when compared to other solutions, like Drivechain. Quit being scared of shitcoins. You're an adult.
 
+---
+
 ## More resources
 
-### What are rollups
+We've compiled a list of resources that cover a number things related to rollups and Bitcoin rollups. Check them out below.
 
-{insert_links}
+### Written resources
 
-### What are Bitcoin rollups
+- <u> [ZK Rollups Are Coming To Bitcoin, Bitcoin Magazine](https://bitcoinmagazine.com/technical/zk-rollups-are-coming-to-bitcoin-heres-all-you-need-to-know#) <u> - A great primer on the development of ZK rollups on Bitcoin
+- An introduction to Sovereign rollups, Celestia - A great primer that outlines what sovereign rollups are and how they differ from smart contract rollups
+- You can check out the full list here
 
-{insert_links}
+### Video and audio resources
 
-### What's inside a rollup
+- ZK Rollups on Bitcoin, Eric Wall & Preston Evans, Bitcoin 2023 - A primer on how Bitcoin can use rollups to improve scaling
+- John Light on Validity Rollups on Bitocin, ZK-proofs, and the Lightning Network, Kevin Rooke Show - A primer on how Bitcoin can use rollups to improve scaling
+- You can check out the full list here
 
-{insert_links}
-
-### Why Bitcoin rollips
-
-{insert_links}
