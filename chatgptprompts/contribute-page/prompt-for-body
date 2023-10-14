@@ -1,0 +1,39 @@
+Can you use this html code framework and insert the markdown text listed below? I'll divide the sections so you know which is which.
+
+Code framework
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: "Inconsolata", monospace;
+            font-weight: 400;
+            background-color: #000; /* Set your desired background color */
+        }
+        .intro-text {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px;
+            font-weight: 400;
+            color: white;
+        }
+        a {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px;
+            font-weight: 400;
+            color: white;
+            text-decoration: underline; /* Add underline to links */
+        }
+        h2 {
+            font-family: "Inconsolata", monospace;
+            color: white;
+            font-size: 40px;
+            line-height: 44px;
+            font-weight: 400;
+            margin-bottom: 15px; /* 15px margin below the headers */
+        }
+    </style>
+</head>
