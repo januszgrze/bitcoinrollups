@@ -55,12 +55,11 @@ We've compiled a list of resources that cover a number things related to rollups
 ### Written resources
 
 - <u> [ZK Rollups Are Coming To Bitcoin, Bitcoin Magazine](https://bitcoinmagazine.com/technical/zk-rollups-are-coming-to-bitcoin-heres-all-you-need-to-know#) <u> - A great primer on the development of ZK rollups on Bitcoin
-- An introduction to Sovereign rollups, Celestia - A great primer that outlines what sovereign rollups are and how they differ from smart contract rollups
-- You can check out the full list here
+- <u> [An introduction to Sovereign rollups, Celestia](https://celestia.org/learn/sovereign-rollups/an-introduction/) <u> - A great primer that outlines what sovereign rollups are and how they differ from smart contract rollups
+- You can check out the full list <u> [here](https://celestia.org/learn/sovereign-rollups/an-introduction/) <u>
 
 ### Video and audio resources
 
-- ZK Rollups on Bitcoin, Eric Wall & Preston Evans, Bitcoin 2023 - A primer on how Bitcoin can use rollups to improve scaling
-- John Light on Validity Rollups on Bitocin, ZK-proofs, and the Lightning Network, Kevin Rooke Show - A primer on how Bitcoin can use rollups to improve scaling
-- You can check out the full list here
-
+- <u> [ZK Rollups on Bitcoin, Eric Wall & Preston Evans, Bitcoin 2023](https://www.youtube.com/watch?v=CJ8HUKeDy4Q&t=1s) <u> - A primer on how Bitcoin can use rollups to improve scaling
+- <u> [John Light on Validity Rollups on Bitocin, ZK-proofs, and the Lightning Network, Kevin Rooke Show](https://www.youtube.com/watch?v=feODuDF2xv0) - A primer on how Bitcoin can use rollups to improve scaling
+- You can check out the full list <u> [here](##https://www.youtube.com/watch?v=feODuDF2xv0)
