@@ -1,4 +1,4 @@
-# Help build bitcoinrollups.io and get tipped in BTC
+## Help build bitcoinrollups.io and get tipped in BTC
 
 Bitcoinrollups.io is community managed and run by volunteers. It is available for anyone to use under the creative commons license.
 
