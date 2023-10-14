@@ -1,0 +1,59 @@
+Can you use this html code framework and insert the markdown text listed below? I'll divide the sections so you know which is which.
+
+Code framework
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: "Inconsolata", monospace;
+            font-weight: 400;
+        }
+        .intro-text {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px;
+            font-weight: 400;
+            color: white;
+         }
+         h2 {
+            font-family: "Inconsolata", monospace;
+            color: white;
+            font-size: 40px;
+            line-height: 44px;
+            font-weight: 400;
+            margin-bottom: 15px; /* 15px margin below the headers */
+        }
+        h3 {
+            font-family: "Inconsolata", monospace;
+            color: #f2a900;
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 400;
+            margin-bottom: 15px; /* 15px margin below the headers */
+            margin-top: 15px;
+        }
+        ul {
+            font-family: "Inconsolata", monospace;
+            list-style: inherit;
+        }
+        ul li {
+            margin-bottom: 7.5px; /* 10px margin between headers and hyperlinks */
+            color: white;
+            font-weight: 400;
+        }
+        ul li a {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px;
+            font-weight: 400;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+Markdown text
