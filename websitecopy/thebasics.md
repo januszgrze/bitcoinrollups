@@ -40,7 +40,7 @@ Sovereign rollups add zero security risks to Bitcoin. They simply use Bitcoin t
 
 ### Do zero-knowledge proofs require a trusted setup
 
-The first implementations of zero-knowledge proofs required a trusted setup. This was one of the main reasons that Bitcoiners were initially cautious about the tech being implemented in Bitcoin. But, the zero-knowledge proof space has come a long way and a variety of proving systems do not require trusted setups. zk-STARKs and zk-SNARKs are the two primary types of zero-knowledge proofs used in validity rollups. STARKs do not require a trusted setup, and a newer zk-SNARK, called Halo, removed the need for a trusted setup. This is really cool, because now we have trustless ways to implement the zero-knowledge proofs that Satoshi was talking about :)
+The first implementations of zero-knowledge proofs required a trusted setup. This was one of the main reasons that Bitcoiners were initially cautious about the tech being implemented in Bitcoin. But, the zero-knowledge proof space has come a long way and a variety of proving systems do not require trusted setups. zk-STARKs and zk-SNARKs are the two primary types of zero-knowledge proofs used in validity rollups. STARKs do not require a trusted setup, and a newer zk-SNARK, called Halo, removed the need for a trusted setup. This is really cool, because now we have trustless ways to implement the zero-knowledge proofs that <u> [Satoshi was talking about](https://bitcointalk.org/index.php?topic=770.msg8637#msg8637) <u> :)
 
 ### But... Shitcoins?
 
