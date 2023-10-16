@@ -31,3 +31,4 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [Simplicity: A New Language for Blockchains](https://blockstream.com/simplicity.pdf)
 - [Enabling Blockchain Innovations with Pegged Sidechains](https://blockstream.com/sidechains.pdf)
 - [Understanding Starknet: Sequencers, Provers, and Nodes](https://book.starknet.io/chapter_3/topology.html)
+- [Bitcoin Staking: Unlocking 21M Bitcoins to Secure the Proof-of-Stake Economy](https://docs.babylonchain.io/assets/files/btc_staking_litepaper-32bfea0c243773f0bfac63e148387aef.pdf)
