@@ -1,0 +1,161 @@
+FAQ Section
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: "Inconsolata", monospace;
+            font-weight: 400;
+        }
+        p {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px !important;
+            font-weight: 400;
+            color: white;
+        }
+        h2 {
+            font-family: "Inconsolata", monospace;
+            color: white;
+            font-size: 40px;
+            line-height: 44px !important;
+            font-weight: 400;
+            margin-bottom: 2.5px !important; /* Add margin to the bottom of the h2 to achieve the desired spacing */
+        }
+        h3 {
+            font-family: "Inconsolata", monospace;
+            color: #f2a900;
+            font-size: 24px;
+            line-height: 24px !important;
+            font-weight: 400;
+            margin-bottom: 7.5px !important; /* Add margin to the top of the div to achieve 7.5px spacing */
+        }
+        ul {
+            font-family: "Inconsolata", monospace;
+            list-style: inherit;
+        }
+        ul li {
+            color: white;
+            font-weight: 400;
+        }
+        a {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            font-weight: 400;
+            text-decoration: underline;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>What are rollups</h3>
+    <p>Rollups are Layer 2 scaling solutions that do execution offchain. They bundle, or "roll up," transactions into batches that were executed offchain. Offchain execution reduces the amount of data that has to be posted to and stored on the Layer 1 blockchain.</p>
+
+    <h3>What is a validity rollup</h3>
+    <p>A validity rollup is a rollup that uses validity proofs to verify the updated state of the rollup to the Layer 1. Validity proofs are cryptographic proofs that take transaction data from the rollup, compress the transaction data within the proof, and prove the correctness of the proposed state change to the Layer 1. In Ethereum, the validity rollup state is maintained by a smart contract in the Layer 1. ELI15 - Users do a bunch of transactions offchain, provers take those transactions and summarize how those transactions change the state of the blockchain, and a validity proof proves that the summary is true.</p>
+
+    <h3>What is a sovereign rollup</h3>
+    <p>A sovereign rollup is a blockchain that uses a Layer 1 blockchain for data availability, but not for settlement. Nodes in a sovereign rollup are responsible for verifying if a transaction is correct, and then transaction data is published to a Layer 1 blockchain for data availability and consensus. This is advantageous for blockchains that want to trustlessly explore different execution environments and functionalities, but still inherit the security of a decentralized Layer 1 protocol. There are also differences in how they upgrade their protocol versus validity rollups.</p>
+
+    <h3>What is a zero knowledge proof</h3>
+    <p>A zero knowledge proof (zkp) is a cryptographic proof that allows you to prove that a statement is true without revealing the statement in full. In the context of blockchains, they are mainly used for privacy and scaling. In privacy, zkps prove that transactions are valid without revealing information about users engaging in a transaction. In scaling, zkps prove that a batch of transactions really are the result of a proposed state change.</p>
+
+    <h3>What are Bitcoin rollups</h3>
+    <p>Bitcoin rollups are new phenomena that were first introduced by Trey Del Bonis and further researched by John Light. Due to tradeoffs made to ensure decentralization of the Bitcoin protocol, it needs to use Layer 2 solutions to scale the amount of transactions it can process efficiently. Rollups are popular scaling solutions in the Ethereum space and are now being developed using the Bitcoin protocol for data availability. The rollups being developed on Bitcoin today are sovereign rollups.</p>
+
+    <h3>Why Bitcoin rollups</h3>
+    <p>The main solution for scaling Bitcoin is lightning. The majority of lightning use is custodial due to user complexity for self-custody, and during the Ordinals craze of 2022, lightning broke for many of its users due to high transaction volume on the Layer 1. Other Bitcoin scaling solutions are natively custodial (i.e. Ecash). These solutions are also mainly used for payments. Rollups could prove to be a more effective scaling solution for payments, and they also would enable better privacy. They also provide different execution environments that would drive new users to the Bitcoin protocol and increase fees that can be paid out to miners. This would help make the Bitcoin network more secure long term and maintain its 21 million unit supply cap. Today, 3% of miner revenue is paid from fees generated by the network.</p>
+
+    <h3>How do rollup transactions work</h3>
+    <p>Rollups will (basically) have users create transactions offchain, and then submit those transactions to a sequencer who orders the transactions within a rollup block. The rollup will then execute these transactions in the given order. Then, depending on the rollup, those transactions will be verified by a Layer 1 smart contract (in smart contract rollups) or a network of rollup nodes (in sovereign rollups).</p>
+
+    <h3>Are Bitcoin rollups safe</h3>
+    <p>Sovereign rollups add zero security risks to Bitcoin. They simply use Bitcoin to store transaction data. This is no technically no different than creating an Ordinal, and they can be implemented today. Validity rollups would require a soft fork and come with different tradeoffs, but the technology has been well researched, peer-reviewed, and is being used on the most used blockchain in the cryptocurrency space, Ethereum.</p>
+
+    <h3>Do zero-knowledge proofs require a trusted setup</h3>
+    <p>The first implementations of zero-knowledge proofs required a trusted setup. This was one of the main reasons that Bitcoiners were initially cautious about the tech being implemented in Bitcoin. But, the zero-knowledge proof space has come a long way and a variety of proving systems do not require trusted setups. zk-STARKs and zk-SNARKs are the two primary types of zero-knowledge proofs used in validity rollups. STARKs do not require a trusted setup, and a newer zk-SNARK, called Halo, removed the need for a trusted setup. This is really cool because now we have trustless ways to implement the zero-knowledge proofs that <a href="https://bitcointalk.org/index.php?topic=770.msg8637#msg8637">Satoshi was talking about</a>.</p>
+    
+    <h3>But... Shitcoins?</h3>
+    <p>The argument that rollups will add shitcoins and scams to Bitcoin simply isn't true. You can do that today. What people should worry about is if the current fee market can sustain Bitcoin's 21 million supply cap. If it can't, then they should explore solutions that could drive more usage to the Bitcoin network. Rollups are one of those solutions and offer a set of different tradeoffs when compared to other solutions, like Drivechain. Quit being scared of shitcoins. You're an adult.</p>
+</body>
+
+</html>
+
+Bottom section
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: "Inconsolata", monospace;
+            font-weight: 400;
+        }
+        .intro-text {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px;
+            font-weight: 400;
+            color: white;
+         }
+         h2 {
+            font-family: "Inconsolata", monospace;
+            color: white;
+            font-size: 40px;
+            line-height: 44px;
+            font-weight: 400;
+            margin-bottom: 15px; /* 15px margin below the headers */
+        }
+        h3 {
+            font-family: "Inconsolata", monospace;
+            color: #f2a900;
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 400;
+            margin-bottom: 15px; /* 15px margin below the headers */
+            margin-top: 15px;
+        }
+        ul {
+            font-family: "Inconsolata", monospace;
+            list-style: inherit;
+        }
+        ul li {
+            margin-bottom: 7.5px; /* 10px margin between headers and hyperlinks */
+            color: white;
+            font-weight: 400;
+        }
+        ul li a {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px;
+            font-weight: 400;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>More resources</h2>
+
+    <h3>Written resources</h3>
+    <ul>
+        <li><a href="https://bitcoinmagazine.com/technical/zk-rollups-are-coming-to-bitcoin-heres-all-you-need-to-know#">ZK Rollups Are Coming To Bitcoin, Bitcoin Magazine</a> - A great primer on the development of ZK rollups on Bitcoin</li>
+        <li><a href="https://celestia.org/learn/sovereign-rollups/an-introduction/">An introduction to Sovereign rollups, Celestia</a> - A great primer that outlines what sovereign rollups are and how they differ from smart contract rollups</li>
+        <li>You can check out the full list <a href="https://celestia.org/learn/sovereign-rollups/an-introduction/">here</a></li>
+    </ul>
+
+    <h3>Video and audio resources</h3>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=CJ8HUKeDy4Q&t=1s">ZK Rollups on Bitcoin, Eric Wall & Preston Evans, Bitcoin 2023</a> - A primer on how Bitcoin can use rollups to improve scaling</li>
+        <li><a href="https://www.youtube.com/watch?v=feODuDF2xv0">John Light on Validity Rollups on Bitcoin, ZK-proofs, and the Lightning Network, Kevin Rooke Show</a> - A primer on how Bitcoin can use rollups to improve scaling</li>
+        <li>You can check out the full list <a href="https://www.youtube.com/watch?v=feODuDF2xv0">here</a></li>
+    </ul>
+</body>
+
+</html>
