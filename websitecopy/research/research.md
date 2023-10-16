@@ -1,6 +1,10 @@
 ## Read the research that has sparked a Bitcoin Renaissance
 
-ZK-rollups on Bitcoin were a pipe-dream until this year. But with the recent research around the subject, and the growing excitement around Bitcoin during the recent Ordinals craze, teams are now Let's dive into the research. If you need to catch up on the latest research, check out this guide to get you up to date on all the information you need to know around zk-rollups on Bitcoin.You can also find some research pieces and code repositories After reviewing that guide, we list some more resources for you to dive into. Skip to those [here](https://bitcoinrollups.io/research-links).
+ZK-rollups on Bitcoin were a pipe-dream until this year. With the recent research around the subject, and the growing excitement around Bitcoin during the recent Ordinals craze, teams are now exploring ways to implement sovereign rollups on Bitcoin.
+
+Let's dive into the research. Below, we outline the key pieces to get you up to date on the development of zk-rollups on Bitcoin.
+
+We also provide a list of research papers, Github repos, and documentation sites for you to dive into. Skip to those [here](https://bitcoinrollups.io/research-links).
 
 ## The tl;dr on Bitcoin rollup R&D
 
@@ -24,7 +28,7 @@ So with this ability to store (a little less than) 4 MB of arbitrary data in a B
 - [ZK rollups are coming to Bitcoin by Bitcoin Magazine](https://bitcoinmagazine.com/technical/zk-rollups-are-coming-to-bitcoin-heres-all-you-need-to-know)
 - [Blog outlining how zk-rollups might work on Bitcoin](https://trustmachines.co/learn/what-are-rollups-and-how-can-they-work-on-bitcoin/)
 
-## More Resources
+## More R&D Resources
 
 ### Bitcoin rollup research, code repositories and more
 
