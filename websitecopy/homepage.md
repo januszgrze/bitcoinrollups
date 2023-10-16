@@ -2,7 +2,9 @@
 
 ## Rollups are coming to Bitcoin.
 
-### Learn more at bitcoinrollups.io - your no bullshit resource for Bitcoin rollups.
+Learn more at bitcoinrollups.io - your no bullshit resource for Bitcoin rollups.
+
+---
 
 This website documents learning materials, news and research around the development of rollups on the Bitcoin network. Read the materials, form your own opinion, and reject maximalism. This site welcomes community contributions.
 
