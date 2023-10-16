@@ -8,4 +8,4 @@ We do not pay bounties for contributions, but we do send a small tip via two mec
 
 The other way is via lightning. If you'd prefer tips over lightning, we recommended downloading Phoenix wallet and commenting your lightning: address in any of your contributions to the site.
 
-If you’d like to contribute, please see our <u> [GitHub](https://github.com/januszgrze/bitcoinrollups/blob/main/contribute.md) and join our <u> [Telegram group]https://t.me/+8rv-1I2gkmQ4ZmJh) <u>. The video below explains how you can navigate the GitHub repo.
+If you’d like to contribute, please see our <u> [GitHub](https://github.com/januszgrze/bitcoinrollups/blob/main/contribute.md) and join our <u> [Telegram group](https://t.me/+8rv-1I2gkmQ4ZmJh) <u>. The video below explains how you can navigate the GitHub repo.
