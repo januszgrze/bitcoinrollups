@@ -1,6 +1,6 @@
 ## Read the research that has sparked a Bitcoin Renaissance
 
-ZK-rollups on Bitcoin were a pipe-dream until this year. But with the recent research around the subject, and the growing excitement around Bitcoin during the recent Ordinals craze, teams are now Let's dive into the research. If you need to catch up on the latest research, check out this guide to get you up to date on all the information you need to know around zk-rollups on Bitcoin.You can also find some research pieces and code repositories After reviewing that guide, we list some more resources for you to dive into. Skip to those here.
+ZK-rollups on Bitcoin were a pipe-dream until this year. But with the recent research around the subject, and the growing excitement around Bitcoin during the recent Ordinals craze, teams are now Let's dive into the research. If you need to catch up on the latest research, check out this guide to get you up to date on all the information you need to know around zk-rollups on Bitcoin.You can also find some research pieces and code repositories After reviewing that guide, we list some more resources for you to dive into. Skip to those [here](https://bitcoinrollups.io/research-links).
 
 ## The tl;dr on Bitcoin rollup R&D
 
