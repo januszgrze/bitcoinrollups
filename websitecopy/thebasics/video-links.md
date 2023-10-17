@@ -18,10 +18,12 @@ You can find the full list of video and audio materials in the sections below.
 
 ### Conference talks on ZK Rollups on Bitcoin
 
+- [Simanta Gautam: Towards a Validity Rollup on Bitcoin with Taproot - bitcoin++](https://www.youtube.com/watch?v=Nldg_tjeX_A&t=1s)
 - [ZK Rollups on Bitcoin - Bitcoin 2023](https://www.youtube.com/watch?v=rvOrbejf6_A&list=PLe0djdakvnFb0T-oZAeF49A-EZChise4n&index=92)
 - [Rollups on Bitcoin - Modular Summit](https://www.youtube.com/watch?v=xOn2vjg27nM&t=1226s)
 - [Why a Bitcoiner loves a rollup - Starkware Sessions 23](https://www.youtube.com/watch?v=xOn2vjg27nM&t=1226s)
 - [Scaling BTC: Rollups, ZKproofs, & More - Bitcoin Builders Conference](https://www.youtube.com/watch?v=XsHjpkWbzo8)
+- [STARKs on Bitcoin: From Outside In - Starknet Sessions](https://www.youtube.com/watch?v=pStJqHrJhVs)
 
 ### Podcasts that cover ZK Rollups on Bitcoin
 
