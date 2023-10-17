@@ -23,6 +23,7 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [BOB Collective Github repository](https://github.com/bob-collective/bob)
 - [Sovereign SDK Github repository](https://github.com/Sovereign-Labs/sovereign-sdk)
 - [Rootstock RIF Rollup Github repository](https://github.com/rsksmart/rif-rollup)
+- [LambdaClass, Starknet Rollup on Bitcoin](https://github.com/lambdaclass/starknet_rollup_on_bitcoin)
 
 ### Relevant Bitcoin scaling research papers
 
