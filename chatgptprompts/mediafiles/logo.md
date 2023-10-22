@@ -1,0 +1,1 @@
+Vector artwork of an upright cutting-edge standalone 'B' design for Bitcoin, drenched in radiant orange shades. The 'B', with its transparent quality, melds with distinct lines of code representing the Bitcoin core architecture.
