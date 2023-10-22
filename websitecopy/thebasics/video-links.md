@@ -24,6 +24,8 @@ You can find the full list of video and audio materials in the sections below.
 - [Why a Bitcoiner loves a rollup - Starkware Sessions 23](https://www.youtube.com/watch?v=xOn2vjg27nM&t=1226s)
 - [Scaling BTC: Rollups, ZKproofs, & More - Bitcoin Builders Conference](https://www.youtube.com/watch?v=XsHjpkWbzo8)
 - [STARKs on Bitcoin: From Outside In - Starknet Sessions](https://www.youtube.com/watch?v=pStJqHrJhVs)
+- [Layer-2s: Panel Discussion w/ niftynei, John Light, Paul Sztorc, and Super Testnet - bitcoin++](https://www.youtube.com/watch?v=gzXzAtTvMhM)
+- [John Light: Building Trustless Bridges](https://www.youtube.com/watch?v=M40yzuv6DNY)
 
 ### Podcasts that cover ZK Rollups on Bitcoin
 
