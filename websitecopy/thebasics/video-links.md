@@ -24,8 +24,10 @@ You can find the full list of video and audio materials in the sections below.
 - [Why a Bitcoiner loves a rollup - Starkware Sessions 23](https://www.youtube.com/watch?v=xOn2vjg27nM&t=1226s)
 - [Scaling BTC: Rollups, ZKproofs, & More - Bitcoin Builders Conference](https://www.youtube.com/watch?v=XsHjpkWbzo8)
 - [STARKs on Bitcoin: From Outside In - Starknet Sessions](https://www.youtube.com/watch?v=pStJqHrJhVs)
+- [zkCoins: A novel token protocol with strong privacy and scalability - BTC Startup Lab](https://www.youtube.com/watch?v=SsE5VoEcT0k&t=3761s)
 - [Layer-2s: Panel Discussion w/ niftynei, John Light, Paul Sztorc, and Super Testnet - bitcoin++](https://www.youtube.com/watch?v=gzXzAtTvMhM)
 - [John Light: Building Trustless Bridges](https://www.youtube.com/watch?v=M40yzuv6DNY)
+- [Introducing Validity Proofs to Bitcoin - Bitcoin 2023](https://www.youtube.com/watch?v=rvOrbejf6_A)
 
 ### Podcasts that cover ZK Rollups on Bitcoin
 
@@ -56,3 +58,4 @@ You can find the full list of video and audio materials in the sections below.
 
 - [ZeroSync - Bitcoin 2023](https://www.youtube.com/watch?v=rvOrbejf6_A&list=PLe0djdakvnFb0T-oZAeF49A-EZChise4n&index=92)
 - [The Great Ordinal Debate - Bitcoin 2023](https://www.youtube.com/watch?v=AdYsQ2DWt5M)
+- [Can the Bitcoin Blockchain be compressed from 600GB down to a few MBs? - Bitcoin News](https://twitter.com/robin_linus/status/1703310805846950201)
