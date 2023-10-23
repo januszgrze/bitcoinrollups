@@ -31,7 +31,6 @@ You can find the full list of written materials in the sections below.
 - [What Is A Bitcoin Sovereign Rollup? - The Bitcoin Manual](https://thebitcoinmanual.com/articles/btc-sovereign-rollup/)
 - [Sovereign rollups on Bitcoin with Rollkit - Rollkit](https://rollkit.dev/blog/sovereign-rollups-on-bitcoin-with-rollkit)
 
-
 ### Articles and Blogs covering ZK Rollups in general
 
 - [An introduction to sovereign rollups - Celestia](https://celestia.org/learn/sovereign-rollups/an-introduction/)
@@ -57,7 +56,12 @@ You can find the full list of written materials in the sections below.
 
 - [An introudction to Sovereign Rollups - Celestia](https://celestia.org/learn/sovereign-rollups/an-introduction/)
 - [A brief history of zero-knowledge proofs, the buzzy mathematical technique that’s taken crypto by storm - Forbes](https://fortune.com/crypto/2023/06/05/zero-knowledge-proofs-history-zk-rollups-cryptography-zcash/)
+- [Bitcoin’s first zero-knowledge light client seeks to drive innovation - Blockworks](https://blockworks.co/news/zerosync-starkware-zero-knowledge-proofs-bitcoin)
 - [Muneeb.btc on Bitcoin Layer 2s - @muneeb](https://twitter.com/muneeb/status/1707387360197943437)
 - [Intro to Rollups - zkSync](https://era.zksync.io/docs/reference/concepts/rollups.html)
+- [ZeroSync and Blockstream to Broadcast Bitcoin Zero-Knowledge Proofs From Space - CoinDesk](https://www.coindesk.com/tech/2023/03/31/zerosync-and-blockstream-to-broadcast-bitcoin-zero-knowledge-proofs-from-space/)
 - [High Bitcoin Fees From BRC-20 And Ordinals Lead To Controversy And Challenges - Bitcoin Magazine](https://bitcoinmagazine.com/technical/bitcoins-high-fees-create-controversy-and-challenges)
 - [There's No Such Thing as High Fees on Bitcoin - Nic Carter](https://www.coindesk.com/consensus-magazine/2023/05/09/theres-no-such-thing-as-high-fees-on-bitcoin/)
+- [ZeroSync implements first Stark-based ZK client for Bitcoin - The Block](https://www.theblock.co/post/253876/zerosync-implements-first-stark-based-zk-client-for-bitcoin)
+- [Zero-knowledge proofs coming to Bitcoin, overhauling network state validation - Cointelegraph](https://cointelegraph.com/news/zero-knowledge-proofs-coming-to-bitcoin-overhauling-network-state-validation)
+- [Bitcoin Nodes Now One Step Closer to Instant Sync - Bitcoin Magazine](https://bitcoinmagazine.com/technical/bitcoin-nodes-now-one-step-closer-to-instant-sync)
