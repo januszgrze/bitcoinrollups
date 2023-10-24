@@ -10,7 +10,7 @@ We're excited that you're interested in contributing, and wanted to outline a fe
 
 ### Download a wallet for tips
 
-Bitcoinrollups is currently managed by a volunteer, so we do not pay bounties for contributions. But, we do tip contributors a small amount for completing tasks listed in the issues section. We can send tips via lightning or shielded wBTC on Arbitrum. Please download Phoenix wallet for lightning tips, and Railway wallet for shielded wBTC tips.
+Bitcoinrollups is currently managed by a volunteer, so we do not pay bounties for contributions. But, we do tip contributors a small amount for completing tasks listed in the issues section. We can send tips via lightning or Monero. For Lightning, you can download [Phoenix Wallet](https://phoenix.acinq.co/). For XMR, you can download [Monero.com](http://monero.com/) wallet.
 
 ### Head to the issues section
 
@@ -28,7 +28,7 @@ When you finish completing your task, create a pull request to either 1) edit th
 
 ### Comment your address, wait for merge and get tipped in BTC
 
-After you create your pull request, comment your lightning or shielded wBTC, 0zk address. After we accept the pull request, and add the information to the repository, we will send you a tip. We will then add your content to the relevant medium (social media, website, etc.).
+After you create your pull request, comment your lightning or XMR address. After we accept the pull request, and add the information to the repository, we will send you a tip. We will then add your content to the relevant medium (social media, website, etc.).
 
 ## That's it!
 
