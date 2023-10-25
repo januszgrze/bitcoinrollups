@@ -33,6 +33,7 @@ You can find the full list of video and audio materials in the sections below.
 
 - [John Light on Validity Rollups on Bitcoin, ZK-proofs, and the Lightning Network - Kevin Rooke Show](https://www.youtube.com/watch?v=feODuDF2xv0)
 - [Bitcoin. Censorship resistance decentralized money. ZK Rollups. Eric Wall. - Cointelegram](https://www.youtube.com/watch?v=leNF_v3igl4)
+- [How STARKs could transform Bitcoin - The Mining Pod](https://twitter.com/theMiningPod/status/1716880127337116027)
 - [The Future of Bitcoin with Nic Carter, Eric Wall, & Udi Wertheimer - Bankless](https://www.youtube.com/watch?v=yXnhKU7n_L8)
 - [Open Source Bitcoin and Validity Rollups with John Light - The Bitcoin Source](https://www.youtube.com/watch?v=rhRMpXUC2wM)
 - [The Bull Case for zkBTC - Bankless](https://www.youtube.com/watch?v=qChILPxdOA4)
