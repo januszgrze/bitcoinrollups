@@ -4,7 +4,9 @@ Bitcoinrollups.io is community managed and run by volunteers. It is available fo
 
 If you’d like to contribute to building the website or newsletter, please see our <u> [GitHub repository](https://github.com/januszgrze/bitcoinrollups/blob/main/contribute.md) <u>. There are instructions on how to contribute there.
 
-We do not pay bounties for contributions, but we do send a small tip via Lightning or Monero (XMR). For Lightning, please download [Phoenix Wallet](https://phoenix.acinq.co/) and post your lightning address in any comments for pull requests you create.
+We do not pay bounties for contributions, but we do send a small tip via Lightning. We can also send tips via Zcash (ZEC) or Monero (XMR). For Lightning, please download [Phoenix Wallet](https://phoenix.acinq.co/) and post your lightning address in any comments for pull requests you create.
+
+For ZEC, please download [Nighthawk Wallet](https://nighthawkwallet.com/) and post your shielded address in any comments for pull requests you create.
 
 For XMR, please download [Monero.com](http://monero.com/) wallet and post your XMR adderss in any comments for pull requests you create.
 
