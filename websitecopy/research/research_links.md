@@ -1,4 +1,4 @@
-The list of materials specifically related to Bitcoin rollups is growing, and we're documenting them here. Here you'll find research papers, technical blog posts, forum posts, and more on how rollups can improve Bitcoin. We do our best to keep this page current. If you think we're missing a quality piece, please let us know.
+The list of materials specifically related to Bitcoin rollups is growing, and we're documenting them here. Here you'll find the teams building zk-rollups on Bitcoin. And, we list research papers, technical blog posts, forum posts, and more on how rollups can improve Bitcoin. We do our best to keep this page current. If you think we're missing a quality piece, please let us know.
 
 ### Bitcoin rollup research reports
 
@@ -8,12 +8,33 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 
 - [Bitcoin zk-rollups](https://tr3y.io/articles/crypto/bitcoin-zk-rollups.html)
 
+### Teams building zk-rollups on Bitcoin
+
+- [ZeroSync](https://zerosync.org/)
+- [Chainway](https://chainway.xyz)
+- [Bison Labs](https://bisonlabs.io/)
+- [Bnzk](https://bnzk.io/)
+- [Alpen Labs](https://alpenlabs.io/)
+- [Kasar Labs](https://www.kasar.io/)
+
+### Open-source devs building zk-rollups on Bitcoin
+
+- [edisontim, SovCoin](https://github.com/edisontim/SovCoin)
+
+### Teams building infrastructure to support zk-rollups on Bitcoin
+
+- [Sovereign Labs](https://www.sovereign.xyz/)
+- [Rollkit](https://rollkit.dev)
+- [Lambda Class](https://lambdaclass.com/)
+- [Babylon Chain](https://babylonchain.io/)
+
 ### Documentation sites
 
 - [A Light Introduction to ZeroSync](https://geometry.xyz/notebook/A-light-introduction-to-ZeroSync)
 - [Rollkit documentation](https://rollkit.dev/learn/overview)
 - [RootStock RIF Rollup documentation](https://dev.rootstock.io/rif/rollup/)
 - [Build on Bitcoin Rollup documentation](https://docs.gobob.xyz/)
+- [Bnzk documentation](https://docs.bnzk.io/)
 
 ### Code repositories
 
