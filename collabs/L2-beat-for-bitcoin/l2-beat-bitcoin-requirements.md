@@ -31,15 +31,12 @@ We'll use this page to outline the [L2 beat website](https://l2beat.com/scaling/
 
 Have information on the following for each project's specific page
 
-- Links to
--   website, docs, source code, block explorer, social media sites
-- High level overview
--   TVL, TPS, Breakdown of tokens used, stage of development, scaling tech used, purpose
+- Links to: website, docs, source code, block explorer, social media sites
+- High level overview: TVL, TPS, Breakdown of tokens used, stage of development, scaling tech used, purpose
 - Chart showing TVL and activity
 - Milestones, development stage
-- Risk analysis
--   For rollups: State validation, data availability, upgradeability, sequencer failure, proposer failure
--   For others: add more
+- Risk analysis: For rollups: State validation, data availability, upgradeability, sequencer failure, proposer failure
+    For others: add more
 - Operator(s) (include bridge operators)
 - Depositing and withdrawing funds
 
