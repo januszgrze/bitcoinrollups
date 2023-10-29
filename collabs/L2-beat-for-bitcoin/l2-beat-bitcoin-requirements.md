@@ -15,3 +15,14 @@ We'll use this page to outline the [L2 beat website](https://l2beat.com/scaling/
 - This is very nuanced to Bitcoin, but we'd need a custodial versus non-custodial section
 - We need a scoring criteria that weights some factors versus others. i.e. why is zkCoins type rollup better than fedimints if you have a centralized sequencer?
 - Bridges section - L2beat has this as their own section, and maybe this should have its own section. THis could outline the risks of using "multi-chain bitcoin" which we know is quite useful.
+
+## Scaling tech covered
+
+- Rollups
+- Lightning (should custodial and non-custodial be different categories?)
+- RGB
+- Federated Sidechains (Stacks, Rootstock, etc.)
+- Ecash
+- Fedimints
+- Drivechain
+- Add more
