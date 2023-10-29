@@ -1,0 +1,1 @@
+We'll use this page to outline the [L2 beat website](https://l2beat.com/scaling/summary) (and other relevant resources) and determine what needs to be implemented into a version zero of a "Bitcoin L2" education site.
