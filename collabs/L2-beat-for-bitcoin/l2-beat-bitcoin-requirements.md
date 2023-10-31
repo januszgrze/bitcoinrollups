@@ -14,7 +14,7 @@ We'll use this page to outline the [L2 beat website](https://l2beat.com/scaling/
 - An FAQ section would be helpful. We have something like this in [bitcoinrollups.io](https://www.bitcoinrollups.io/) so could build on that
 - This is very nuanced to Bitcoin, but we'd need a custodial versus non-custodial section
 - We need a scoring criteria that weights some factors versus others. i.e. why is zkCoins type rollup better than fedimints if you have a centralized sequencer?
-- Bridges section - L2beat has this as their own section, and maybe this should have its own section. THis could outline the risks of using "multi-chain bitcoin" which we know is quite useful.
+- Bridges section - L2beat has this as their own section, and maybe this should have its own section. This could outline the risks/benefits of using "multi-chain bitcoin" which we know is quite useful.
 
 ## Scaling tech covered
 
