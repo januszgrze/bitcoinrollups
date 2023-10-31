@@ -1,8 +1,8 @@
-_This page is not complete. Please join our [telegram group](https://t.me/+8rv-1I2gkmQ4ZmJh) to get involved._
+_First things first. If you're here to contribute to L2Beat for Bitcoin or Bitcoinrollups.io, you're in the right spot! This page is not 100$ complete. Please join our [telegram group](https://t.me/+8rv-1I2gkmQ4ZmJh) to get involved._
 
 Thanks for checking out the contributor section for Bitcoinrollups.io!
 
-We're building an information resource about the development of zk-rollups on Bitcoin. Everything we do is initially documented in GitHub and distributed via our website or social media accounts. This includes, but is not limited to, tweet threads for @Bitcoinrollups, The Bitcoin Rollup Newsletter, and our website.
+We're building an information resource about the development of zk-rollups on Bitcoin. Everything we do is initially documented in GitHub and distributed via our website or social media accounts. This includes, but is not limited to, tweet threads for @Bitcoinrollups, The Bitcoin Rollup Newsletter, and our website. We're also contributing to the ["L2Beat for Bitcoin"](https://twitter.com/BitcoinRollups/status/1719181008640045473) initiative, and use our [telegram chat](https://t.me/+8rv-1I2gkmQ4ZmJh) to coordinate that.
 
 We're excited that you're interested in contributing, and wanted to outline a few ways you can get involved :)
 
@@ -10,7 +10,7 @@ We're excited that you're interested in contributing, and wanted to outline a fe
 
 ### Download a wallet for tips
 
-Bitcoinrollups is currently managed by a volunteer, so we do not pay bounties for contributions. But, we do tip contributors a small amount for completing tasks listed in the issues section. We can send tips via lightning or Monero. For Lightning, you can download [Phoenix Wallet](https://phoenix.acinq.co/). For XMR, you can download [Monero.com](http://monero.com/) wallet.
+Bitcoinrollups is currently managed by a volunteer, so we do not pay bounties for contributions. But, we do tip contributors a small amount for completing tasks listed in the issues section. We can send tips via lightning, Zcash or Monero. For Lightning, you can download [Phoenix Wallet](https://phoenix.acinq.co/). For XMR, you can download [Monero.com](http://monero.com/) wallet. For ZEC, you can download [Nighthawk Wallet](nighthawkwallet.com)
 
 ### Head to the issues section
 
@@ -22,13 +22,15 @@ Comment on the task that you'd like to complete. This will notify the repo's own
 
 You can work within GitHub or your preferred platform. For example, if you're writing a tweet thread, and you prefer to do that in Google docs, you can write the thread there and then copy and paste as a pull request in this repo to get it added to this repository.
 
+Think we're missing something? Add an issue and provide as much context, and information for review, as possible!
+
 ### Create a pull request 
 
 When you finish completing your task, create a pull request to either 1) edit the document you're looking to change or 2) add a document within a specific folder in the repo. Here's a tutorial on how to create a pull request.
 
-### Comment your address, wait for merge and get tipped in BTC
+### Comment your address, wait for merge and get tipped in BTC, XMR or ZEC
 
-After you create your pull request, comment your lightning or XMR address. After we accept the pull request, and add the information to the repository, we will send you a tip. We will then add your content to the relevant medium (social media, website, etc.).
+After you create your pull request, comment your lightning, ZEC or XMR address. After we accept the pull request, and add the information to the repository, we will send you a tip. We will then add your content to the relevant medium (social media, website, etc.).
 
 ## That's it!
 
