@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sticky TOC Example</title>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400&display=swap" rel="stylesheet">
+<style>
+  body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Inconsolata", monospace;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start; /* Align the children at the start of the cross-axis */
+}
+
+.table-of-contents {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 500px;
+  overflow-y: auto;
+  margin: 0;
+  padding-top: 0;
+  color: #ffffff; /* Assuming you want white text as shown in the image */
+  }
+
+.table-of-contents ul {
+  list-style: none; /* We remove the default decimal list-style */
+  counter-reset: section; /* Creates a new instance of a counter named section */
+  padding-left: 0; /* Remove padding if you don't want indentation */
+  margin-bottom: 10px;
+}
+
+.table-of-contents li {
+  counter-increment: section; /* Increment the counter */
+  font-family: "Inconsolata", monospace;
+  margin-bottom: 15px; /* Adjust as necessary */
+}
+
+.table-of-contents li::before {
+  content: counter(section); /* Insert the counter as content */
+  background-color: #f2a900; /* The golden circle background color */
+  border-radius: 20%;
+  color: #fff; /* Font color for the number, white in this case */
+  width: 1.5em; /* Width and height should be equal for a perfect circle */
+  height: 1.5em; /* Adjust the size as needed */
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5em; /* Align the line height with the width/height for vertical centering */
+  margin-right: 0.5em; /* Space between the number and the text */
+  font-family: "Inconsolata", monospace; /* Maintain the font family */
+}
+
+.table-of-contents li a {
+  display: inline; /* Changed from inline-block to inline if you want the bullet to be outside */
+  padding: 0.5em;
+  font-size: 20px;
+  line-height: 24px !important;
+  font-weight: 400;
+  color: #f2a900; /* Text color */
+  text-decoration: none;
+}
+
+.table-of-contents li a.active {
+  color: #f2a900; /* Active link color, adjust if needed */
+}
+
+.chart-container {
+  width: 100%; /* Full width of the parent container */
+  max-width: 800px; /* Maximum width of the chart */
+  margin: auto; /* Center the chart in the parent container */
+  padding: 20px; /* Space around the chart */
+  box-sizing: border-box; /* Include padding and border in the width and height */
+}
+
+.content {
+  flex-grow: 1;
+  padding: 1em;
+  padding-top: 0; /* No padding at the top */
+}
+
+/* Reset top margin for the first section heading */
+.content > section:first-child h2 {
+  margin-top: 0;
+}
+
+body {
+            font-family: "Inconsolata", monospace;
+            font-weight: 400;
+        }
+        p {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px !important;
+            font-weight: 400;
+            color: white;
+            margin-bottom: 7.5px !important;
+        }
+        h2 {
+            font-family: "Inconsolata", monospace;
+            color: white;
+            font-size: 40px;
+            line-height: 44px !important;
+            font-weight: 400;
+            margin-bottom: 20px !important; /* Add margin to the bottom of the h2 to achieve the desired spacing */  margin-top: 45px
+        }
+        h3 {
+            font-family: "Inconsolata", monospace;
+            color: #f2a900;
+            font-size: 24px;
+            line-height: 24px !important;
+            font-weight: 400;
+            margin-bottom: 25px !important; /* Add margin to the top of the div to achieve 7.5px spacing */          						 margin-top: 15px
+        }
+        h4 {
+            font-family: "Inconsolata", monospace;
+            color: white;
+            font-size: 24px;
+            line-height: 24px !important;
+            font-weight: 700;
+            margin-bottom: 15px !important; /* Add margin to the top of the div to achieve 7.5px spacing */          						 margin-top: 10px
+        }
+        h5 {
+            font-family: "Inconsolata", monospace;
+            color: red;
+            font-size: 24px;
+            line-height: 24px !important;
+            font-weight: 700;
+            margin-bottom: 7.5px !important; /* Add margin to the top of the div to achieve 7.5px spacing */          margin-top: 15px
+        }
+        ul {
+            font-family: "Inconsolata", monospace;
+            list-style-type: disc !important; /* Use 'disc' for filled bullet points */
+            margin-bottom: 7.5px
+        }
+        ul li {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px !important;
+            font-weight: 400;
+            color: white;
+        }
+        a {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px !important;
+            font-weight: 400;
+            color: white;
+        }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <nav class="table-of-contents">
+    <ul>
+      <li><a href="#section1">Chart</a></li>
+      <li><a href="#section2">Milestones</a></li>
+      <li><a href="#section3">Description</a></li>
+      <li><a href="#section4">Risk Analysis</a></li>
+      <li><a href="#section5">Rollup Stage</a></li>
+      <li><a href="#section6">Technology</a></li>
+      <li><a href="#section7">State Derivation</a></li>
+      <li><a href="#section8">Operator</a></li>
+      <li><a href="#section9">Knowledge Nuggets</a></li>
+      <!-- Add more sections as needed -->
+    </ul>
+  </nav>
+
+  <main class="content">
+    <section id="section1">
+      <h2>Chart</h2>
+      	<div class="chart-container">
+ 			  	<canvas id="valueLockedChart"></canvas>
+        </div>
+    </section>
+    <section id="section2">
+      <h2>Milestones</h2>
+      	<p>June 2021 Rollup was launched</p>
+      	<p>August 2021 Rollup was made whole</p>
+        <p>September 2021 Rollup got a lot more love</p>
+        <p>October 2021 Rollup become a monster</p>
+    </section>
+    <section id="section3">
+      <h2>Description</h2>
+      <p>Bitcoin rollup is a zk rollup that provides Zcash-like transactions for Bitcoin users.</p>
+    </section>
+    <section id="section4">
+      <h2>Risk Analysis</h2>
+      	<h3>State validation</h3>
+      		<h4>ZK Proofs (SN)</h4>
+          <p>zkSNARKS are zero knowledge proofs that ensure state correctness.</p>
+        <h3>Data availability</h3>
+        	<h4>On Chain</h4>
+      		<p>All of the data needed is published on Bitcoin</p>
+        <h3>Upgradeablilty</h3>
+      		<h5>Yes.</h5>
+          <p>The system can be changed whenever</p>
+        <h3>Sequencer failure</h3>
+        	<h4>Enqueue via L1</h4>
+      		<p>Users can force transactions to be included in the Layer 1.</p>
+        <h3>BTC Bridge</h3>
+        	<h4>Custodial</h4>
+      		<p>Users trust a custodian to operate the bridge between Rollup and Bitcoin.</p>
+    </section>
+    <section id="section5">
+      <h2>Rollup Stage</h2>
+      	<h3>Stage 0</h3>
+      		<ul>The project calls itself a rollup.</ul>
+          <ul>L2 data is posted to Bitcoin.</ul>
+          <ul>Inputs for the state transition function are posted to L1.</ul>
+          <ul>A source-available node exists that can recreate the state from L1 data.</ul>
+        <h3>Stage 1</h3>
+      		<ul>A complete and functional proof system is deployed.</ul>
+          <ul>Users’ withdrawals can be censored by the permissioned operators.</ul>
+          <ul>Upgrades executed by actors with more centralized control than a Security Council provide less than 7d for users to exit if the permissioned operator is down or censoring.</ul>
+          <ul>A source-available node exists that can recreate the state from L1 data.</ul>
+        <h3>Stage 2</h3>
+      		<ul>Upgrades unrelated to on-chain provable bugs provide less than 30d to exit.</ul>
+      <h2>Rollup Stage</h2>
+    </section>
+    <!-- Add more sections as needed -->
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const ctx = document.getElementById('valueLockedChart').getContext('2d');
+  const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+  gradient.addColorStop(0, 'rgba(242, 169, 0, 0.5)');
+  gradient.addColorStop(1, 'rgba(242, 169, 0)');
+
+  const data = {
+    labels: ['Feb 16', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov 7'],
+    datasets: [{
+      label: 'Value Locked',
+      data: [0, 100, 200, 700, 500, 500, 450, 400, 350, 300],
+      fill: true,
+      backgroundColor: gradient,
+      borderColor: 'rgb(242, 169, 0)',
+      pointBackgroundColor: 'rgb(242, 169, 0)',
+      pointBorderColor: '#fff',
+      pointHoverBackgroundColor: '#fff',
+      pointHoverBorderColor: 'rgb(242, 169, 0)'
+    }]
+  };
+
+  const config = {
+    type: 'line',
+    data: data,
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      },
+      elements: {
+        line: {
+          tension: 0.3
+        },
+        point: {
+          radius: 5
+        }
+      },
+      plugins: {
+        legend: {
+          display: false
+        }
+      },
+      responsive: true,
+      maintainAspectRatio: false
+    }
+  };
+
+  const valueLockedChart = new Chart(ctx, config);
+
+  // Create the IntersectionObserver to track section visibility changes
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const id = entry.target.getAttribute('id');
+      if (entry.intersectionRatio > 0) {
+        document.querySelector(`nav li a[href="#${id}"]`).classList.add('active');
+      } else {
+        document.querySelector(`nav li a[href="#${id}"]`).classList.remove('active');
+      }
+    });
+  });
+
+  // Track all sections that have an `id` applied
+  document.querySelectorAll('section[id]').forEach((section) => {
+    observer.observe(section);
+  });
+});
+</script>
+
+</body>
+</html>
