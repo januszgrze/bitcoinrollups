@@ -1,4 +1,4 @@
-_First things first. If you're here to contribute to L2Beat for Bitcoin or Bitcoinrollups.io, you're in the right spot! This page is not 100$ complete. Please join our [telegram group](https://t.me/+8rv-1I2gkmQ4ZmJh) to get involved._
+_First things first. If you're here to contribute to L2Beat for Bitcoin or Bitcoinrollups.io, you're in the right spot! This page is not 100% complete. Please join our [telegram group](https://t.me/+8rv-1I2gkmQ4ZmJh) to get involved._
 
 Thanks for checking out the contributor section for Bitcoinrollups.io!
 
