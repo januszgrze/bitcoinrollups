@@ -60,7 +60,7 @@ So, when balancing out the tradeoffs between potential censorship and performanc
 
 ### Summary
 
-Sequencer discussion will start to pick up in the Bitcoin space as more teams look to build rollups using Bitcoina as a DA layer. In the event that Bitcoin gets trustless bridging, these rollups will be seen as primary scaling solution. It's important that all of these projects begin analyzing their paths towards decentralization, even if we are very early.
+Sequencer discussion will start to pick up in the Bitcoin space as more teams look to build rollups using Bitcoina as a DA layer. In the event that Bitcoin gets trustless bridging, these rollups will be seen as optimal scaling solution for all BTC users. It's important that all of these projects begin analyzing their paths towards decentralization, even if we are very early.
 
 Rollup projects can gain a competitive advantage related to UX and decentralization if sequencer designs are sorted out quickly. Rollups can focus solely on execution, the Layer 1 can focus on ensuring rollup transaction data is dynamically available, and the sequencer can act as a the middle layer responsible for rollup block production. This sequencer can remain highly performant, and still have a high degree of decentralization and censorship resistance. Bitcoin can remain as a fall back layer in worst case scenarios.
 
