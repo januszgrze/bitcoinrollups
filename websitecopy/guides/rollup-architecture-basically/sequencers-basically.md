@@ -6,7 +6,7 @@ Now, why is that important?
 
 Sequencers have the priveleged rollup of constructing a rollup block. This means that they can order transactions in any way they like, and, censor transactions they don't like. These are the two major issues that people bring up when talking about sequencer centralization.
 
-In the Ethereum rollup ecosystem, all sequencers are centralized. This means a single node builds all the rollup blocks for a specific rollup. Implmenting this on Bitcoin could be controversial due to the community's desire to maintain decentralization (although WoS would like to have a word). This also creates liveness failures because if the sequencer goes down, progress for the rollup halts. This has happened numerous times.
+In the Ethereum rollup ecosystem, [all sequencers are centralized](https://www.binance.com/en/research/analysis/ethereums-rollups-are-centralized-a-look-into-decentralized-sequencers). This means a single node builds all the rollup blocks for a specific rollup. Implmenting this on Bitcoin could be controversial due to the community's desire to maintain decentralization (although WoS would like to have a word). This also creates [liveness failures](https://thedefiant.io/arbitrum-outage-2) because if the sequencer goes down, progress for the rollup halts. This has happened numerous times.
 
 But, centralized sequencers are very good for performance! Users do like the fact that the user experience of a rollup is enhanced by the fact that a centralized server can produce rollup blocks really quickly. 
 
@@ -18,7 +18,7 @@ Let's talk about some of the tradeoffs.
 
 ### Forced inclusion schemes
 
-Forced inclusion is when a user can submit their unconfirmed L2 transaction the L1. This is useful in a scenario where the sequencer is not producing rollup blocks, or censoring a specific transaction type. In any scenario of sequencer design, rollups ensuring that users can exit through bypassing the sequencer is a necessary design.
+[Forced inclusion](https://docs.arbitrum.io/sequencer#unhappyuncommon-case-sequencer-isnt-doing-its-job) is when a user can submit their unconfirmed L2 transaction the L1. This is useful in a scenario where the sequencer is not producing rollup blocks, or censoring a specific transaction type. In any scenario of sequencer design, rollups ensuring that users can exit through bypassing the sequencer is a necessary design.
 
 ### Decentralization
 
@@ -38,15 +38,15 @@ By offloading the sequencer role to a permissionless consensus protocol, you cou
 
 There are a few teams that are currently designing decentralized sequencers and they're focusing on consensus protocols that make certain design tradeoffs from the Layer 1. In the context of Bitcoin, it is very decentralized, but currently has slow blocktimes and only offers probablistic finality. 
 
-This means that when designing a sequencer, you can make tradeoffs that can provide users a better UX while still maintaining high levels of decentralization. For example, you could design a consensus protocols that optimize for higher throughput and faster blocktimes, and maybe make tradeoffs regarding decentralization. In this situation, you could still leverage the Bitcoin as a fall back network in the event the sequencer isn't performing as designed.
+This means that when designing a sequencer, you can make [tradeoffs](https://twitter.com/EspressoSys/status/1724525476423590390) that can provide users a better UX while still maintaining high levels of decentralization. For example, you could design a consensus protocols that optimize for higher throughput and faster blocktimes, and maybe make tradeoffs regarding decentralization. In this situation, you could still leverage the Bitcoin as a fall back network in the event the sequencer isn't performing as designed.
 
-For example, Espresso Systems is designing a sequencer protocol that uses HotShot consensus, which is a protocol designed to produce blocks extremely fast since it has no block time, and can scale up to thousands of nodes.
+For example, Espresso Systems is designing a sequencer protocol that uses [HotShot consensus](https://hackmd.io/@EspressoSystems/HotShot-and-Tiramisu), which is a protocol designed to produce blocks extremely fast since it has no block time, and can scale up to thousands of nodes.
 
-And Astria is building a shared sequencer built on Tendermint consensus which has a fast blocktime and is extremely battled tested in the Cosmos ecosystem.
+And Astria is building a shared sequencer built on [Tendermint consensus](https://docs.astria.org/docs/overview-of-astria/architecture/the-astria-sequencer/) which has a fast blocktime and is extremely battled tested in the Cosmos ecosystem.
 
 Most sequencers are designing their consensus around Proof-of-Stake consensus protocols because they provide stronger finality guarantees than Proof-of-Work consensus protocols. This is because validators in Proof-of-Stake protocols have to put up collateral to participate, and validators risk losing that collateral if they attempt to revert a transaction.
 
-Thus, it might be beneficial for the sequencing layer to implement a Proof-of-Stake consensus protocol so it can provide faster finality guarantees to users. These guarantees come in the form of pre-confirmations - a near-instant guarantee to a user that their transaction will be confirmed and settled on the Layer 1.
+Thus, it might be beneficial for the sequencing layer to implement a Proof-of-Stake consensus protocol so it can provide faster finality guarantees to users. These guarantees come in the form of [pre-confirmations](https://twitter.com/EspressoSys/status/1693684942868541516) - a near-instant guarantee to a user that their transaction will be confirmed and settled on the Layer 1.
 
 ### Performance
 
@@ -68,4 +68,4 @@ In order to avoid the centralization risk currently going on in Ethereum, the Bi
 
 The biggest open ended question is determining how Bitcoin users, and rollups, could leverage BTC to secure the sequencer's consensus protocol. There is no current way to do this trustlessly, so rollups would either have to trust a custodial/federated bridge with the BTC securing the sequencer validator set, mint their own token to secure the sequencer, or opt-in to a competing ecosystem's shared sequencer.
 
-To discuss these tradeoffs, we recommend you join the Bitcoin rollups telegram group. Please offer any thoughts or feedback on these notes.
+To discuss these tradeoffs, we recommend you join the Bitcoin rollups [telegram group](https://t.me/+_pb6J2hiyC0wMWQ0). Please offer any thoughts or feedback on these notes.
