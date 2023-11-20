@@ -4,9 +4,9 @@ Sequencers are the role that build blocks in rollups. They take transactions fro
 
 Now, why is that important?
 
-Sequencers have the priveleged rollup of constructing a rollup block. This means that they can order transactions in any way they like, and, censor transactions they don't like. These are the two major issues that people bring up when talking about sequencer centralization.
+Sequencers have the priveleged rollup of constructing a rollup block. This means that they can order transactions in any way they like, and censor transactions they don't like. These are the two major issues that people bring up when talking about sequencer centralization.
 
-In the Ethereum rollup ecosystem, [all sequencers are centralized](https://www.binance.com/en/research/analysis/ethereums-rollups-are-centralized-a-look-into-decentralized-sequencers). This means a single node builds all the rollup blocks for a specific rollup. Implmenting this on Bitcoin could be controversial due to the community's desire to maintain decentralization (although WoS would like to have a word). This also creates [liveness failures](https://thedefiant.io/arbitrum-outage-2) because if the sequencer goes down, progress for the rollup halts. This has happened numerous times.
+In the Ethereum rollup ecosystem, [all sequencers are centralized](https://www.binance.com/en/research/analysis/ethereums-rollups-are-centralized-a-look-into-decentralized-sequencers). This means a single node builds all the rollup blocks for a specific rollup. Implmenting this on Bitcoin could be controversial due to the community's desire to maintain decentralization (although WoS would like to have a word). This also creates [liveness failures](https://thedefiant.io/arbitrum-outage-2) because if the sequencer goes down, halting progress for the rollup. This has happened numerous times.
 
 But, centralized sequencers are very good for performance! Users do like the fact that the user experience of a rollup is enhanced by the fact that a centralized server can produce rollup blocks really quickly. 
 
