@@ -30,18 +30,26 @@ Specific to Bitcoin, most teams are developing ZK-rollups. This is because the d
 
 We're very early in this design space, and optimistic rollups did get to market faster than ZK-rollups, so we are still waiting on seeing how all of this plays out.
 
+But back to the transaction. In either of these schemes, the executor will execute the list of transactions that is sent by the sequencer, and then send the updated state of the rollup to the settlement layer.
+
 #### Verification and settlement
 
-In either of the schemes, the rollup still needs a mechanism that sees these transactions settled and finalized. In Ethereum, most rollups are smart contract rollups. This design sees a smart contract verify the proposed state update sent from the rollup, and then settle and finalize the list of transactions on the Layer 1 blockchain.
+After the rollup transactions are executed, the rollup still needs a mechanism that sees these transactions verified, settled and finalized. In Ethereum, most rollups are smart contract rollups. This design sees a smart contract verify the proposed state update sent from the rollup, and then settle and finalize the list of transactions on the Layer 1 blockchain.
 
-But, because the Bitcoin Layer 1 doesn't currently verify validity proofs, the teams designing Bitcoin rollups are building something called a Sovereign Rollup. This design sees network of rollup light nodes verify and agree on a proposed state change. This design was introduced by Celestia, and it is argued that Sovereign Rollups give rollup ecoystems autonomy.
+But, because the Bitcoin Layer 1 doesn't currently verify validity proofs, the teams designing Bitcoin rollups are building something called a sovereign rollup. This design sees network of rollup light nodes verify and agree on a proposed state change. This was originally introduced by Celestia.
 
-In this design, the rollups prover and/or executor would send 
+So after a network of nodes agree on the proposed state update, it would then be sent to Bitcoin for data availability. This means that the rollup, and Bitcoin full nodes, can download the history of the rollup and verify the transactions for themselves. The main requirement for rollup on Bitcoin **is that they store their data on Bitcoin so Bitcoin full nodes can download and review the entire history of the rollup**. If they do not do this, they are not a rollup. Shun them.
 
-So after the network of nodes agree on the proposed update, the state update would then be sent to Bitcoin for data availability. This means that the rollup, and Bitcoin full nodes, can download the history of the rollup and verify the transactions for themselves. The main requirement for rollup on Bitcoin **is that they store their data on Bitcoin so Bitcoin full nodes can download and review the entire history of the rollup**. If they do not do this, they are not a rollup. Shun them.
+It's argued that sovereign rollups have more autonomy that smart contract rollups because the network of nodes decide on protocol upgrades versus a smart contract controlled by a multi-sig and/or token voting process. This is similar to how Layer 1 blockchains upgrade their systems. This autonomy can lead to improved decentralization, which the Chainway team outline in this blog post.
+
+Both sovereign and smart contract rollups can have trust minimized bridging to move the Layer 1's native asset (in this case BTC) to the rollup.
+
+### To finish
+
+Rollups can scale Bitcoin because they would move the execution of transactions offchain. They are potentially preferrable to sidechains because Bitcoin full nodes can verify the history of the rollup because the rollup's data is stored on the Bitcoin Layer 1. 
 
 This is basically it. Where it gets more complicated is that there is a large design space where rollup teams can customize these various components to their specific preference or usecase. That's good! More customization can mean a better user experience because rollups can tailor their execution environments to a specific use case.
 
-Additionally, because trustless bridging is not doable on Bitcoin, sovereign rollups can bridge BTC over to their rollup through a trusted environment (multi-sig or custodian), they can mint their own token, or they can do both. 
+Additionally, because trustless bridging is not doable on Bitcoin, rollups can bridge BTC over to their rollup through a trusted environment (multi-sig or custodian), they can mint their own token, or they can do both.
 
 It's an ever growing design space. We'll be outlining the various designs and tradeoffs in follow-up posts. In the meantime, we recommend you review our [Basics](https://www.bitcoinrollups.io/the-basics) page for more information on ZK-rollups on Bitcoin.
