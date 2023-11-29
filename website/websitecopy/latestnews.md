@@ -4,6 +4,7 @@ We do our best to curate all the latest news around Bitcoin rollups. We currentl
 
 This page contains a link to that Twitter/X account, and links to every newsletter edition, below.
 
+
 ## The Bitcoin Rollup newsletter
 
 {insert_links}
