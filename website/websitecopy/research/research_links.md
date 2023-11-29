@@ -1,3 +1,5 @@
+## More learning materials on Bitcoin rollups
+
 The list of materials specifically related to Bitcoin rollups is growing, and we're documenting them here. Here you'll find the teams building zk-rollups on Bitcoin. And, we list research papers, technical blog posts, forum posts, and more on how rollups can improve Bitcoin. We do our best to keep this page current. If you think we're missing a quality piece, please let us know.
 
 ### Bitcoin rollup research reports
