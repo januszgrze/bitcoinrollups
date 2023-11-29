@@ -10,21 +10,10 @@ For updates and news around zk-rollups on Bitcoin, consider following our [Twitt
 
 In this repo, you'll find four sections:
 
-- [blogs](https://github.com/januszgrze/bitcoinrollups/tree/main/blogs)
-
-  - This section is for drafting written content aronud Bitcoin Rollups and related items.
-
-- [chatgptpromots](https://github.com/januszgrze/bitcoinrollups/tree/main/chatgptprompts)
-
-  - This section is for AI prompts that I use to help me build this website and supporting content.
-
-- [collabs](https://github.com/januszgrze/bitcoinrollups/tree/main/collabs)
-
-  - This section is for contributing to broader ecosystem projects like "L2Bit", the L2Beat for Bitcoin rollups.
-
-- [website](https://github.com/januszgrze/bitcoinrollups/tree/main/website)
-
-  - This section is for contributing directly to the [Bitcoinrollups.io](https://www.bitcoinrollups.io/) website.
+- [blogs](https://github.com/januszgrze/bitcoinrollups/tree/main/blogs) - This section is for drafting written content aronud Bitcoin Rollups and related items.
+- [chatgptpromots](https://github.com/januszgrze/bitcoinrollups/tree/main/chatgptprompts) - This section is for AI prompts that I use to help me build this website and supporting content.
+- [collabs](https://github.com/januszgrze/bitcoinrollups/tree/main/collabs) - This section is for contributing to broader ecosystem projects like "L2Bit", the L2Beat for Bitcoin rollups.
+- [website](https://github.com/januszgrze/bitcoinrollups/tree/main/website) - This section is for contributing directly to the [Bitcoinrollups.io](https://www.bitcoinrollups.io/) website.
 
 The ChatGPT is more for personal reference. Check it out if you're interested in that stuff. The other repos are for directly contributing to content that documents Bitcoin Layer 2 scaling solutions.
 
