@@ -1,10 +1,10 @@
 ### The basics
 
-## Blogs, articles and threads on Bitcoin rollups
+## Written materials on Bitcoin rollups
 
 In this page, you can find the full list of written materials in the sections below. Make a cuppa, have a seat and dive in.
 
-This a living document, and links are added every week. If you'd like to contribute to documenting the development of ZK Rollups on Bitcoin, click here.
+This a living document, and links are added every week. If you'd like to contribute to documenting the development of ZK Rollups on Bitcoin, click [here](https://www.bitcoinrollups.io/contribute).
 
 ---
 
@@ -42,6 +42,7 @@ You can find the full list of written materials in the sections below.
 
 - [Rollups aren't real - Jon Charbonneau](https://joncharbonneau.substack.com/p/rollups-arent-real#)
 - [Rollups Overview - Espresso Systems](https://hackmd.io/@EspressoSystems/EspressoSequencer#A-Rollups-Overview)
+- [Do rollups inherit security? - DBA](https://dba.xyz/do-rollups-inherit-security/)
 
 ### Twitter threads on ZK Rollups on Bitcoin
 
@@ -51,6 +52,8 @@ You can find the full list of written materials in the sections below.
 - [Announcing Bitcoin as a DA for sovereign rollups - @RollkitDev](https://twitter.com/RollkitDev/status/1632438374513676288)
 - [Chainway shares a thread on the history of ZK rollups on Bitcoin - @chainway_xyz](https://twitter.com/chainway_xyz/status/1700221384557724028)
 - [How validity rollups benefit from ZeroSync - @chainway_xyz](https://twitter.com/chainway_xyz/status/1706380026034167968)
+- [Bitcoin rollup development 1 year after bitcoinrollups.org's release - @lightcoin](https://twitter.com/lightcoin/status/1713948187944194339)
+- [How Chainway's rollup differs from a sidechain - @chainway_xyz](https://twitter.com/chainway_xyz/status/1709999314238329048)
 
 ### Other written pieces related to ZK Rollups, Bitcoin fee markets, Ordinals and Zero-Knowledge Proofs on Bitcoin
 
@@ -64,4 +67,5 @@ You can find the full list of written materials in the sections below.
 - [There's No Such Thing as High Fees on Bitcoin - Nic Carter](https://www.coindesk.com/consensus-magazine/2023/05/09/theres-no-such-thing-as-high-fees-on-bitcoin/)
 - [ZeroSync implements first Stark-based ZK client for Bitcoin - The Block](https://www.theblock.co/post/253876/zerosync-implements-first-stark-based-zk-client-for-bitcoin)
 - [Zero-knowledge proofs coming to Bitcoin, overhauling network state validation - Cointelegraph](https://cointelegraph.com/news/zero-knowledge-proofs-coming-to-bitcoin-overhauling-network-state-validation)
+- [What did Satoshi Nakamoto think about ZK-Proofs? - Cointelegraph](https://cointelegraph.com/magazine/satoshi-nakamoto-zk-proofs-bitcoin/)
 - [Bitcoin Nodes Now One Step Closer to Instant Sync - Bitcoin Magazine](https://bitcoinmagazine.com/technical/bitcoin-nodes-now-one-step-closer-to-instant-sync)
