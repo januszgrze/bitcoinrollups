@@ -6,7 +6,8 @@ I'll start adding the different html code snippets to the "code" section over ti
 
 ---
 
-  <script>
+```ruby
+<script>
     document.addEventListener("DOMContentLoaded", function () {
       var hiddenContent = document.getElementById("hiddenContent2");
       var targetDiv = document.getElementById("targetDiv2");
@@ -16,6 +17,7 @@ I'll start adding the different html code snippets to the "code" section over ti
       }
     });
   </script>
+```
 
   ---
 
