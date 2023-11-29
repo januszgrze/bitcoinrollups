@@ -1,50 +1,50 @@
 # Rollups provide different execution environments for Bitcoin
 
-Rollups are Layer 2 solutions that let you do cool stuff with your bitcoin. They've been dubbed as scaling solutions in the Ethereum space, and now members of the Bitcoin community are beginning to debate whether they should be implemented in Bitcoin.
+Rollups are Layer 2 solutions that let you do cool stuff with your bitcoin. They've been dubbed as scaling solutions in the Ethereum space, and now members of the Bitcoin community are beginning to explore how they can drive more use cases, users and fee revenue to Bitcoin.
 
-This page includes a number of articles and blogs on rollups, their design and the different components within rollup architecture. To get straight into the resources, you can check out various blogs and articles on Bitcoin rollups here, and video and audio pieces here.
+This page answers frequently asked questions. It also includes a number of articles and blogs on rollups, their design and the different components within rollup architecture. To get straight into the resources, you can check out various blogs and articles on Bitcoin rollups [here](https://www.bitcoinrollups.io/written-resources), and video and audio pieces [here](https://www.bitcoinrollups.io/video-and-audio-resources).
 
 ## Frequently Asked Questions
 
 ### What are rollups
 
-[Rollups](https://ethereum.org/en/developers/docs/scaling/zk-rollups/) are Layer 2 scaling solutions that do execution offchain. They bundle, or "roll up", transactions into batches that were executed offchain. Offchain execution reduces the amount of data that has to be posted to and stored on the Layer 1 blockchain.
+Rollups are Layer 2 scaling solutions that do execution offchain. They bundle, or "roll up" transactions into batches that were executed offchain. Offchain execution reduces the amount of data that has to be posted to and stored on the Layer 1 blockchain.
 
 ### What is a validity rollup
 
-A [validity rollup](https://github.com/john-light/validity-rollups/blob/main/validity_rollups_on_bitcoin.md#-section-1-an-introduction-to-validity-rollups-) is a rollup that uses validity proofs to verify the updated state of the rollup to the Layer 1. Validity proofs are cryptographic proofs that take transaction data from the rollup, compress the transaction data within the proof, and prove the correctness of the proposed state change to the Layer 1. In Ethereum, the validity rollup state is maintained by a smart contract in the Layer 1. ELI15 - Users do a bunch of transactions offchain, provers take those transactions and summarize how those transactions change the state of the blockchain, and a validity proof proves that the summary is true.
+A validity rollup is a rollup that uses [validity proofs](https://github.com/john-light/validity-rollups/blob/main/validity_rollups_on_bitcoin.md#-section-1-an-introduction-to-validity-rollups-) to verify the updated state of the rollup to the Layer 1. Validity proofs are cryptographic proofs that take transaction data from the rollup, compress the transaction data within the proof, and prove the correctness of the proposed state change to the Layer 1. In Ethereum, the validity rollup state is maintained by a smart contract in the Layer 1. ELI15 - Users do a bunch of transactions offchain, provers take those transactions and summarize how those transactions change the state of the blockchain, and a validity proof proves that the summary is true.
 
 ### What is a sovereign rollup
 
-A sovereign rollup is a blockchain that uses a Layer 1 blockchain for data availability, but not for settlement. Nodes in a sovereign rollup are responsible for verifying if a transaction is correct, and then transaction data is published to a Layer 1 blockchain for data availability and consensus. This is advantageous for blockchains that want to trustlessly explore different execution environments and functionalities, but still inheirit the security of a decentralized layer 1 protocol. There are also differences in [how they upgrade their protocol](https://celestia.org/learn/sovereign-rollups/an-introduction/) versus validity rollups.
+A [sovereign rollup](https://celestia.org/learn/sovereign-rollups/an-introduction/) is a blockchain that uses a Layer 1 blockchain for data availability, but not for settlement. Nodes in a sovereign rollup are responsible for verifying if a transaction is correct, and then transaction data is published to a Layer 1 blockchain for data availability and consensus. This is advantageous for blockchains that want to trustlessly explore different execution environments and functionalities, but still inherit the security of a decentralized Layer 1 protocol. There are also differences in how they upgrade their protocol versus validity rollups.
 
 ### What is a zero knowledge proof
 
-A [zero knowledge proof (zkp)](https://z.cash/learn/what-are-zero-knowledge-proofs/) is a cryptographic proof that allows you to prove that a statement is true without revealing the statement in full. In the context of blockchains, they are mainly used for privacy and scaling. In privacy, zkps prove that transactions are valid without revealing information about users engaging in a transaction. In scaling, zkps prove that a batch of transactions really are the result of a proposed state change.
+A [zero knowledge proof (zkp)](https://z.cash/learn/what-are-zero-knowledge-proofs/) is a cryptographic proof that allows you to prove that a statement is true without revealing the statement in full. In the context of blockchains, they are mainly used for privacy and scaling. In privacy, zkps prove that transactions are valid without revealing information about users engaging in a transaction. In scaling, zkps prove that a batch of transactions really are the result of a proposed state change.
 
 ### What are Bitcoin rollups
 
-Bitcoin rollups are new phenomenons that were first introduced by [Trey Del Bonis](https://tr3y.io/articles/crypto/bitcoin-zk-rollups.html) and further researched by [John Light](https://bitcoinrollups.org/). Due to tradeoffs made to ensure decentralization of the Bitcoin protocol, it needs to use Layer 2 solutions to scale the amount of transactions it can process efficiently. Rollups are popular scaling solutions in the Ethereum space, and are now being developed using the Bitcoin protocol for data availability. The rollups being developed on Bitcoin today are sovereign rollups.
+Bitcoin rollups are new phenomenons that were first introduced by [Trey Del Bonis](https://tr3y.io/articles/crypto/bitcoin-zk-rollups.html) and further researched by [John Light](https://bitcoinrollups.org/). Due to tradeoffs made to ensure decentralization of the Bitcoin protocol, it needs to use Layer 2 solutions to scale the amount of transactions it can process efficiently. Rollups are popular scaling solutions in the Ethereum space and are now being developed using the Bitcoin protocol for data availability. The rollups being developed on Bitcoin today are sovereign rollups.
 
 ### Why Bitcoin rollups
 
-The main solution for scaling Bitcoin is lightning. The majority of lightning use is custodial due to user complexity for self-custody, and during the Ordinals craze of 2022, lightning broke for many of its users due high transaction volume on the Layer 1. Other Bitcoin scaling solutions are natively custodial (i.e. Ecash). These solutions are also mainly used for payments. [Rollups](https://trustmachines.co/learn/what-are-rollups-and-how-can-they-work-on-bitcoin/) could prove to be a more effective scaling soluton for payments, and they also would enable better privacy. They also provide different execution environments that would drive new users to the Bitcoin protocol and increases fees that can be paid out to miners. This would help make the Bitcoin network more secure long term and maintain its 21 million unit supply cap. Today, 3% of [miner revenue](https://www.theblock.co/data/on-chain-metrics/bitcoin/bitcoin-share-of-transaction-fee-from-total-miner-revenue-monthly) is paid from fees generated by the network.
+The main solution for scaling Bitcoin is lightning. The majority of lightning use is custodial due to user complexity for self-custody, and during the Ordinals craze of 2022, lightning broke for many of its users due to high transaction volume on the Layer 1. Other Bitcoin scaling solutions are natively custodial (i.e. Ecash). These solutions are also mainly used for payments. [Rollups](https://trustmachines.co/learn/what-are-rollups-and-how-can-they-work-on-bitcoin/) could prove to be a more effective scaling solution for payments, and they also would enable better privacy. They also provide different execution environments that would drive new users to the Bitcoin protocol and increase fees that can be paid out to miners. This would help make the Bitcoin network more secure long term and maintain its 21 million unit supply cap. Today, 3% of [miner revenue](https://www.theblock.co/data/on-chain-metrics/bitcoin/bitcoin-share-of-transaction-fee-from-total-miner-revenue-monthly) is paid from fees generated by the network.
 
 ### How do rollup transactions work
 
-Rollups will (basically) have users create transactions offchain, and then submit those transactions to a sequencer who orders the transactions within a rollup block. The rollup will then execute these transactions in the given order. Then, depending on the rollup, those transactions will be verified by a Layer 1 smart contract (in smart contract rollups) or a network of rollup nodes (in sovereign rollups).
+Rollups will (basically) have users create transactions offchain, and then submit those transactions to a sequencer who orders the transactions within a rollup block. The rollup will then execute these transactions in the given order. Then, depending on the rollup, those transactions will be verified by a Layer 1 smart contract (in smart contract rollups) or a network of rollup nodes (in sovereign rollups).
 
 ### Are Bitcoin rollups safe
 
-Sovereign rollups add zero security risks to Bitcoin. They simply use Bitcoin to store transaction data. This is no technically no different than creating an Ordinal, and they can be implemented today. Validity rollups would require a soft fork, and come with different tradeoffs, but the technology has been well researched, peer reviewed, and is being implemented on the most used blockchain in the cryptocurrency space, Ethereum.
+Sovereign rollups add zero security risks to Bitcoin. They simply use Bitcoin to store transaction data. This is no technically no different than creating an Ordinal, and they can be implemented today. Validity rollups would require a soft fork and come with different tradeoffs, but the technology has been well researched, peer-reviewed, and is being used on the most used blockchain in the cryptocurrency space, Ethereum.
 
 ### Do zero-knowledge proofs require a trusted setup
 
-The first implementations of zero-knowledge proofs required a trusted setup. This was one of the main reasons that Bitcoiners were initially cautious about the tech being implemented in Bitcoin. But, the zero-knowledge proof space has come a long way and a variety of proving systems do not require trusted setups. zk-STARKs and zk-SNARKs are the two primary types of zero-knowledge proofs used in validity rollups. STARKs do not require a trusted setup, and a newer zk-SNARK, called [Halo](https://electriccoin.co/blog/halo-recursive-proof-composition-without-a-trusted-setup/), removed the need for a trusted setup. This is really cool, because now we have trustless ways to implement the zero-knowledge proofs that <u> [Satoshi was talking about](https://bitcointalk.org/index.php?topic=770.msg8637#msg8637) <u> :)
+The first implementations of zero-knowledge proofs required a trusted setup. This was one of the main reasons that Bitcoiners were initially cautious about the tech being implemented in Bitcoin. But, the zero-knowledge proof space has come a long way and a variety of proving systems do not require trusted setups. zk-STARKs and zk-SNARKs are the two primary types of zero-knowledge proofs used in validity rollups. STARKs do not require a trusted setup, and a newer zk-SNARK, called [Halo](https://electriccoin.co/blog/halo-recursive-proof-composition-without-a-trusted-setup/), removed the need for a trusted setup. This is really cool because now we have trustless ways to implement the zero-knowledge proofs that <u> [Satoshi was talking about](https://bitcointalk.org/index.php?topic=770.msg8637#msg8637) <u>.
 
 ### But... Shitcoins?
 
-The argument that rollups will add shitcoins and scams to Bitcoin simply isn't true. You can do that today. What people should worry about is if the current fee market can sustain Bitcoin's 21 million supply cap. If it can't, then they should explore solutions that could drive more usage to the Bitcoin network. Rollups are one of those solutions, and offer set of different tradeoffs when compared to other solutions, like Drivechain. Quit being scared of shitcoins. You're an adult.
+The argument that rollups will add shitcoins and scams to Bitcoin simply isn't true. You can do that today. What people should worry about is if the current fee market can sustain Bitcoin's 21 million supply cap. If it can't, then they should explore solutions that could drive more usage to the Bitcoin network. Rollups are one of those solutions and offer a set of different tradeoffs when compared to other solutions, like Drivechain. Quit being scared of shitcoins. You're an adult.
 
 ---
 
@@ -56,10 +56,10 @@ We've compiled a list of resources that cover a number things related to rollups
 
 - <u> [ZK Rollups Are Coming To Bitcoin, Bitcoin Magazine](https://bitcoinmagazine.com/technical/zk-rollups-are-coming-to-bitcoin-heres-all-you-need-to-know#) <u> - A great primer on the development of ZK rollups on Bitcoin
 - <u> [An introduction to Sovereign rollups, Celestia](https://celestia.org/learn/sovereign-rollups/an-introduction/) <u> - A great primer that outlines what sovereign rollups are and how they differ from smart contract rollups
-- You can check out the full list <u> [here](https://celestia.org/learn/sovereign-rollups/an-introduction/) <u>
+- You can check out the full list <u> [here](https://www.bitcoinrollups.io/written-resources) <u>
 
 ### Video and audio resources
 
 - <u> [ZK Rollups on Bitcoin, Eric Wall & Preston Evans, Bitcoin 2023](https://www.youtube.com/watch?v=CJ8HUKeDy4Q&t=1s) <u> - A primer on how Bitcoin can use rollups to improve scaling
 - <u> [John Light on Validity Rollups on Bitocin, ZK-proofs, and the Lightning Network, Kevin Rooke Show](https://www.youtube.com/watch?v=feODuDF2xv0) - A primer on how Bitcoin can use rollups to improve scaling
-- You can check out the full list <u> [here](##https://www.youtube.com/watch?v=feODuDF2xv0)
+- You can check out the full list <u> [here](https://www.bitcoinrollups.io/video-and-audio-resources)
