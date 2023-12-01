@@ -48,7 +48,7 @@ Remember that we mentioned that ZK-rollups compress transaction data into a proo
 
 It's argued that sovereign rollups have more autonomy that smart contract rollups because the network of nodes decide on protocol upgrades versus a smart contract controlled by a multi-sig and/or token voting process. This is similar to how Layer 1 blockchains upgrade their systems. This autonomy can lead to improved decentralization.
 
-Both sovereign and smart contract rollups can have trust minimized bridging to move the Layer 1's native asset (in this case BTC) to the rollup.
+Both sovereign and smart contract rollups can (theoretically) have trust minimized bridging to move the Layer 1's native asset (in this case BTC) to the rollup.
 
 ### To finish
 
