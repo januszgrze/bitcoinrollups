@@ -56,7 +56,7 @@ Rollups can scale Bitcoin because they would move the execution of transactions 
 
 This is basically it. Where it gets more complicated is that there is a large design space where rollup teams can customize these various components to their specific preference or usecase. That's good! More customization can mean a better user experience because rollups can tailor their execution environments to a specific use case.
 
-Additionally, because trustless bridging is not doable on Bitcoin, rollups can bridge BTC over to their rollup through a trusted environment (multi-sig or custodian), they can mint their own token, or they can do both.
+Additionally, because trustless bridging is not currently doable on Bitcoin, rollups can bridge BTC over to their rollup through a trusted environment (multi-sig or custodian), they can mint their own token, or they can do both.
 
 It's an ever growing design space. We'll be outlining the various designs and tradeoffs in follow-up posts. In the meantime, we recommend you review our [Basics](https://www.bitcoinrollups.io/the-basics) page for more information on ZK-rollups on Bitcoin.
 
