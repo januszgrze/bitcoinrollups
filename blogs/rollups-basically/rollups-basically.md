@@ -18,7 +18,7 @@ Rollup transactions start with a client initiating a transaction. Think of a use
 
 After a user initiates this, the transaction will be sent to something called a [sequencer](https://hackmd.io/@EspressoSystems/EspressoSequencer#A-Rollups-Overview). A sequencer is the block builder and producer for rollups. The sequencer will take transactions, place and order them within a rollup block, and then send the proposed block to the executor and prover.
 
-It's worth noting that sometimes users can opt into bypassing the sequencer, and sending the transaction to the Layer 1 directly. Chainway discusses that [here](https://medium.com/@chainway_xyz/a-sovereign-zk-rollup-on-bitcoin-full-bitcoin-security-without-a-soft-fork-ca0389a0b658).
+It's worth noting that sometimes users can opt into bypassing the sequencer, and send the transaction to the Layer 1 directly. Chainway discusses that [here](https://medium.com/@chainway_xyz/a-sovereign-zk-rollup-on-bitcoin-full-bitcoin-security-without-a-soft-fork-ca0389a0b658).
 
 #### Execution and proving
 
