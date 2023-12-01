@@ -1,5 +1,7 @@
 ## Rollups (Basically)
 
+In this blog we attempt to simply define rollups and outline a rollup transaction's lifecycle.
+
 Rollups are blockchains that are built atop another blockchain (somtimes known as the parent blockchain or Layer 1). The reason Bitcoin community members have looked at adopting rollups is to increase transaction throughput, and also create additional execution environments that add more programmability to Bitcoin. To enhance the transaction capacity of Layer 1, rollups take the execution of transactions offchain.
 
 Although the execution happens offchain, the state root and necessary transaction data is submitted to Layer 1. This specific design enables rollups to inherit some of the security from the blockchain that they are built on top of, and sets them apart from state channels and sidechains as these solutions mostly keep their transaction data offchain.
@@ -15,6 +17,8 @@ Bunch of jargon right? Let's break it down by going through the transaction life
 Rollup transactions start with a client initiating a transaction. Think of a user sumbitting a transaction via a mobile wallet. Because rollups enable different execution environments, the transaction can be whatever the rollup enables. Something like DeFi swaps on a rollup with smart contracts, an encrypted payment on a privacy preserving rollup, or a streamlined Oridinals mint. 
 
 After a user initiates this, the transaction will be sent to something called a [sequencer](https://hackmd.io/@EspressoSystems/EspressoSequencer#A-Rollups-Overview). A sequencer is the block builder and producer for rollups. The sequencer will take transactions, place and order them within a rollup block, and then send the proposed block to the executor and prover.
+
+It's worth noting that sometimes users can opt into bypassing the sequencer, and sending the transaction to the Layer 1 directly. Chainway discusses that [here](https://medium.com/@chainway_xyz/a-sovereign-zk-rollup-on-bitcoin-full-bitcoin-security-without-a-soft-fork-ca0389a0b658).
 
 #### Execution and proving
 
