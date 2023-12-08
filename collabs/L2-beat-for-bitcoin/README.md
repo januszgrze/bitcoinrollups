@@ -1,0 +1,1 @@
+The goal of this project is to bring an [L2beat-like site](https://l2beat.com) to the Bitcoin ecosystem. We'll be initially building this project out for Bitcoin sidechains, bridging protocols, and rollups.
