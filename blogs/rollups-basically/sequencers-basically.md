@@ -60,6 +60,8 @@ But, bootstrapping a consensus set for a sequencer...? Seems like you'd need a l
 
 Tl;dr - there's a big design space for sequencer decentralization. Rollups should make tradeoffs specific to their own use case.
 
+PS - some zk-rollup teams are exploring how they can [combine the prover and the sequencer](https://www.youtube.com/watch?v=ub-IxvVKsmM) into the same consensus set.
+
 #### Performance
 
 One of the main reasons that you want to leverage a sequencer, outside of using the Layer 1 protocol, is to give users pre-confirmations. When designing a rollup, there's advantages to providing user experiences that are superior to the Layer 1. In the context of something like payments, having a UX that sees a transaction confirm in a few seconds is preferred. 
