@@ -50,7 +50,7 @@ There are a few teams currently designing decentralized sequencers. They're leve
 
 This means that when designing a sequencer, you can make [tradeoffs](https://twitter.com/EspressoSys/status/1724525476423590390) that can provide users with a better UX while still maintaining sufficient levels of decentralization. For example, you could design a consensus protocols that optimize for higher throughput and faster blocktimes, and maybe make tradeoffs regarding decentralization. In this situation, you can still leverage the Bitcoin as a fall back network in the event the sequencer isn't performing as designed. 
 
-For example, [Espresso Systems](https://www.espressosys.com/) is designing a sequencer protocol that uses [HotShot consensus](https://hackmd.io/@EspressoSystems/HotShot-and-Tiramisu), which is a protocol designed to produce blocks extremely fast since it has no block time, and can scale up to thousands of nodes.
+For example, [Espresso Systems](https://www.espressosys.com/) is designing a sequencer protocol that uses [HotShot consensus](https://hackmd.io/@EspressoSystems/HotShot-and-Tiramisu), which is a protocol designed to produce blocks extremely fast, since it is optimistically responsive and has no block time, and can scale up to thousands of nodes.
 
 And [Astria](https://www.astria.org/) is building a shared sequencer built on [Tendermint consensus](https://docs.astria.org/docs/overview-of-astria/architecture/the-astria-sequencer/) which has a fast blocktime and is extremely battled tested in the Cosmos ecosystem.
 
