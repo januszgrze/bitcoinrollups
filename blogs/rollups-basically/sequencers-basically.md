@@ -6,7 +6,7 @@ So block producers...?
 
 Yes, block producers. Sequencers have the priveleged rollup of constructing rollup blocks. In the current rollup landscape on Ethereum, all sequencers are [centralized](https://www.binance.com/en/research/analysis/ethereums-rollups-are-centralized-a-look-into-decentralized-sequencers). That means a single node (yes, a single node) is responsible for producing blocks for the entire rollup.
 
-This means a single server holds a lot of power! They can order transactions in any way they like, and (perhaps more crucially) censor transactions they don't like. Centralized sequencers also create [liveness failures](https://thedefiant.io/arbitrum-outage-2) because if the sequencer goes down, halting progress for the rollup. This has happened numerous times.
+This means a single server holds a lot of power! They can order transactions in any way they like, and (perhaps more crucially) censor transactions they don't like. Centralized sequencers also create [liveness failures](https://thedefiant.io/arbitrum-outage-2) because if the sequencer goes down, progress for the rollup halts. This has happened numerous times.
 
 As we look to bring rollups to Bitcoin, leveraging centralized sequencers could be controversial. People could use this to discredit rollups immediately. And, if we want rollups to offer better scaling and trust assumptions than current Bitcoin Layer 2s (L2s), should we implement centralized chokepoints at all?
 
