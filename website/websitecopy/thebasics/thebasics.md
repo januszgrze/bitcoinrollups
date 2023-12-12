@@ -42,9 +42,9 @@ Sovereign rollups add zero security risks to Bitcoin. They simply use Bitcoin to
 
 The first implementations of zero-knowledge proofs required a trusted setup. This was one of the main reasons that Bitcoiners were initially cautious about the tech being implemented in Bitcoin. But, the zero-knowledge proof space has come a long way and a variety of proving systems do not require trusted setups. zk-STARKs and zk-SNARKs are the two primary types of zero-knowledge proofs used in validity rollups. STARKs do not require a trusted setup, and a newer zk-SNARK, called [Halo](https://electriccoin.co/blog/halo-recursive-proof-composition-without-a-trusted-setup/), removed the need for a trusted setup. This is really cool because now we have trustless ways to implement the zero-knowledge proofs that <u> [Satoshi was talking about](https://bitcointalk.org/index.php?topic=770.msg8637#msg8637) <u>.
 
-### But... Shitcoins?
+### But... scams?
 
-The argument that rollups will add shitcoins and scams to Bitcoin simply isn't true. You can do that today. What people should worry about is if the current fee market can sustain Bitcoin's 21 million supply cap. If it can't, then they should explore solutions that could drive more usage to the Bitcoin network. Rollups are one of those solutions and offer a set of different tradeoffs when compared to other solutions, like Drivechain. Quit being scared of shitcoins. You're an adult.
+The argument that rollups will add scams to Bitcoin simply isn't true. People can add "tokens" to the Bitcoin network today. What people should worry about is if the current fee market can sustain Bitcoin's 21 million supply cap. If it can't, then they should explore solutions that could drive more usage to the Bitcoin network! Rollups are one of those solutions and offer a set of different tradeoffs when compared to other solutions, like Drivechain.
 
 ---
 
