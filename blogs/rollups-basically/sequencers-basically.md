@@ -4,7 +4,7 @@ Sequencers are the role that build blocks in rollups. They take transactions fro
 
 So block producers...?
 
-Yes, block producers. Sequencers have the priveleged role of constructing rollup blocks. In the current rollup landscape on Ethereum, all sequencers are [centralized](https://www.binance.com/en/research/analysis/ethereums-rollups-are-centralized-a-look-into-decentralized-sequencers). That means a single node (yes, a single node) is responsible for producing blocks for the entire rollup.
+Yes, block producers. Sequencers have the privileged role of constructing rollup blocks. In the current rollup landscape on Ethereum, all sequencers are [centralized](https://www.binance.com/en/research/analysis/ethereums-rollups-are-centralized-a-look-into-decentralized-sequencers). That means a single node (yes, a single node) is responsible for producing blocks for the entire rollup.
 
 This means a single server holds a lot of power! They can order transactions in any way they like, and (perhaps more crucially) censor transactions they don't like. Centralized sequencers also create [liveness failures](https://thedefiant.io/arbitrum-outage-2) because if the sequencer goes down, progress for the rollup halts. This has happened numerous times.
 
@@ -32,21 +32,21 @@ However, forced inclusion is still something that we'd ideally want to avoid in 
 
 This is why most teams developing rollups would agree (at least publicly) that you need to decentralize the sequencer role. 
 
-Now, how do you decentralize the sequencer? What is suffiently decentralized? Rollup users expect better performance and lower fees than the L1, but want similar trust assumptions to using the L1. 
+Now, how do you decentralize the sequencer? What is sufficently decentralized? Rollup users expect better performance and lower fees than the L1, but want similar trust assumptions to using the L1. 
 
 [we want it all meme]
 
 So this balance of decentralization and performance is a delicate one.
 
-That's why a lot of people discussing sequencer decentralization opt for a consensus protocol versus a selected list of small nodes for sequencing. In a world where there are 5 sequencer nodes, and they are allow listed by the rollup operator, these node providers could censor transactons based on the request of the company determining the allow list. Don't censor? You're booted.
+That's why a lot of people discussing sequencer decentralization opt for a consensus protocol versus a selected list of small nodes for sequencing. In a world where there are 5 sequencer nodes, and they are allow-listed by the rollup operator, these node providers could censor transactions based on the request of the company determining the allow list. Don't censor? You're booted.
 
 By offloading the sequencer role to a permissionless consensus protocol, you could have an environment where anyone with the capacity to spin up a node can produce rollup blocks. In this situation, even if the majority of nodes are censoring transactions, you could have a subset of block builders creating blocks with censored transactions.
 
 #### Design
 
-There are a few teams currently designing decentralized sequencers. They're leveraging separate consensus protocols that make certain design tradeoffs from the L1. In the context of Bitcoin, the L1 is very decentralized, but currently has slow blocktimes and only offers probablistic finality. 
+There are a few teams currently designing decentralized sequencers. They're leveraging separate consensus protocols that make certain design tradeoffs from the L1. In the context of Bitcoin, the L1 is very decentralized, but currently has slow blocktimes and only offers probabilistic finality. 
 
-This means that when designing a sequencer, you can make [tradeoffs](https://twitter.com/EspressoSys/status/1724525476423590390) that can provide users a better UX while still maintaining sufficient levels of decentralization. For example, you could design a consensus protocols that optimize for higher throughput and faster blocktimes, and maybe make tradeoffs regarding decentralization. In this situation, you can still leverage the Bitcoin as a fall back network in the event the sequencer isn't performing as designed. 
+This means that when designing a sequencer, you can make [tradeoffs](https://twitter.com/EspressoSys/status/1724525476423590390) that can provide users with a better UX while still maintaining sufficient levels of decentralization. For example, you could design a consensus protocols that optimize for higher throughput and faster blocktimes, and maybe make tradeoffs regarding decentralization. In this situation, you can still leverage the Bitcoin as a fall back network in the event the sequencer isn't performing as designed. 
 
 For example, [Espresso Systems](https://www.espressosys.com/) is designing a sequencer protocol that uses [HotShot consensus](https://hackmd.io/@EspressoSystems/HotShot-and-Tiramisu), which is a protocol designed to produce blocks extremely fast since it has no block time, and can scale up to thousands of nodes.
 
@@ -54,7 +54,7 @@ And [Astria](https://www.astria.org/) is building a shared sequencer built on [T
 
 Most sequencers are designing their consensus around Proof-of-Stake consensus protocols because they provide stronger finality guarantees than Proof-of-Work consensus protocols. This is because validators in Proof-of-Stake protocols have to put up collateral to participate, and validators risk losing that collateral if they attempt to revert a transaction.
 
-Thus, it might be beneficial for the sequencing layer to implement a Proof-of-Stake consensus protocol so it can provide faster finality guarantees to users. As mentioned, these guarantees come in the form of [pre-confirmations](https://twitter.com/EspressoSys/status/1693684942868541516) - a near-instant guarantee to a user that their transaction will be confirmed and settled on the Layer 1. Or, they could opt for a different Proof-of-Work algorithm like RandomX. It simply depends on the use case for the rollup, and what they want to achieve with decentralizating sequencing and block production.
+Thus, it might be beneficial for the sequencing layer to implement a Proof-of-Stake consensus protocol so it can provide faster finality guarantees to users. As mentioned, these guarantees come in the form of [pre-confirmations](https://twitter.com/EspressoSys/status/1693684942868541516) - a near-instant guarantee to a user that their transaction will be confirmed and settled on the Layer 1. Or, they could opt for a different Proof-of-Work algorithm like RandomX. It simply depends on the use case for the rollup, and what they want to achieve with decentralizing sequencing and block production.
 
 But, bootstrapping a consensus set for a sequencer...? Seems like you'd need a lot of capital to secure the network? Correct, but, rollups can opt-in to sharing a decentralized sequencer. If there was a sequencer network that offered sufficient performance and decentralization for 95% of rollups on Bitcoin, it might be adventageous that they all share the same network. This is because they wouldn't have to bootstrap economic security for their own consensus protocol, allowing them to get to market faster. And, there are interoperability benefits when you share a sequencer.
 
@@ -66,7 +66,7 @@ PS - some zk-rollup teams are exploring how they can [combine the prover and the
 
 One of the main reasons that you want to leverage a sequencer, outside of using the Layer 1 protocol, is to give users pre-confirmations. When designing a rollup, there's advantages to providing user experiences that are superior to the Layer 1. In the context of something like payments, having a UX that sees a transaction confirm in a few seconds is preferred. 
 
-A centralized sequencer can give these pre-confirmations instantaneuously. But, as rollups scale to millions of users, trusting a single node for this promise isn't practical (in the context of blockchains).
+A centralized sequencer can give these pre-confirmations instantaneously. But, as rollups scale to millions of users, trusting a single node for this promise isn't practical (in the context of blockchains).
 
 In various decentralized sequencer designs, you can still achieve pre-confirmations quickly. In protocols like HotShot (used in the Espresso Sequencer protocol) you can have near-instant pre-confirmations. In Tendermint, you can receive a pre-confirmation in 2 seconds. These performance benefits would give rollup applications a more seamless UX, and could rival solutions like Lightning and Federated Ecash mints for payment use cases.
 
