@@ -14,7 +14,7 @@ Rollups give Bitcoin higher throughput and enable different execution environmen
 
 ## Research and guides - dive deeper
 
-Zcash-level privacy, NFTs and shitcoins? The research around Bitcoin rollups focuses on giving Bitcoin more trustless functionality. [Dive in](https://bitcoinrollups.io/research).
+Strong privacy, digital assets, even new smart contract languages? The research around Bitcoin rollups focuses on giving Bitcoin more trustless functionality. [Dive in](https://bitcoinrollups.io/research).
 
 ## News - stay up to date
 
@@ -22,7 +22,7 @@ We attempt to retweet and document every reputable piece related to Bitcoin roll
 
 ## Contribute - help build our site and get tipped in BTC
 
-We welcome community contributions. [Check out our contributors page](https://www.bitcoinrollups.io/contribute) to learn how you can get involved. We tip contributors via Lightning or XMR.
+We welcome community contributions. [Check out our contributors page](https://www.bitcoinrollups.io/contribute) to learn how you can get involved. We tip contributors via Lightning, ZEC, or XMR.
 
 ---
 
