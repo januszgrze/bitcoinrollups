@@ -2,13 +2,15 @@
 
 Sequencers are the role that build blocks in rollups. They take transactions from rollup users, determine the ordering of those transactions in a rollup block, and then send the block to the executor to be executed in the given order. 
 
-So block producers...?
+So miners...?
 
-Yes, block producers. Sequencers have the privileged role of constructing rollup blocks. In the current rollup landscape on Ethereum, all sequencers are [centralized](https://www.binance.com/en/research/analysis/ethereums-rollups-are-centralized-a-look-into-decentralized-sequencers). That means a single node (yes, a single node) is responsible for producing blocks for the entire rollup.
+They can be miners! But, there's a number of ways to design sequencer operators. So, we'll use the term "block producer" to remain neutral.
 
-This means a single server holds a lot of power! They can order transactions in any way they like, and (perhaps more crucially) censor transactions they don't like. Centralized sequencers also create [liveness failures](https://thedefiant.io/arbitrum-outage-2) because if the sequencer goes down, progress for the rollup halts. This has happened numerous times.
+Sequencers have the privileged role of constructing rollup blocks. In the current rollup landscape on Ethereum, all sequencers are [centralized](https://www.binance.com/en/research/analysis/ethereums-rollups-are-centralized-a-look-into-decentralized-sequencers). That means a single node (yes, a single node) is responsible for producing blocks for the entire rollup.
 
-As we look to bring rollups to Bitcoin, leveraging centralized sequencers could be controversial. People could use this to discredit rollups immediately. And, if we want rollups to offer better scaling and trust assumptions than current Bitcoin Layer 2s (L2s), should we implement centralized chokepoints at all?
+This single server holds a lot of power! They can order transactions in any way they like, and (perhaps more crucially) censor transactions they don't like. Centralized sequencers can also cause [liveness failures](https://thedefiant.io/arbitrum-outage-2) because if the sequencer goes down, progress for the rollup halts. This has happened numerous times.
+
+As we look to bring rollups to Bitcoin, leveraging centralized sequencers could be controversial. Bitcoiners are typically not fans of protocol centralization. People, who are not fans of rollup architecture, could use this to discredit rollups immediately. And, to be honest, if we want rollups to offer better scaling and trust assumptions than current Bitcoin Layer 2s (L2s), should we implement centralized chokepoints at all?
 
 But, centralized sequencers are very good for performance! Users like the fact that the user experience of a rollup is enhanced by the fact that a centralized server can produce rollup blocks really quickly. Additionally, a centralized sequencer does not centralize all aspects of a rollup and inherits many aspects of security from its underlying L1 and its proof mechanism. The sequencer must provide data availability to the underlying L1, cannot brute force invalid state transitions through a validity proof (i.e., steal), cannot reorder transactions once they achieve L1 finality, and cannot censor long-term (more on forced inclusions below).
 
@@ -28,9 +30,9 @@ L2 users should be able to withdraw from the rollup whenever they need to, for w
 
 ### Decentralization
 
-However, forced inclusion is still something that we'd ideally want to avoid in these systems. In a world where Bitcoin has a healthy and high fee market, most users could simply be [priced out of using the Bitcoin Layer 1](https://twitter.com/EspressoSys/status/1686851505339453440/video/1) for forcing their transactions through. This means their funds would be effectively stuck in the rollup. In a world where they're being censored, you could equate this to them (basically) losing access to their funds.
+However, forced inclusion is still something that we'd ideally want to avoid in these systems. In a world where Bitcoin has a healthy and high fee market, most users could simply be [priced out of using the Bitcoin Layer 1](https://twitter.com/EspressoSys/status/1686851505339453440/video/1) for forcing their transactions through.
 
-This is why most teams developing rollups would agree (at least publicly) that you need to decentralize the sequencer role. 
+In a future world where forced inclusion is availble to all rollup users, users can theoretically exit the rollup, but some may be practially stuck in the rollup and lose the ability to interact with their funds. This is why most teams developing rollups would agree (at least publicly) that you need to decentralize the sequencer role. 
 
 Now, how do you decentralize the sequencer? What is sufficently decentralized? Rollup users expect better performance and lower fees than the L1, but want similar trust assumptions to using the L1. 
 
@@ -38,7 +40,7 @@ Now, how do you decentralize the sequencer? What is sufficently decentralized? R
 
 So this balance of decentralization and performance is a delicate one.
 
-That's why a lot of people discussing sequencer decentralization opt for a consensus protocol versus a selected list of small nodes for sequencing. In a world where there are 5 sequencer nodes, and they are allow-listed by the rollup operator, these node providers could censor transactions based on the request of the company determining the allow list. Don't censor? You're booted.
+That's why a lot of people discussing sequencer decentralization opt for a consensus protocol versus a selected list of small nodes for sequencing. In a world where there are 5 sequencer nodes, and they are allow-listed by the rollup operator, these node providers could censor transactions based on the request of the company determining the allow list. Don't censor? You're booted and no longer operating a node.
 
 By offloading the sequencer role to a permissionless consensus protocol, you could have an environment where anyone with the capacity to spin up a node can produce rollup blocks. In this situation, even if the majority of nodes are censoring transactions, you could have a subset of block builders creating blocks with censored transactions.
 
