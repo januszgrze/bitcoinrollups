@@ -28,7 +28,7 @@ L2 users should be able to withdraw from the rollup whenever they need to, for w
 
 ### Decentralization
 
-However, forced inclusion is still something that we'd ideally want to avoid in these systems. In a world where Bitcoin has a healthy and high fee market, most users could simply be [priced out of using the Bitcoin Layer 1](https://twitter.com/EspressoSys/status/1686851505339453440/video/1) for forcing their transactions through. This means their funds would be effectively stuck in the rollup. In a world where their being censored, you could equate this to them (basically) losing access to their funds.
+However, forced inclusion is still something that we'd ideally want to avoid in these systems. In a world where Bitcoin has a healthy and high fee market, most users could simply be [priced out of using the Bitcoin Layer 1](https://twitter.com/EspressoSys/status/1686851505339453440/video/1) for forcing their transactions through. This means their funds would be effectively stuck in the rollup. In a world where they're being censored, you could equate this to them (basically) losing access to their funds.
 
 This is why most teams developing rollups would agree (at least publicly) that you need to decentralize the sequencer role. 
 
