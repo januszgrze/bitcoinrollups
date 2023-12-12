@@ -90,4 +90,4 @@ An open question is determining how Bitcoin users, and rollups, could leverage B
 
 To discuss these tradeoffs, we recommend you join the Bitcoin rollups [telegram group](https://t.me/+_pb6J2hiyC0wMWQ0). Please offer any thoughts or feedback on these notes.
 
-*Disclaimer: The author of this blog post works for Espresso Systems, the company designing the Espresso Sequencer. The post was reviewed and edited by external parties to ensure neutrality.*
+*Disclaimer: The author of this blog post works for Espresso Systems, the company designing the Espresso Sequencer. The post was reviewed and edited by others to ensure neutrality.*
