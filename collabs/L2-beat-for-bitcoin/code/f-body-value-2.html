@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show Text in Another Div Example</title>
+  <style>
+  .accordion .accordion-content {
+    display: none;
+    padding: 10px;
+    border-top: none;
+  }
+  .accordion .accordion-content p {
+    font-family: "Inconsolata", monospace;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .accordion .accordion-button {
+    background-color: #f2a900;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .accordion .accordion-title {
+    font-family: "Inconsolata", monospace;
+    color: white;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 2.5px;
+  }
+.accordion .accordion-button .status-text {
+  font-family: "Inconsolata", monospace;
+  color: white;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+}
+  .accordion .accordion-button:hover {
+    background-color: #333333;
+  }
+
+  .accordion .accordion-button::after {
+    content: '\002B';
+    float: right;
+    transition: transform 0.2s ease;
+  }
+
+  .accordion .accordion-button[aria-expanded="true"] {
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .accordion .accordion-button[aria-expanded="true"]::after {
+    content: '\2212';
+    transform: rotate(180deg);
+  }
+
+  .accordion .accordion-button:focus {
+    outline: none;
+  }
+  ul {
+  list-style-type: none; /* Removes the default list bullet */
+  padding-left: 0; /* Removes the default padding */
+}
+  li.check::before {
+  content: '✓';
+  color: green;
+  margin-right: 5px;
+}
+
+li.cross::before {
+  content: '✗';
+  color: yellow;
+  margin-right: 5px;
+}
+.accordion .accordion-content li {
+    font-family: "Inconsolata", monospace;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+  }
+</style>
+</head>
+<body>  
+<div id="hiddenContent2" style="display: none;">
+		<section id="section5">
+      <h2>Verification Type</h2>
+      <h3 style="margin-bottom: 20px;"><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show Text in Another Div Example</title>
+  <style>
+  .accordion .accordion-content {
+    display: none;
+    padding: 10px;
+    border-top: none;
+  }
+  .accordion .accordion-content p {
+    font-family: "Inconsolata", monospace;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .accordion .accordion-button {
+    background-color: #f2a900;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .accordion .accordion-title {
+    font-family: "Inconsolata", monospace;
+    color: white;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 2.5px;
+  }
+.accordion .accordion-button .status-text {
+  font-family: "Inconsolata", monospace;
+  color: white;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+}
+  .accordion .accordion-button:hover {
+    background-color: #333333;
+  }
+
+  .accordion .accordion-button::after {
+    content: '\002B';
+    float: right;
+    transition: transform 0.2s ease;
+  }
+
+  .accordion .accordion-button[aria-expanded="true"] {
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .accordion .accordion-button[aria-expanded="true"]::after {
+    content: '\2212';
+    transform: rotate(180deg);
+  }
+
+  .accordion .accordion-button:focus {
+    outline: none;
+  }
+  ul {
+  list-style-type: none; /* Removes the default list bullet */
+  padding-left: 0; /* Removes the default padding */
+}
+  li.check::before {
+  content: '✓';
+  color: green;
+  margin-right: 5px;
+}
+
+li.cross::before {
+  content: '✗';
+  color: yellow;
+  margin-right: 5px;
+}
+.accordion .accordion-content li {
+    font-family: "Inconsolata", monospace;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+  }
+</style>
+</head>
+<body>  
+<div id="hiddenContent2" style="display: none;">
+		<section id="section5">
+      <h2>Verification Type</h2>
+      <h3 style="margin-bottom: 20px;">insert-answer</h3>
+      	<div class="accordion">
+  				<div class="accordion-item">
+    				<button class="accordion-button" id="accordion-button-1" aria-expanded="false">
+      			<span class="accordion-title">STAGE 0</span>
+      			<span class="status-text"></span> <!-- This span will be filled with the status text -->
+    				</button>
+    		<div class="accordion-content">
+      			<p>STAGE 0 has been fully met with the following requirements:</p>
+      				<ul>
+        					<li class="check">The project identifies as a rollup.</li>
+        					<li class="check">L2 state roots are published to Bitcoin L1.</li>
+        					<li class="check">State transition inputs are available on L1.</li>
+        					<li class="check">Source code is available for verification.</li>
+      				</ul>
+    			</div>
+  		</div>
+  <!-- Additional accordion items -->
+  <div class="accordion-item">
+    <button class="accordion-button" id="accordion-button-2" aria-expanded="false">
+      <span class="accordion-title">STAGE 1</span>
+    </button>
+    <div class="accordion-content">
+      <p>STAGE 1 has 1 pending issues:</p>
+      <ul>
+        <li class="check">Rollup has decentralized its sequencer.</li>
+        <li class="cross">Upgrade consensus mechanism for better security.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <button class="accordion-button" id="accordion-button-3" aria-expanded="false">
+      <span class="accordion-title">STAGE 2</span>
+    </button>
+    <div class="accordion-content">
+      <p>STAGE 2 is pending with one major issue:</p>
+      <ul>
+        <li class="cross">Current state of Bitcoin makes the rollup unable to finalize the integration of a trustless bridge with Bitcoin mainnet.</li>
+      </ul>
+    </div>
+  </div>
+  <!-- ... other accordion items ... -->
+</div>
+    </section>
+    
+  <div id="targetDiv2">
+    <!-- The hidden content will be displayed here. -->
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var hiddenContent = document.getElementById("hiddenContent2");
+    var targetDiv = document.getElementById("targetDiv2");
+
+    if (hiddenContent && targetDiv) {
+      targetDiv.innerHTML = hiddenContent.innerHTML;
+
+      const accordionButtons = targetDiv.querySelectorAll('.accordion-button');
+
+      // Function to update button text based on check marks and crosses
+      function updateButtonText(button) {
+  const contentPanel = button.nextElementSibling;
+  const checks = contentPanel.querySelectorAll('li.check').length;
+  const crosses = contentPanel.querySelectorAll('li.cross').length;
+  const statusSpan = button.querySelector('.status-text');
+
+  if (crosses > 0 && checks > 0) {
+    const issues = crosses;
+    statusSpan.textContent = `❌ ${issues} issues need fixing`;
+  } else if (crosses === 0 && checks > 0) {
+    statusSpan.textContent = `✔️ ${checks} requirements met`;
+  } else if (crosses > 0) {
+    const issues = crosses - checks;
+    statusSpan.textContent = `❌ ${issues} issues need fixing`;
+  } else {
+    statusSpan.textContent = '';
+  }
+}
+
+      // Toggle accordion function
+      function toggleAccordion() {
+        const content = this.nextElementSibling;
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+
+        // Collapse all accordion contents
+        accordionButtons.forEach(function(button) {
+          button.setAttribute('aria-expanded', 'false');
+          button.nextElementSibling.style.display = 'none';
+        });
+
+        // Toggle the clicked one
+        if (!expanded) {
+          this.setAttribute('aria-expanded', 'true');
+          content.style.display = 'block';
+        }
+
+        // Update text when toggling
+        updateButtonText(this);
+      }
+
+      // Initialize button text and setup event listeners
+      accordionButtons.forEach(button => {
+        button.addEventListener('click', toggleAccordion);
+        // Create the status text span and append it to the button
+        const statusSpan = document.createElement('span');
+        statusSpan.classList.add('status-text');
+        button.appendChild(statusSpan);
+        // Update the button text when the DOM is loaded
+        updateButtonText(button);
+      });
+    }
+  });
+</script>
+
+</body>
+</html></h3>
+      	<div class="accordion">
+  				<div class="accordion-item">
+    				<button class="accordion-button" id="accordion-button-1" aria-expanded="false">
+      			<span class="accordion-title">STAGE 0</span>
+      			<span class="status-text"></span> <!-- This span will be filled with the status text -->
+    				</button>
+    		<div class="accordion-content">
+      			<p>STAGE 0 has been fully met with the following requirements:</p>
+      				<ul>
+        					<li class="check">The project identifies as a rollup.</li>
+        					<li class="check">L2 state roots are published to Bitcoin L1.</li>
+        					<li class="check">State transition inputs are available on L1.</li>
+        					<li class="check">Source code is available for verification.</li>
+      				</ul>
+    			</div>
+  		</div>
+  <!-- Additional accordion items -->
+  <div class="accordion-item">
+    <button class="accordion-button" id="accordion-button-2" aria-expanded="false">
+      <span class="accordion-title">STAGE 1</span>
+    </button>
+    <div class="accordion-content">
+      <p>STAGE 1 has 1 pending issues:</p>
+      <ul>
+        <li class="check">Rollup has decentralized its sequencer.</li>
+        <li class="cross">Upgrade consensus mechanism for better security.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <button class="accordion-button" id="accordion-button-3" aria-expanded="false">
+      <span class="accordion-title">STAGE 2</span>
+    </button>
+    <div class="accordion-content">
+      <p>STAGE 2 is pending with one major issue:</p>
+      <ul>
+        <li class="cross">Current state of Bitcoin makes the rollup unable to finalize the integration of a trustless bridge with Bitcoin mainnet.</li>
+      </ul>
+    </div>
+  </div>
+  <!-- ... other accordion items ... -->
+</div>
+    </section>
+    
+  <div id="targetDiv2">
+    <!-- The hidden content will be displayed here. -->
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var hiddenContent = document.getElementById("hiddenContent2");
+    var targetDiv = document.getElementById("targetDiv2");
+
+    if (hiddenContent && targetDiv) {
+      targetDiv.innerHTML = hiddenContent.innerHTML;
+
+      const accordionButtons = targetDiv.querySelectorAll('.accordion-button');
+
+      // Function to update button text based on check marks and crosses
+      function updateButtonText(button) {
+  const contentPanel = button.nextElementSibling;
+  const checks = contentPanel.querySelectorAll('li.check').length;
+  const crosses = contentPanel.querySelectorAll('li.cross').length;
+  const statusSpan = button.querySelector('.status-text');
+
+  if (crosses > 0 && checks > 0) {
+    const issues = crosses;
+    statusSpan.textContent = `❌ ${issues} issues need fixing`;
+  } else if (crosses === 0 && checks > 0) {
+    statusSpan.textContent = `✔️ ${checks} requirements met`;
+  } else if (crosses > 0) {
+    const issues = crosses - checks;
+    statusSpan.textContent = `❌ ${issues} issues need fixing`;
+  } else {
+    statusSpan.textContent = '';
+  }
+}
+
+      // Toggle accordion function
+      function toggleAccordion() {
+        const content = this.nextElementSibling;
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+
+        // Collapse all accordion contents
+        accordionButtons.forEach(function(button) {
+          button.setAttribute('aria-expanded', 'false');
+          button.nextElementSibling.style.display = 'none';
+        });
+
+        // Toggle the clicked one
+        if (!expanded) {
+          this.setAttribute('aria-expanded', 'true');
+          content.style.display = 'block';
+        }
+
+        // Update text when toggling
+        updateButtonText(this);
+      }
+
+      // Initialize button text and setup event listeners
+      accordionButtons.forEach(button => {
+        button.addEventListener('click', toggleAccordion);
+        // Create the status text span and append it to the button
+        const statusSpan = document.createElement('span');
+        statusSpan.classList.add('status-text');
+        button.appendChild(statusSpan);
+        // Update the button text when the DOM is loaded
+        updateButtonText(button);
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
