@@ -10,7 +10,7 @@ This means a single server holds a lot of power! They can order transactions in 
 
 As we look to bring rollups to Bitcoin, leveraging centralized sequencers could be controversial. People could use this to discredit rollups immediately. And, if we want rollups to offer better scaling and trust assumptions than current Bitcoin Layer 2s (L2s), should we implement centralized chokepoints at all?
 
-But, centralized sequencers are very good for performance! Users like the fact that the user experience of a rollup is enhanced by the fact that a centralized server can produce rollup blocks really quickly. 
+But, centralized sequencers are very good for performance! Users like the fact that the user experience of a rollup is enhanced by the fact that a centralized server can produce rollup blocks really quickly. Additionally, a centralized sequencer does not centralize all aspects of a rollup and inherits many aspects of security from its underlying L1 and its proof mechanism. The sequencer must provide data availability to the underlying L1, cannot brute force invalid state transitions through a validity proof (i.e., steal), cannot reorder transactions once they achieve L1 finality, and cannot censor long-term (more on forced inclusions below).
 
 So, what do you do? Do you even need to decentralize the sequencer? Why is it important to do so?
 
