@@ -1,6 +1,6 @@
 *Currently in draft*
 
-Sequencers are the role that build blocks in rollups. They take transactions from rollup users, determine the ordering of those transactions in a rollup block, and then send the block to the executor to be executed in that given ordering. 
+Sequencers are the role that build blocks in rollups. They take transactions from rollup users, determine the ordering of those transactions in a rollup block, and then send the block to the executor to be executed in the given order. 
 
 So block producers...?
 
