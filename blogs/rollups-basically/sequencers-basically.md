@@ -94,6 +94,6 @@ An open question is determining how Bitcoin users, and rollups, could leverage B
 
 To discuss these tradeoffs, we recommend you join the Bitcoin rollups [telegram group](https://t.me/+_pb6J2hiyC0wMWQ0). Please offer any thoughts or feedback on these notes. If you're interested in learning more about sequencers see the following materials below:
 
--The Espresso Sequencer: https://hackmd.io/@EspressoSystems/EspressoSequencer#The-Espresso-Sequencer
--Based rollups: https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016
--Shared sequencer panel from Modular Summit: https://www.youtube.com/watch?v=l7FSZligBDM
+- The Espresso Sequencer: https://hackmd.io/@EspressoSystems/EspressoSequencer#The-Espresso-Sequencer
+- Based rollups: https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016
+- Shared sequencer panel from Modular Summit: https://www.youtube.com/watch?v=l7FSZligBDM
