@@ -1,6 +1,4 @@
-*Currently in draft*
-
-Next up in the "Rollups (basically)" series, we outline how rollups produce blocks and ways they can pontentially decentralize seuqnecers. This post is a tl;dr on sequencers in the context of Bitcoin, and we'll provide some further reading at the bottom of this post for those who want to dive deeper 😄
+In this blog, we simply descibe sequencers and introduce some ways Bitcoin rollups can decentralize this part of their architecture. We'll provide some further reading at the bottom of this post for those who want to dive deeper.
 
 ### Intro to sequencers
 
