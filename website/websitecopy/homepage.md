@@ -6,7 +6,7 @@ Welcome to bitcoinrollups.io - an educational resource covering Bitcoin rollups
 
 ---
 
-This website documents learning materials, news and research around the development of rollups on the Bitcoin network. Read the materials, form your own opinion, and reject maximalism. This site welcomes community contributions.
+This website documents learning materials, news, and research around the development of rollups on the Bitcoin network. Read the materials, form your own opinion, and reject maximalism. This site welcomes community contributions.
 
 ## The basics - what is a rollup
 
@@ -18,7 +18,7 @@ Strong privacy, digital assets, even new smart contract languages? The research 
 
 ## News - stay up to date
 
-We attempt to retweet and document every reputable piece related to Bitcoin rollups. [Follow us on Twitter](https://twitter.com/BitcoinRollups) and [subscribe to our newsletter](https://mirror.xyz/0xE4dF449bDC1ec8f7688F68F7E839f1370617Ac73) for the latest.
+We attempt to retweet and document every reputable piece related to Bitcoin rollups. [Follow us on Twitter/X](https://twitter.com/BitcoinRollups) and [subscribe to our newsletter](https://mirror.xyz/0xE4dF449bDC1ec8f7688F68F7E839f1370617Ac73) for the latest.
 
 ## Contribute - help build our site and get tipped in BTC
 
