@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show Text in Another Div Example</title>
+</head>
+<body>  
+<div id="hiddenContent1" style="display: none;">
+		<section id="section2">
+      <h2>Milestones</h2>
+      <ul class="diamond">
+    		<li>insert-milestone</li>
+   			<div class="indented-paragraph">
+    		<p>insert-date</p>
+    		</div>
+    		<div class="">
+    		<p>insert-answer</p>
+      		</div>
+    <li>insert-milestone</li>
+    <div class="indented-paragraph">
+    		<p>insert-date</p>
+    		</div>
+    		<div class="indented-paragraph">
+    		<p>insert-answer</p>
+      		</div>
+    <li>insert-milestone</li>
+    <div class="indented-paragraph">
+    		<p>insert-date</p>
+    		</div>
+    		<div class="indented-paragraph">
+    		<p>insert-answer</p>
+      		</div>
+    <li>insert-milestone</li>
+    <div class="indented-paragraph">
+    		<p>insert-date</p>
+    		</div>
+    		<div class="indented-paragraph">
+    		<p>insert-answer</p>
+      		</div>
+			</ul>
+    </section>
+    <section id="section3">
+      <h2>Description</h2>
+      <p>Liquid is a sidechain with a federated two-way peg to Bitoin. It is designed to provide more general purpose programmability, enable better privacy through private transactions, and >
+    <section id="section4">
+      <h2>Risk Analysis</h2>
+      	<h3>State validation</h3>
+      		<h4>Offchain</h4>
+          <p>The state of the Liquid network is not validated by Bitcoin full nodes. It is validated by a fixed group of functionary members who were assigned these permissions on launch.</p>
+        <h3>Data availability</h3>
+        	<h5>Offchain</h5>
+      		<p>Liquid state updats are not stored on Bitcoin.</p>
+        <h3>Upgradeablilty</h3>
+      		<h5>Multi-sig</54>
+          <p>Permissioned signers can upgrade the system and revoke access to funds at any point.</p>
+        <h5>Block producer failure</h5>
+        	<h5>Cannot access funds</h5>
+      		<p>If centralized block production in the Layer 2 fails, or your transaction is censored, you are stuck in the Layer 2 and cannot access funds or withdrawal.</p>
+        <h3>BTC Bridge</h3>
+        	<h5>Federated</h5>
+      		<p>Permissioned nodes used to secure the bridge contract custodying funds for users.</p>
+  <div id="targetDiv1">
+    <!-- The hidden content will be displayed here. -->
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var hiddenContent = document.getElementById("hiddenContent1");
+      var targetDiv = document.getElementById("targetDiv1");
+
+      if (hiddenContent && targetDiv1) {
+        targetDiv.innerHTML = hiddenContent.innerHTML;
+      }
+    });
+  </script>
+</body>
+</html>
