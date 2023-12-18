@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .panel {
+      padding: 0.5em;
+      border-radius: 5px;
+      margin-bottom: 0.5em;
+      margin-right: 0.5em;
+    }
+
+    .panel-large {
+      background-color: #f2a900;
+      width: 700px;
+      margin-right: 20px;
+      }
+
+    .panel-small {
+      background-color: #f2a900;
+      width: 2000px;
+      }
+
+    .textbox {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .panel-large .textbox {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row; /* Change flex-direction to row */
+      align-items: baseline; /* Align items to the start (top) */
+    }
+
+    .textbox h6 {
+    font-family: "Inconsolata", monospace;
+    font-size: 15px;
+    font-weight: 400;
+      margin: 0 5px 0 0; /* Added right margin to create spacing */
+      padding: 0;
+      text-align: left;
+      color: white;
+      }
+    
+    .textbox p {
+    font-family: "Inconsolata", monospace;
+            font-size: 20px;
+            font-weight: 700;
+      margin: 2px 0;
+      padding: 0;
+      text-align: left;
+      color: white;
+    }
+
+    .textbox-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .textbox-small {
+      width: calc(33.333% - 5px);
+      margin: 2px;
+      padding: 2px;
+    }
+
+    .panel-large h6 {
+    font-family: "Inconsolata", monospace;
+            font-size: 15px;
+            font-weight: 400;
+      margin: 3px
+      padding: 0;
+      text-align: left;
+      color: white;
+      }
+
+    .panel-large p {
+    font-family: "Inconsolata", monospace;
+            font-size: 20px;
+            font-weight: 700;
+      margin: 3px
+      padding: 0;
+      text-align: left;
+      color: white;
+    }
+    .chart-container {
+    	height: 200px;
+      width: 200px;
+  		margin: 0;
+      padding: 0;
+      }
+      
+     #myChart {
+  		margin: 0;
+  		padding: 0;
+     }
+  </style>
+</head>
+<body>
+  <div class="panel panel-large">
+    <div class="textbox">
+      <h6>TVL</h6>
+      <p>$40.61m</p>
+    </div>
+    <div class="textbox">
+      <h6>BTC Bridge</h6>
+      <p>3248</p>
+    </div>
+    <div class="textbox">
+      <h6>External</h6>
+      <p>insert-value</p>
+    </div>
+    <div class="textbox">
+      <h6>Native</h6>
+      <p>insert-value</p>
+    </div>
+  </div>
+  <div class="panel panel-small">
+    <div class="textbox-container">
+      <div class="textbox textbox-small">
+        <h6>Bridge</h6>
+        <p>Federated</p>
+      </div>
+      <div class="textbox textbox-small">
+        <h6>Native Token</h6>
+        <p>No</p>
+      </div>
+      <div class="textbox textbox-small">
+        <h6>30d TX Count</h6>
+        <p>insert-answer</p>
+      </div>
+      <div class="textbox textbox-small">
+        <h6>Type</h6>
+        <p>Sidechain</p>
+      </div>
+      <div class="textbox textbox-small">
+        <h6>Purpose</h6>
+        <p>General Purpose</p>
+      </div>
+    </div>
+  </div>
+  	<div class="chart-container">
+    <canvas id="myChart"></canvas>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+  var ctx = document.getElementById('myChart').getContext('2d');
+var colorToWord = {
+  '#7EFF00': 'Risk: Medium',
+  '#FF0000': 'Risk: High',
+  '#CEFF9E': 'Risk: Low',
+  // Add more color-to-word mappings as needed
+};
+
+var myChart = new Chart(ctx, {
+  type: 'pie',
+  data: {
+    labels: ['Data Availability', 'Upgradeability', 'Proposer Failure', 'State Validation', 'Bridge Custodian'],
+    datasets: [{
+      label: 'Risk Analysis',
+      data: [20, 20, 20, 20, 20],
+      backgroundColor: [
+        '#7EFF00',
+        '#7EFF00',
+        '#7EFF00',
+        '#7EFF00',
+        '#7EFF00',
+      ],
+      borderColor: '#F2A900', // Set the border color here (white in this example)
+  		borderWidth: 5, // You can adjust the border width as needed
+  		hoverOffset: 4
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        display: false // This will hide the legend
+      },
+      tooltip: {
+        callbacks: {
+          label: function (context) {
+            var color = context.dataset.backgroundColor[context.dataIndex];
+            var word = colorToWord[color];
+            return word || color;
+          },
+          labelColor: function (context) {
+            var color = context.dataset.backgroundColor[context.dataIndex];
+            return {
+              borderColor: color,
+              backgroundColor: color,
+            };
+          }
+        }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>
