@@ -6,7 +6,7 @@ Teams are also exploring how BitVM can be used to optimistically verify state up
 
 And, there have even been discussions on BitVM bringing a ZK-Verifier to Bitcoin.
 
-The best part? This can all be enabled without a softfork (although a softfork might help 😄). Let's dive into the resources.
+The best part? This can all be enabled without a softfork (although a softfork might [help](https://twitter.com/robin_linus/status/1737097335719575831) 😄). Let's dive into the resources.
 
 ### BitVM Papers
 
