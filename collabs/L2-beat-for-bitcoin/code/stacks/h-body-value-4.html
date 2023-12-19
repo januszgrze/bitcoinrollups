@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .chart-container {
+      position: relative;
+    }
+
+    #valueLockedChart,
+    #valueLockedChart2 {
+      max-width: 100%;
+    }
+
+    #toggleChart {
+      display: inline-block;
+      font-family: "Inconsolata", monospace;
+      margin: 5px;
+      padding: 5px 17px;
+      font-size: 16px;
+      line-height: 16px; /* Adjusted line-height to match the font size */
+      text-decoration: none; /* Removes underline from links */
+      color: white; /* Text color */
+      background-color: #f2a900; /* Background color */
+      border: none;
+      border-radius: 5px;
+      height: auto; /* Allow the button height to adjust to content */
+      transition: background-color 0.3s ease; /* Smooth background color change on hover */
+      cursor: pointer; /* Change cursor style on hover */
+    }
+
+    #toggleChart:hover {
+      background-color: #e19000; /* Change background color on hover */
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="chart-container">
+    <canvas id="valueLockedChart"></canvas>
+    <canvas id="valueLockedChart2" style="display: none;"></canvas>
+    <button id="toggleChart" style="display: none;">Toggle Chart</button>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const ctx1 = document.getElementById('valueLockedChart').getContext('2d');
+      const ctx2 = document.getElementById('valueLockedChart2').getContext('2d');
+      
+      const gradient = ctx1.createLinearGradient(0, 0, 0, 400);
+      gradient.addColorStop(0, 'rgba(242, 169, 0, 0.5)');
+      gradient.addColorStop(1, 'rgba(242, 169, 0)');
+  
+      const data1 = {
+        labels: ['Feb 16', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov 7'],
+        datasets: [{
+          label: 'Value Locked 1',
+          data: [0, 5, 10, 15, 20, 25, 30, 35, 40, 45],
+          fill: true,
+          backgroundColor: gradient,
+          borderColor: 'rgb(242, 169, 0)',
+          pointBackgroundColor: 'rgb(242, 169, 0)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgb(242, 169, 0)'
+        }]
+      };
+  
+      const data2 = {
+        labels: ['Feb 16', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov 7'],
+        datasets: [{
+          label: 'Value Locked 2',
+          data: [45, 40, 35, 30, 25, 20, 15, 10, 5, 0],
+          fill: true,
+          backgroundColor: gradient,
+          borderColor: 'rgb(0, 169, 242)',
+          pointBackgroundColor: 'rgb(0, 169, 242)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgb(0, 169, 242)'
+        }]
+      };
+  
+      const config1 = {
+        type: 'line',
+        data: data1,
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          },
+          elements: {
+            line: {
+              tension: 0.3
+            },
+            point: {
+              radius: 5
+            }
+          },
+          plugins: {
+            legend: {
+              display: false
+            }
+          },
+          responsive: true,
+          maintainAspectRatio: false
+        }
+      };
+
+      const config2 = {
+        type: 'line',
+        data: data2,
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          },
+          elements: {
+            line: {
+              tension: 0.3
+            },
+            point: {
+              radius: 5
+            }
+          },
+          plugins: {
+            legend: {
+              display: false
+            }
+          },
+          responsive: true,
+          maintainAspectRatio: false
+        }
+      };
+  
+      const valueLockedChart1 = new Chart(ctx1, config1);
+      const valueLockedChart2 = new Chart(ctx2, config2);
+  
+      document.getElementById('toggleChart').addEventListener('click', () => {
+  const chart1 = document.getElementById('valueLockedChart');
+  const chart2 = document.getElementById('valueLockedChart2');
+  
+  if (chart1.style.display === 'none') {
+    chart1.style.display = 'block';
+    chart2.style.display = 'none';
+    document.getElementById('toggleChart').textContent = 'TVL';
+  } else {
+    chart1.style.display = 'none';
+    chart2.style.display = 'block';
+    document.getElementById('toggleChart').textContent = 'Activity';
+  }
+});
+  
+      // Create the IntersectionObserver to track section visibility changes
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          const id = entry.target.getAttribute('id');
+          if (entry.intersectionRatio > 0) {
+            document.querySelector(`nav li a[href="#${id}"]`).classList.add('active');
+          } else {
+            document.querySelector(`nav li a[href="#${id}"]`).classList.remove('active');
+          }
+        });
+      });
+  
+      // Track all sections that have an `id` applied
+      document.querySelectorAll('section[id]').forEach((section) => {
+        observer.observe(section);
+      });
+    });
+  </script>
+</body>
+</html>
