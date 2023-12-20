@@ -8,6 +8,8 @@ And, there have even been discussions on BitVM [bringing a ZK-Verifier to Bitcoi
 
 The best part? This can all be enabled without a softfork (although a softfork might [help](https://twitter.com/robin_linus/status/1737097335719575831) 😄). Let's dive into the resources.
 
+Want to contribute to improving this page? Head to our [GitHub repo](https://github.com/januszgrze/bitcoinrollups/blob/main/website/websitecopy/bitvm.md).
+
 ### BitVM Papers
 
 - [BitVM: Compute anything on Bitcoin](https://bitvm.org/bitvm.pdf)
@@ -18,7 +20,7 @@ The best part? This can all be enabled without a softfork (although a softfork m
 - [The BitVM Primer - Tyler Whittle](https://mirror.xyz/twhittle.eth/zXzocAl-wWiMSBAzhKnd6w0AJsftqgPTUfnh115fVPM)
 - [BitVM: A Breakthrough in Computing on the Bitcoin Layer - Trust Machines](https://trustmachines.co/blog/bitvm-a-breakthrough-in-computing-on-the-bitcoin-layer/)
 - [The Big Deal with BitVM - Bitcoin Magazine](https://bitcoinmagazine.com/technical/the-big-deal-with-bitvm-arbitrary-computation-now-possible-on-bitcoin-without-a-fork)
-- [BitVM FAQ](https://github.com/PraiseTheMithra/BitVm-FAQ)
+- [BitVM FAQs](https://github.com/PraiseTheMithra/BitVm-FAQ)
 
 ### Video and audio resources on BitVM
 
@@ -30,6 +32,8 @@ The best part? This can all be enabled without a softfork (although a softfork m
 - [Everything on Bitcoin with Robin Linus & Super Testnet - Bitcoin Audible](https://pod.link/1359544516/episode/413027f0bdb982a8593d50f4466930f5)
 - [BitVM Takeover with Super Testnet - Layer Two Labs](https://x.com/LayerTwoLabs/status/1712855344764834076?s=20)
 - [BitVM, Convenants and Scaling - Bitcoin News](https://x.com/BitcoinNewsCom/status/1715392573555040265?s=20)
+- [BitVM and UTXO Dealership](https://twitter.com/i/spaces/1OyJAWapbAOKb)
+- [BitVM Discussion - Ordinals Show](https://x.com/TO/status/1716265121373172075?s=20)
 
 ### Related Github Repos
 
