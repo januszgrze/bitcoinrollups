@@ -12,11 +12,13 @@ The best part? This can all be enabled without a softfork (although a softfork m
 
 - [BitVM: Compute anything on Bitcoin](https://bitvm.org/bitvm.pdf)
 
-### Blogs and articles on BitVM
+### Written resources on BitVM
 
 - [Deep dive into BitVM Computing Paradigm - Ichiro Kuwahara](https://medium.com/crypto-garage/deep-dive-into-bitvm-computing-paradigm-to-express-turing-complete-bitcoin-contracts-1c6cb05edfca).
+- [The BitVM Primer - Tyler Whittle](https://mirror.xyz/twhittle.eth/zXzocAl-wWiMSBAzhKnd6w0AJsftqgPTUfnh115fVPM)
 - [BitVM: A Breakthrough in Computing on the Bitcoin Layer - Trust Machines](https://trustmachines.co/blog/bitvm-a-breakthrough-in-computing-on-the-bitcoin-layer/)
 - [The Big Deal with BitVM - Bitcoin Magazine](https://bitcoinmagazine.com/technical/the-big-deal-with-bitvm-arbitrary-computation-now-possible-on-bitcoin-without-a-fork)
+- [BitVM FAQ](https://github.com/PraiseTheMithra/BitVm-FAQ)
 
 ### Videos and audio resources on BitVM
 
@@ -31,9 +33,14 @@ The best part? This can all be enabled without a softfork (although a softfork m
 ### Related Github Repos
 
 - [BitVM Toy Implementation](https://github.com/BitVM/BitVM)
+- [Things BitVM Needs](https://github.com/supertestnet/things-bitvm-needs)
 
 ### Tweet threads on BitVM
 
 - [Decentralized two way peg on BitVM - Alex Emidio](https://twitter.com/AlexEmidio7/status/1735276812198986210)
-- [BitVM Explainer - Bob Bodily](https://twitter.com/BobBodily/status/1711581484254192013)
+- [BitVM Explainer - Bob Bodily](https://twitter.com/BobBodily/status/1712305639366811997)
 - [BitVM Explainer, BitVM GPT - Dylan LeClair](https://x.com/DylanLeClair_/status/1722995043932270854?s=20)
+
+### Communities
+
+- [BitVM Telegram](https://x.com/robin_linus/status/1711757377983086894?s=20)
