@@ -1,6 +1,6 @@
 ## BitVM
 
-BitVM is an offchain virtual machine that would give Bitcoin a lot of promising new features. In the context of rollups and sidechains, it could enable more trust-minimized bridging. This would enable Layer 2 protocols to reduce users' trust assumptions when moving BTC onto their L2.
+BitVM is an offchain virtual machine that would give Bitcoin a lot of promising new features. In the context of rollups and sidechains, it could enable more trust-minimized bridging. This would enable Layer 2 protocols to reduce users' trust assumptions when they move BTC onto their L2.
 
 Teams are also exploring how BitVM can be used to optimistically verify state updates provided by rollups.
 
