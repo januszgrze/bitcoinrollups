@@ -29,6 +29,7 @@ The best part? This can all be enabled without a softfork (although a softfork m
 - [BitVM - A Tiny Web3 Podcast](https://twitter.com/cartesiproject/status/1729893087143759950)
 - [Everything on Bitcoin with Robin Linus & Super Testnet - Bitcoin Audible](https://pod.link/1359544516/episode/413027f0bdb982a8593d50f4466930f5)
 - [BitVM Takeover with Super Testnet - Layer Two Labs](https://x.com/LayerTwoLabs/status/1712855344764834076?s=20)
+- [BitVM, Convenants and Scaling - Bitcoin News](https://x.com/BitcoinNewsCom/status/1715392573555040265?s=20)
 
 ### Related Github Repos
 
