@@ -1,10 +1,10 @@
 ## BitVM
 
-BitVM is an offchain virtual machine that would give Bitcoin a lot of promising new features. In the context of rollups and sidechains, it could enable them to have more trust-minimized bridging (the most trust-minimized bridging for Bitcoin in fact). This would enable Layer 2 protocols to minimize custodian risk when moving BTC from the Layer 1 to their Layer 2.
+BitVM is an offchain virtual machine that would give Bitcoin a lot of promising new features. In the context of rollups and sidechains, it could enable more trust-minimized bridging. This would enable Layer 2 protocols to reduce users' trust assumptions when moving BTC onto their L2.
 
-Teams are also exploring how BitVM can be used to optimistically verify state updates provided by rollups' execution layers.
+Teams are also exploring how BitVM can be used to optimistically verify state updates provided by rollups.
 
-And, there have even been discussions on BitVM bringing a ZK-Verifier to Bitcoin.
+And, there have even been discussions on BitVM [bringing a ZK-Verifier to Bitcoin](https://x.com/stskeeps/status/1722339542630306284?s=20).
 
 The best part? This can all be enabled without a softfork (although a softfork might [help](https://twitter.com/robin_linus/status/1737097335719575831) 😄). Let's dive into the resources.
 
@@ -45,3 +45,7 @@ The best part? This can all be enabled without a softfork (although a softfork m
 ### Communities
 
 - [BitVM Telegram](https://x.com/robin_linus/status/1711757377983086894?s=20)
+
+### Tweets mentioning Rollups and BitVM
+
+- [Chainway on their rollup using BitVM](https://twitter.com/chainway_xyz/status/1735361028160893235)
