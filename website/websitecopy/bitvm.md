@@ -20,7 +20,7 @@ The best part? This can all be enabled without a softfork (although a softfork m
 - [The Big Deal with BitVM - Bitcoin Magazine](https://bitcoinmagazine.com/technical/the-big-deal-with-bitvm-arbitrary-computation-now-possible-on-bitcoin-without-a-fork)
 - [BitVM FAQ](https://github.com/PraiseTheMithra/BitVm-FAQ)
 
-### Videos and audio resources on BitVM
+### Video and audio resources on BitVM
 
 - [BitVM Uses a 'Compilation of a Couple Tricks' to Overcome Limitations of Bitcoin's Script: Robin Linus](https://finance.yahoo.com/video/bitvm-uses-compilation-couple-tricks-141723622.html)
 - [What is BitVM? with Robin Linus and Super Testnet (SLP520) - Stephan Livera Podcast](https://www.youtube.com/watch?v=XxqQU6j6jI8)
