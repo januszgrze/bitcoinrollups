@@ -12,16 +12,6 @@ Want to contribute to improving this page? Head to our [GitHub repo](https://git
 
 ---
 
-### What is BitVM
-
-The core idea of BitVM is to perform complex computations off-chain with an on-chain fraud proving mechanism. The actual processing of complex logic doesn't happen on Bitcoin itself, allowing for more complex & expressive computations than what is possible with Bitcoin Script. BitVM uses a method similar to optimistic rollups for verification. In this model, a prover (who executes the computation off-chain) makes a claim about the output of a computation. If this claim is disputed, the verifier can challenge it on the Bitcoin blockchain. (h/t @Chainway_xyz)
-
-Tl;dr? It allows you to develop new applications on Bitcoin that may provide more utility to BTC the asset.
-
-### Why does it matter to rollups?
-
----
-
 ### BitVM Papers
 
 - [BitVM: Compute anything on Bitcoin](https://bitvm.org/bitvm.pdf)
