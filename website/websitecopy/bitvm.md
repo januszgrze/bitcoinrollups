@@ -8,7 +8,7 @@ And, there have even been discussions on BitVM [bringing a ZK-Verifier to Bitcoi
 
 The best part? This can all be enabled without a softfork (although a softfork might [help](https://twitter.com/robin_linus/status/1737097335719575831) 😄). Let's dive into the resources.
 
-Want to contribute to improving this page? Head to our [GitHub repo](https://github.com/januszgrze/bitcoinrollups/blob/main/website/websitecopy/bitvm.md).
+Want to jump straight to the resources? Go [here]([htpps://bitcoinrollups.io/bitvm-resources).
 
 ### What is BitVM
 
