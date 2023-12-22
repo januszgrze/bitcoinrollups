@@ -18,7 +18,7 @@ We highlight what this means for rollups below, and also list a number of resour
 
 BitVM was introduced by the [ZeroSync team](https://zerosync.org/).
 
-### What is BitVM
+### What is BitVM?
 
 The core idea of BitVM is to take computation off-chain with an on-chain fraud proving mechanism. Bitcoin Script is very simple, so to run more advanced programs, you need to run them off-chain and somehow prove that the computation was done correctly. To verify computation, BitVM uses a similar scheme to optimistic rollups - a prover (who executes the computation off-chain) makes a claim about the output of the computation. If this claim is disputed, the verifier can challenge it on the Bitcoin blockchain. The Bitcoin blockchain would only be used for disputes in this scheme.
 
