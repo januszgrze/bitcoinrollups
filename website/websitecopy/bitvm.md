@@ -10,6 +10,14 @@ The best part? This can all be enabled without a softfork (although a softfork m
 
 Want to jump straight to the resources? Go [here]([htpps://bitcoinrollups.io/bitvm-resources).
 
+### The BitVM tl;dr
+
+The information on this page can get pretty technical. The short on BitVM is that it offers a major improvement to bridging and Layer 2 design on Bitcoin. It can likely bring us Optimistic rollups, and also make multi-sig bridge custodians effectively obselete. This improvement significantly decreases the trust assumptions Bitcoin users have to take on when interacting with Layer 2s, and it creates an entirely new design space of applications being built on Bitcoin. That's why it's one of the most covered topics in the technical Bitcoin community.
+
+We highlight what this means for rollups below, and also list a number of resources where you can learn more about BitVM. Our favorites to get started are this [blog by Tyler Whittle](https://mirror.xyz/twhittle.eth/zXzocAl-wWiMSBAzhKnd6w0AJsftqgPTUfnh115fVPM), this [tweet thread from Bob Bodily](https://twitter.com/BobBodily/status/1712305639366811997), and this [podcast episode on the Stephen Livera Podcast](https://www.youtube.com/watch?v=XxqQU6j6jI8).
+
+BitVM was introduced by the [ZeroSync team](https://zerosync.org/).
+
 ### What is BitVM
 
 The core idea of BitVM is to take computation off-chain with an on-chain fraud proving mechanism. Bitcoin Script is very simple, so to run more advanced programs, you need to run them off-chain and somehow prove that the computation was done correctly. To verify computation, BitVM uses a similar scheme to optimistic rollups - a prover (who executes the computation off-chain) makes a claim about the output of the computation. If this claim is disputed, the verifier can challenge it on the Bitcoin blockchain. The Bitcoin blockchain would only be used for disputes in this scheme.
@@ -34,9 +42,9 @@ First, let’s review the current state of Bitcoin bridges. When a user bridges 
 
 Statistical security: a multi-sig (or threshold signature) controlled by N parties. As long as the majority M of N is honest, the bridge is secure. Notable examples include rBTCs (multisig) or tBTC (larger set via threshold signatures). 
 
-Economic security: bridge operators are collateralized on the target chain in assets other than Bitcoin. If an operator steals BTC or fails to perform a peg-out, their collateral is liquidated and used to reimburse the user. While this design is very secure (users always get BTC back or are repaid in full in other assets), the associated capital costs for operators limit scalability. Collateral quality is another concern, as other assets may fluctuate in price compared to BTC or exhibit lesser security properties. Variations of this design are used by Interlay, Cardano (anetaBTC), TeleBTC (on Polygon), Harmony and Stack’s sBTC.
+Economic security: bridge operators are collateralized on the target chain in assets other than Bitcoin. If an operator steals BTC or fails to perform a peg-out, their collateral is liquidated and used to reimburse the user. While this design is very secure (users always get BTC back or are repaid in full in other assets), the associated capital costs for operators limit scalability. Collateral quality is another concern, as other assets may fluctuate in price compared to BTC or exhibit lesser security properties. Variations of [this design](https://eprint.iacr.org/2018/643) are used by Interlay, Cardano (anetaBTC), TeleBTC (on Polygon), Harmony and Stack’s sBTC.
 
-Both designs can be combined to improve security and balance between large signer committees and full/partial collateralization. See here for more details on Bitcoin bridges.
+Both designs can be combined to improve security and balance between large signer committees and full/partial collateralization. See [here](https://docs.google.com/presentation/d/1PBufh0UbbC1YRA1Nj1TsbCRl836jmA5fr9Oo3B-1i7w/edit#slide=id.g27993ad3907_0_187) for more details on Bitcoin bridges.
 
 #### BitVM & Bitcoin Bridges 
 
