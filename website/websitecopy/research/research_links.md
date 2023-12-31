@@ -17,6 +17,7 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [Covenants - Bitcoin Optech](https://bitcoinops.org/en/topics/covenants/)
 - [Covenant-enabling Bitcoin Features](https://gist.github.com/RobinLinus/c96fb7c81430ec6dc92f048687bd3068)
 - [New Tapscript Opcode for Validity Rollups](https://www.youtube.com/watch?v=Nldg_tjeX_A&t=1281s)
+- [Brief commentary on opcodes in "Validity rollups on Bitcoin" paper](https://bitcoinrollups.org/#section-5-building-validity-rollups-on-bitcoin)
 
 ### Technical blogs on Bitcoin rollups
 
