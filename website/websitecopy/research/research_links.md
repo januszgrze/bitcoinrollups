@@ -6,10 +6,16 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 
 - [Validty rollups on Bitcoin](https://bitcoinrollups.org/)
 
+### BitVM
+
+- [BitVM: Compute Anything on Bitcoin](https://bitvm.org/bitvm.pdf)
+- [Our dedicated page to BitVM resources](https://bitcoinrollups.io/bitvm)
+
 ### Research on opcodes that support rollups
 
 - [Covenants - Bitcoincovenants.com](https://bitcoincovenants.com/)
 - [Covenants - Bitcoin Optech](https://bitcoinops.org/en/topics/covenants/)
+- [Covenant-enabling Bitcoin Features](https://gist.github.com/RobinLinus/c96fb7c81430ec6dc92f048687bd3068)
 - [New Tapscript Opcode for Validity Rollups](https://www.youtube.com/watch?v=Nldg_tjeX_A&t=1281s)
 
 ### Technical blogs on Bitcoin rollups
