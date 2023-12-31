@@ -40,6 +40,7 @@ You can find the full list of video and audio materials in the sections below.
 - [A Deep Dive on Bitcoin Scaling Solutions with John Light](https://www.youtube.com/watch?v=zShADH2rJkE)
 - [Why Rollups Could Be Important For Bitcoin Miners - The Mining Pod](https://www.youtube.com/watch?v=p-ZQfAo5qaY)
 - [Why Bitcoin miners should care about Rollups - The Mining Pod](https://www.youtube.com/watch?v=tBP-HIyMLF8&t=1s)
+- [John Light, Super Testnet & Alexei Zamyatin on Improving Bitcoin - Bitcoin Takeover Podcast](https://bitcoin-takeover.com/audio/?name=2023-12-31_s15_e6_john_light__super_testnet__alexei_zamyatin_on_improving_bitcoin.mp3)
 
 ### Podcasts covering why we should reject maximalism
 
