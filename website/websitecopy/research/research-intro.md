@@ -32,7 +32,7 @@ There are a number of teams building ZK-rollups on top of Bitcoin. These teams a
 - [Chainway](https://chainway.xyz/): A general purpose ZK-rollup leveraging the EVM and a BitVM bridge
 - [Taproot Wizards](https://taprootwizards.com/): A general purpose sovereign ZK-rollup in collaboration with [Kasar Labs](https://www.kasar.io/)
 - [Build on Bitcoin (BOB)](https://www.gobob.xyz/): A general purpose, zkVM rollup exploring BitVM sequencer designs and bridges
-- [Alpen Labs](https://alpenlabs.io/): A general purpose ZK-rollup exploring designs that leverage an "OP_STARK_VERIFY" opcode
+- [Alpen Labs](https://alpenlabs.io/): A general purpose ZK-rollup exploring designs that leverage an "OP_VERIFYSTARKPROOF" opcode
 - See the full list of teams [here](https://www.bitcoinrollups.io/research-links).
 
 ### Opcodes
