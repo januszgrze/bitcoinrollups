@@ -30,8 +30,6 @@ There are, however, a few subtle but important differences. As of writing, the c
 
 As a result, the challenge-and-response protocol must be interactive. This means that the exchanges between accused Provers, and challenging Verifiers, must be on-chain Bitcoin transactions over a prolonged period. This takes place until either one of them is slashed due to timeout or equivocation. But, the Verifier can make use of a similar bisection protocol as other well-known fraud-proof mechanisms. It can essentially perform an efficient binary search over the pre-committed program (specifically, the program broken down into the underlying logical gates) to determine which parts should be challenged. This optimization already allows to cut down on-chain costs to approximately 30-40 transactions per challenge, in the worst case. 
 
-Another potential limitation of BitVM is the size of the pre-committed off-chain programs, in terms of logical gates. To the best of our knowledge, the current implementation will allow 4 billion gates - which in theory should be enough for most anticipated use cases. More complex programs, e.g. full state validation of an EVM rollup, may require a pre-processing step to reduce size by compressing them into a succinct zero-knowledge proof.
-
 Tl;dr? BitVM can likely give us optimistic rollups with different trust assumptions as to those on, let’s say, Ethereum.
 
 ### Can it give us trust-minimized bridging?
