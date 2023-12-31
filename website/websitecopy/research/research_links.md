@@ -24,6 +24,7 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [Bnzk](https://bnzk.io/)
 - [Alpen Labs](https://alpenlabs.io/)
 - [Kasar Labs](https://www.kasar.io/)
+- [Taproot Wizards](https://taprootwizards.com/)
 
 ### Open-source devs building zk-rollups on Bitcoin
 
