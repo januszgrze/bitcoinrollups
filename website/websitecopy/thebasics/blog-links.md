@@ -30,6 +30,8 @@ You can find the full list of written materials in the sections below.
 - [How do rollups compare with the Stacks layer? - Stacks](https://github.com/stacks-network/stacks/blob/master/bitcoin-rollups.md)
 - [What Is A Bitcoin Sovereign Rollup? - The Bitcoin Manual](https://thebitcoinmanual.com/articles/btc-sovereign-rollup/)
 - [Sovereign rollups on Bitcoin with Rollkit - Rollkit](https://rollkit.dev/blog/sovereign-rollups-on-bitcoin-with-rollkit)
+- [Building on Bitcoin: a Comparison of Bitcoin Projects - Hiro Systems](https://www.hiro.so/blog/building-on-bitcoin-project-comparison)
+- [Comparing the Lightning Network to validia chains and validity rollups - Lightcoin](https://lightco.in/2023/12/13/lightning-validia-rollups/)
 
 ### Articles and Blogs covering ZK Rollups in general
 
@@ -54,6 +56,11 @@ You can find the full list of written materials in the sections below.
 - [How validity rollups benefit from ZeroSync - @chainway_xyz](https://twitter.com/chainway_xyz/status/1706380026034167968)
 - [Bitcoin rollup development 1 year after bitcoinrollups.org's release - @lightcoin](https://twitter.com/lightcoin/status/1713948187944194339)
 - [How Chainway's rollup differs from a sidechain - @chainway_xyz](https://twitter.com/chainway_xyz/status/1709999314238329048)
+- [Why a ZK rollup over an optimistic rollup? - @chainway_xyz](https://twitter.com/chainway_xyz/status/1730648658683531320)
+- [Why EVM as an execution layer? - @chainway_xyz](https://twitter.com/chainway_xyz/status/1729201680686993903)
+- [Bitcoin Scaling with Rollups: Best Case Scenario - @BobBodily](https://twitter.com/BobBodily/status/1736172505629614299)
+- [How are proofs verified on rollups? - @chainway_xyz](https://twitter.com/chainway_xyz/status/1733190622054330508)
+- [Rollups don't need an onchain transaction to onboard users - @ercwl](https://twitter.com/ercwl/status/1733615296236179868_)
 
 ### Other written pieces related to ZK Rollups, Bitcoin fee markets, Ordinals and Zero-Knowledge Proofs on Bitcoin
 
@@ -69,3 +76,4 @@ You can find the full list of written materials in the sections below.
 - [Zero-knowledge proofs coming to Bitcoin, overhauling network state validation - Cointelegraph](https://cointelegraph.com/news/zero-knowledge-proofs-coming-to-bitcoin-overhauling-network-state-validation)
 - [What did Satoshi Nakamoto think about ZK-Proofs? - Cointelegraph](https://cointelegraph.com/magazine/satoshi-nakamoto-zk-proofs-bitcoin/)
 - [Bitcoin Nodes Now One Step Closer to Instant Sync - Bitcoin Magazine](https://bitcoinmagazine.com/technical/bitcoin-nodes-now-one-step-closer-to-instant-sync)
+- [The Path To A Bitcoin Economy: Decentralized Bitcoin-Backed Credit - David Seroy](The Path To A Bitcoin Economy: Decentralized Bitcoin-Backed Credit)
