@@ -48,7 +48,7 @@ The first opcode teams in this space are pushing for is OP_CHECKTEMPLATEVERIFY (
 You can also check out:
 
 - [Covenant-enabling Bitcoin Features](https://gist.github.com/RobinLinus/c96fb7c81430ec6dc92f048687bd3068)
-- [An introduction on OP_VERIFYSTARKPROOF](https://www.youtube.com/watch?v=Nldg_tjeX_A&t=1s)
+- [An introduction to OP_VERIFYSTARKPROOF](https://www.youtube.com/watch?v=Nldg_tjeX_A&t=1s)
 
 ### Applications
 
