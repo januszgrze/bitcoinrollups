@@ -60,4 +60,4 @@ Read more about new applications enabled by rollups [here](https://bitcoinrollup
 
 It's an exciting time to be a Bitcoiner! We do our best to stay up to date on all of the research and development happening in this space, and document those resources [here](https://www.bitcoinrollups.io/research-links). 
 
-If you want to contribute resources to the website, check out our contribute page.
+If you want to contribute resources to the website, check out our [contribute page](https://www.bitcoinrollups.io/contribute).
