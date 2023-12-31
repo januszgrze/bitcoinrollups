@@ -35,7 +35,7 @@ There are a number of teams building ZK-rollups on top of Bitcoin. These teams a
 
 - Chainway: A general purpose ZK-rollup leveraging the EVM and a BitVM bridge
 - Taproot Wizards: A general purpose sovereign ZK-rollup in collaboration with Kasar Labs
-- Build on Bitcoin (BOB): A general purpose, EVM compatible rollup exploring 
+- Build on Bitcoin (BOB): A general purpose, zkVM rollup exploring BitVM sequencer designs and bridges
 - Alpen Labs: A general purpose ZK-rollup exploring designs that leverage an "OP_STARK_VERIFY" opcode
 - See the full list of teams here.
 
