@@ -10,9 +10,7 @@ We also provide a list of research papers, Github repos, and documentation sites
 
 The Validity rollups on Bitcoin research paper was the first comprehensive breakdown on how we could implement validity rollups on Bitcoin. It is still the most comprehensive report on Bitcoin rollups today, and a must read for anyone interested in the topic.
 
-Read the paper [here](https://bitcoinrollups.org/).
-
-You can also read:
+Read the paper [here](https://bitcoinrollups.org/). You can also read:
 
 - [Bitcoin ZK-rollups technical blog post](https://tr3y.io/articles/crypto/bitcoin-zk-rollups.html)
 - [HRF's RFP that funded "Validity rollups on Bitcoin" paper](https://hrf.org/zkrollups)
@@ -21,9 +19,7 @@ You can also read:
 
 BitVM is a new computing paradigm that would enable turing complete smart contracts on Bitcoin. In the context of rollups, it could potentially give us a trust-minimized way to bridge BTC, and also optimistically verify rollups' state updates. 
 
-Read the BitVM paper [here](https://bitvm.org/bitvm.pdf).
-
-You can also read:
+Read the BitVM paper [here](https://bitvm.org/bitvm.pdf). You can also read:
 
 - [An awesome explainer on BitVM](https://medium.com/crypto-garage/deep-dive-into-bitvm-computing-paradigm-to-express-turing-complete-bitcoin-contracts-1c6cb05edfca)
 - [Our blog on why BitVM matters to rollups](https://www.bitcoinrollups.io/bitvm)
@@ -43,9 +39,7 @@ There are a number of teams building ZK-rollups on top of Bitcoin. These teams a
 
 Teams are optimistic that BitVM can give us a trust-minimized way to develop rollups on Bitcoin without a soft fork. But, adding new opcodes might make building rollups on Bitcoin easier, and give us even more trust-minimized, and potentially trustless, bridging.
 
-The first opcode teams in this space are pushing for is OP_CHECKTEMPLATEVERIFY (CTV). You can read more about CTV [here](https://bitcoinops.org/en/topics/op_checktemplateverify/).
-
-You can also check out:
+The first opcode teams in this space are pushing for is OP_CHECKTEMPLATEVERIFY (CTV). You can read more about CTV [here](https://bitcoinops.org/en/topics/op_checktemplateverify/). You can also check out:
 
 - [Covenant-enabling Bitcoin Features](https://gist.github.com/RobinLinus/c96fb7c81430ec6dc92f048687bd3068)
 - [An introduction to OP_VERIFYSTARKPROOF](https://www.youtube.com/watch?v=Nldg_tjeX_A&t=1s)
