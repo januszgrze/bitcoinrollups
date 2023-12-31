@@ -39,6 +39,7 @@ You can find the full list of video and audio materials in the sections below.
 - [Rollups on Bitcoin - John Light Interview - Author of Bitcoin Rollups Research Paper - Built on Bitcoin](https://www.youtube.com/watch?v=9CYzqwNMS3M)
 - [A Deep Dive on Bitcoin Scaling Solutions with John Light](https://www.youtube.com/watch?v=zShADH2rJkE)
 - [Why Rollups Could Be Important For Bitcoin Miners - The Mining Pod](https://www.youtube.com/watch?v=p-ZQfAo5qaY)
+- [Why Bitcoin miners should care about Rollups - The Mining Pod](https://www.youtube.com/watch?v=tBP-HIyMLF8&t=1s)
 
 ### Podcasts covering why we should reject maximalism
 
@@ -53,6 +54,7 @@ You can find the full list of video and audio materials in the sections below.
 - [Sovereign Rollups on Bitcoin - Celestia](https://twitter.com/i/spaces/1jMJgLoEnoexL?s=20)
 - [What can Bitcoiners learn from Ethereum with Vitalik Buterin - Taproot Wizards](https://twitter.com/i/spaces/1DXGyvDBObeJM?s=20)
 - [A conversation about Bitcoin rollups - Trust Machines](https://twitter.com/i/spaces/1YqJDowgLqwGV?s=20)
+- [Bitcoin Layer 2s: An Opportunity for Renaissance - Build on Bitcoin](https://twitter.com/build_on_bob/status/1737208335013720088)
 
 ### Other media pieces related to ZK Rollups, Bitcoin fee markets, Ordinals and Zero-Knowledge Proofs on Bitcoin
 
