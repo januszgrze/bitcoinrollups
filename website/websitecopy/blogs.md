@@ -1,6 +1,6 @@
 # Breaking down Bitcoin rollups
 
-Welcome to the Bitcoin Rollups blog! This page will include a list of links to a number of posts we've written related to rollups on Bitcoin. It's a bit sparse right now, so if you want to contribute by writing a blog, please see [here](https://github.com/januszgrze/bitcoinrollups/tree/main/blogs).
+Welcome to the Bitcoin Rollups blog! This page will include a list of links to a number of posts we've written related to rollups on Bitcoin. It's a bit sparse right now, so if you want to contribute by writing a blog, please see [here](https://github.com/januszgrze/bitcoinrollups/issues/31).
 
 ### Bitcoinrollups.io Blogs
 
