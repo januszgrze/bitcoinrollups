@@ -21,17 +21,17 @@
     </section>
     <section id="section3">
       <h2>Description</h2>
-      <p>Rootstock is a merge-mined, EVM-compatible Bitcoin sidechain. As a merge-mined network, Bitcoin miners can concurrently mine for Rootstock's consensus. As an EVM-compatible network, developers can deploy Solidity smart contracts with arbitrary logic. Rootstock has an enshrined cross-chain BTC asset called "Smart Bitcoin" (RBTC), which is pegged 1:1 to BTC and secured by a permissioned 12-seat multi-sig federation.</p>
+      <p>Rootstock is a merge-mined, EVM-compatible Bitcoin sidechain. As a merge-mined network, Bitcoin miners can concurrently mine for Rootstock's consensus. The network is not secured by another token. As an EVM-compatible network, developers can deploy Solidity smart contracts with arbitrary logic, creating a host of new applications for Bitcoin the asset. Rootstock has an enshrined cross-chain BTC asset called "Smart Bitcoin" (RBTC), which is pegged 1:1 to BTC and secured by a permissioned, 12-seat multi-sig federation.</p>
     <section id="section4">
       <h2>Risk Analysis</h2>
       	<h3>State validation</h3>
-      		<h4>Sidechain nodes</h4>
+      		<h4>Sidechain nodes validate state</h4>
           <p>Rootstock full nodes are able to verify the state of the RSK blockchain. Rootstock does not currently store any data on the Bitcoin Layer 1. Anyone can run an RSK node and validate the state of the RSK blockchain.</p>
         <h3>Data availability</h3>
-        	<h4>Stored on sidechain</h4>
+        	<h4>Data is stored on the sidechain</h4>
       		<p>The data for Rootstock' state updates is stored on Rootstock blockchain.</p>
         <h3>Upgradeablilty</h3>
-      		<h4>Community-led</h4>
+      		<h4>RSK nodes agree on proposed network upgrades</h4>
           <p>RSK Improvement Proposals are used to manage network upgrades. After a RSK improvement proposal is accepted by the community, RSK node operators then update their node software to accept the proposed network upgrade.</p>
         <h3>Block producer failure</h3>
         	<h5>Merge-mining</h5>
