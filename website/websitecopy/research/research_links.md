@@ -33,6 +33,7 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [Kasar Labs](https://www.kasar.io/)
 - [Taproot Wizards](https://taprootwizards.com/)
 - [Cartesi Project](https://cartesi.io/)
+- [Rollux](https://rollux.com/)
   
 ### Open-source devs building zk-rollups on Bitcoin
 
