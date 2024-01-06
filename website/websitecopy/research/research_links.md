@@ -32,7 +32,8 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [Alpen Labs](https://alpenlabs.io/)
 - [Kasar Labs](https://www.kasar.io/)
 - [Taproot Wizards](https://taprootwizards.com/)
-
+- [Cartesi Project](https://cartesi.io/)
+  
 ### Open-source devs building zk-rollups on Bitcoin
 
 - [edisontim, SovCoin](https://github.com/edisontim/SovCoin)
