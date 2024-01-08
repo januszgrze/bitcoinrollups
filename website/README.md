@@ -21,4 +21,4 @@ I'll start adding the different html code snippets to the [code](https://github.
 
   ---
 
-Hope that all makes sense! Let me know if there's any questions on contributing here. I'll have the code section updated within the next 7 business days.
+Hope that all makes sense! Let me know if there's any questions on contributing here. I'll have the code section updated soon.
