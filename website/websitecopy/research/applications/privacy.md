@@ -18,7 +18,7 @@ Wallet applications could then build user interfaces that enable users to transa
 
 Both users maintain self-custody of their assets, experience lower fees than they would on the L1, and the rollup inherits the security of the Ethereum L1. And, no on-chain transaction was required to onboard on of the users to the rollup!
 
-Rollups could help scale BTC payments and provide better privacy. Check out some of the resources below to learn more:
+Rollups could help scale BTC payments and provide better privacy. Below, you can learn more about the privacy-preserving applications that can be enabled by rollups on Bitcoin:
 
 - Resource link
 - Resource link
