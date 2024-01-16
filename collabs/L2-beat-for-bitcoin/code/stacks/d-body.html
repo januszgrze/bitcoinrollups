@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stacks</title>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400&display=swap" rel="stylesheet">
+<style>
+  body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Inconsolata", monospace;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start; /* Align the children at the start of the cross-axis */
+}
+
+.table-of-contents {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 400px;
+  overflow-y: auto;
+  margin: 0;
+  padding-top: 0;
+  color: #ffffff; /* Assuming you want white text as shown in the image */
+  }
+
+.table-of-contents ul {
+  list-style: none; /* We remove the default decimal list-style */
+  counter-reset: section; /* Creates a new instance of a counter named section */
+  padding-left: 0; /* Remove padding if you don't want indentation */
+  margin-bottom: 10px;
+  margin-left: 0; /* Remove left margin/indentation */
+
+}
+
+.table-of-contents li {
+  counter-increment: section; /* Increment the counter */
+  font-family: "Inconsolata", monospace;
+  margin-left: 0; /* Remove left margin/indentation */
+  margin-bottom: 15px; /* Adjust as necessary */
+  line-height: 1.5em; /* Match line height with the number's height for vertical alignment */
+  padding-left: 0; /* Add a consistent left padding */
+}
+
+.table-of-contents li::before {
+  content: counter(section); /* Insert the counter as content */
+  background-color: #f2a900; /* The golden circle background color */
+  border-radius: 20%;
+  color: #fff; /* Font color for the number, white in this case */
+  width: 1.5em; /* Width and height should be equal for a perfect circle */
+  height: 1.5em; /* Adjust the size as needed */
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5em; /* Align the line height with the width/height for vertical centering */
+  margin-right: 0.5em; /* Space between the number and the text */
+  font-family: "Inconsolata", monospace; /* Maintain the font family */
+}
+
+.table-of-contents li a {
+  font-family: "Inconsolata", monospace; /* Maintain the font family */
+  display: inline; /* Changed from inline-block to inline if you want the bullet to be outside */
+  padding: 0.5em;
+  font-size: 20px;
+  line-height: 24px !important;
+  font-weight: 400;
+  color: white; /* Text color */
+  text-decoration: none;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.table-of-contents li a.active {
+  color: white; /* Active link color, adjust if needed */
+}
+
+.chart-container {
+  width: 100%; /* Full width of the parent container */
+  max-width: 800px; /* Maximum width of the chart */
+  margin: auto; /* Center the chart in the parent container */
+  padding: 0px; /* Space around the chart */
+  box-sizing: border-box; /* Include padding and border in the width and height */
+}
+
+.content {
+  flex-grow: 1;
+  padding: 1em;
+  padding-top: 0; /* No padding at the top */
+  width: 940px
+}
+
+/* Reset top margin for the first section heading */
+.content > section:first-child h2 {
+  margin-top: 0;
+}
+
+body {
+            font-family: "Inconsolata", monospace;
+            font-weight: 400;
+        }
+        p {
+            font-family: "Inconsolata", monospace;
+            font-size: 17px;
+            line-height: 24px !important;
+            font-weight: 400;
+            color: white;
+            margin-bottom: 7.5px !important;
+            }
+        h1 {
+            font-family: "Inconsolata", monospace;
+            color: white;
+            font-size: 40px;
+            line-height: 44px !important;
+            font-weight: 400;
+            margin-bottom: 20px !important;
+            margin-top: 0px
+            }
+        h2 {
+            font-family: "Inconsolata", monospace;
+            color: white;
+            font-size: 40px;
+            line-height: 44px !important;
+            font-weight: 400;
+            margin-bottom: 20px !important;
+            margin-top: 45px
+        }
+        h3 {
+            font-family: "Inconsolata", monospace;
+            color: #f2a900;
+            font-size: 24px;
+            line-height: 24px !important;
+            font-weight: 400;
+            margin-bottom: 25px !important;
+            margin-top: 15px
+        }
+        h4 {
+            font-family: "Inconsolata", monospace;
+            color: white;
+            font-size: 28px;
+            line-height: 28px !important;
+            font-weight: 700;
+            margin-bottom: 15px !important;
+            margin-top: 10px
+        }
+        h5 {
+            font-family: "Inconsolata", monospace;
+            color: #FF0000;
+            font-size: 28px;
+            line-height: 28px !important;
+            font-weight: 700;
+            margin-bottom: 15px !important;
+            margin-top: 10px
+        }
+        h6 {
+            font-family: "Inconsolata", monospace;
+            color: #7EFF00;
+            font-size: 28px;
+            line-height: 28px !important;
+            font-weight: 700;
+            margin-bottom: 15px !important;
+            margin-top: 10px
+        }
+        h7 {
+            font-family: "Inconsolata", monospace;
+            color: white;
+            font-size: 24px;
+            line-height: 24px !important;
+            font-weight: 700;
+            margin-bottom: 15px !important;
+            margin-top: 15px !important;
+        }
+        ul.diamond {
+    font-family: "Inconsolata", monospace;
+    list-style: none; /* Remove default bullet points */
+    margin-bottom: 7.5px;
+    padding-left: 0px; /* Add some left padding to align with content */
+}
+
+ul.diamond li {
+    font-family: "Inconsolata", monospace;
+    font-size: 17px;
+    line-height: 24px !important;
+    font-weight: bold; !important;
+    color: white;
+    position: relative; /* Position the diamond image */
+    padding-left: 30px; /* Add space for the diamond image */
+}
+
+ul.diamond li:before {
+    content: "";
+    display: block;
+    width: 10px; /* Adjust the size of the diamond */
+    height: 10px; /* Adjust the size of the diamond */
+    background-color: white; /* Diamond color */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%) rotate(45deg); /* Rotate to create a diamond shape */
+}
+/* Style the indented paragraph */
+.indented-paragraph {
+  margin-left: 30px; /* Adjust the left margin as needed for indentation */
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <nav class="table-of-contents">
+    <ul>
+      <li><a href="#section1">Chart</a></li>
+      <li><a href="#section2">Milestones</a></li>
+      <li><a href="#section3">Description</a></li>
+      <li><a href="#section4">Risk Analysis</a></li>
+      <li><a href="#section5">Verification</a></li>
+      <li><a href="#section6">Bitcoin Security</a></li>
+      <li><a href="#section7">Technology</a></li>
+      <li><a href="#section8">Operator</a></li>
+      <li><a href="#section9">Withdrawals</a></li>
+      <li><a href="#section10">Source Code</a></li>
+      <li><a href="#section11">Knowledge Bits</a></li>
+      <!-- Add more sections as needed -->
+    </ul>
+  </nav>
+
+  <main class="content">
+    <section id="section1">
+      <h1>Chart</h1>
+      <button id="toggleChart" style="margin-bottom: 20px; margin-left: 2.5px;">TVL</button>
+      	<div class="chart-container">
+          <canvas id="valueLockedChart"></canvas>
+  				<canvas id="valueLockedChart2" style="display: none;"></canvas>
+        </div>
+    </section>
+    <section>
+    	<div id="targetDiv1">
+      <!-- The hidden content will be displayed here. -->
+      </div>
+    </section>
+    <section>
+      <div id="targetDiv2">
+    <!-- The hidden content will be displayed here. -->
+  		</div>
+    <section>
+    	<div id="targetDiv3">
+    	<!-- The hidden content will be displayed here. -->
+  		</div>
+    </section>
+    <!-- Add more sections as needed -->
+  </main>
+</div>
