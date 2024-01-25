@@ -43,7 +43,7 @@
       align-items: baseline; /* Align items to the start (top) */
     }
 
-    .textbox h6 {
+    .textbox h10 {
     font-family: "Inconsolata", monospace;
     font-size: 15px;
     font-weight: 400;
@@ -110,42 +110,46 @@
 <body>
   <div class="panel panel-large">
     <div class="textbox">
-      <h6>TVL</h6>
+      <h10>TVL</h10>
       <p>$121.4m</p>
     </div>
     <div class="textbox">
-      <h6>BTC Bridge</h6>
-      <p>3212 BTC</p>
+      <h10>BTC Bridge</h10>
+      <p>$118.7m</p>
     </div>
     <div class="textbox">
-      <h6>External</h6>
-      <p>$-m</p>
+      <h10>External</h10>
+      <p>$2.91m</p>
     </div>
     <div class="textbox">
-      <h6>Native</h6>
-      <p>$-m</p>
+      <h10>Native</h10>
+      <p>N/A</p>
     </div>
   </div>
   <div class="panel panel-small">
     <div class="textbox-container">
       <div class="textbox textbox-small">
-        <h6>Bridge</h6>
-        <p>Federated Multi-Sig</p>
+        <h10>Bridge</h10>
+        <p>Multi-sig</p>
       </div>
       <div class="textbox textbox-small">
-        <h6>Native Token</h6>
+        <h10>Native Token</h10>
         <p>RBTC</p>
       </div>
       <div class="textbox textbox-small">
-        <h6>30d TX Count</h6>
-        <p>TODO</p>
+        <h10>30d TX Count</h10>
+        <p>68.4k</p>
       </div>
       <div class="textbox textbox-small">
-        <h6>Type</h6>
+        <h10>Type</h10>
         <p>Sidechain</p>
       </div>
       <div class="textbox textbox-small">
-        <h6>Purpose</h6>
+        <h10>Consensus</h10>
+        <p>Merge-mining</p>
+        </div>
+      <div class="textbox textbox-small">
+        <h10>Purpose</h10>
         <p>General purpose</p>
       </div>
     </div>
@@ -166,15 +170,15 @@ var colorToWord = {
 var myChart = new Chart(ctx, {
   type: 'pie',
   data: {
-    labels: ['Data Availability', 'Upgradeability', 'Proposer Failure', 'State Validation', 'Bridge Custodian'],
+    labels: ['Data Availability', 'Upgradeability', 'Block Producer Failure', 'State Validation', 'Bridge Custodian*'],
     datasets: [{
       label: 'Risk Analysis',
       data: [20, 20, 20, 20, 20],
       backgroundColor: [
-        '#FF0000',
-        '#FF0000',
-        '#FF0000',
-        '#FF0000',
+        '#7EFF00',
+        '#CEFF9E',
+        '#7EFF00',
+        '#7EFF00',
         '#FF0000',
       ],
       borderColor: '#F2A900', // Set the border color here (white in this example)
