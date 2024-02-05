@@ -61,6 +61,8 @@ You can find the full list of written materials in the sections below.
 - [Bitcoin Scaling with Rollups: Best Case Scenario - @BobBodily](https://twitter.com/BobBodily/status/1736172505629614299)
 - [How are proofs verified on rollups? - @chainway_xyz](https://twitter.com/chainway_xyz/status/1733190622054330508)
 - [Rollups don't need an onchain transaction to onboard users - @ercwl](https://twitter.com/ercwl/status/1733615296236179868_)
+- [BitVM and OP_CAT - @chainway_xyz](https://twitter.com/chainway_xyz/status/1742607389679927659)
+- [Zcash-level privacy on Bitcoin - @BitcoinRollups](https://twitter.com/BitcoinRollups/status/1745509878829830410)
 
 ### Other written pieces related to ZK Rollups, Bitcoin fee markets, Ordinals and Zero-Knowledge Proofs on Bitcoin
 
