@@ -26,7 +26,7 @@ Read more about rollup-privacy, and see demos of privacy-preserving rollup appli
 
 Users would also be able to trustlessly use their BTC as collateral for stablecoin loans on rollups. Today, you can take out stablecoin loans, using Bitcoin as collateral, on Sovryn. Sovryn is an application built on the Rootstock sidechain, and they recently [wrote a blog](https://sovryn.com/all-things-sovryn/reflecting-on-our-journey-beyond-sidechains) about why they’re looking to move beyond sidechains due to sidechains’ limitations.
 
-Listen to Eden Yago's recent talk about rollups, and why they're good for applications like Sovryn, [here](https://www.youtube.com/watch?v=yTIJWCL1o40).
+Because of these limitations, they recently announced their intention to build [BitcoinOS](https://sovryn.com/bitcoinos), a framework that enables developers to deploy rollups on top of Bitcoin. Listen to Sovryn's Eden Yago speak about rollups, and why they're good for applications like Sovryn, [here](https://www.youtube.com/watch?v=yTIJWCL1o40).
 
 ### Decentralized finance applications
 
