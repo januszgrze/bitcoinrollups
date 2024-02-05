@@ -36,8 +36,6 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [zkLayer](https://twitter.com/zkLayer_)
 - [Heliosphere](https://twitter.com/HeliosphereOne)
 
-*We do not add every project that claims to be a rollup on Bitcoin because their might be risks associated with using that project or interacting with its token. For a full list of teams building rollups on Bitcoin, we will be releasing "L2Bit", a site analyzing risks associated with Bitcoin rollups and other Layer 2s.*
-
 ### Open-source devs building zk-rollups on Bitcoin
 
 - [edisontim, SovCoin](https://github.com/edisontim/SovCoin)
