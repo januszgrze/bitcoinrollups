@@ -30,7 +30,7 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [Bison Labs](https://bisonlabs.io/)
 - [Bnzk](https://bnzk.io/)
 - [Alpen Labs](https://alpenlabs.io/)
-- [Kasar Labs](https://www.kasar.io/) (in collaboration with[Taproot Wizards](https://taprootwizards.com/))
+- [Kasar Labs](https://www.kasar.io/) (in collaboration with [Taproot Wizards](https://taprootwizards.com/))
 - [Cartesi Project](https://cartesi.io/)
 - [Sovryn](https://sovryn.com/bitcoinos)
 - [zkLayer](https://twitter.com/zkLayer_)
