@@ -26,7 +26,7 @@ A [zero knowledge proof (zkp)](https://z.cash/learn/what-are-zero-knowledge-proo
 
 ### What are Bitcoin rollups
 
-Bitcoin rollups are new phenomenons that were first introduced by [Trey Del Bonis](https://tr3y.io/articles/crypto/bitcoin-zk-rollups.html) and further researched by [John Light](https://bitcoinrollups.org/). Due to tradeoffs made to ensure decentralization of the Bitcoin protocol, it needs to use Layer 2 solutions to scale the amount of transactions it can process efficiently. Rollups are popular scaling solutions in the Ethereum space and are now being developed using the Bitcoin protocol for data availability. The rollups being developed on Bitcoin today are sovereign rollups. But, teams are exploring how to build optimistically verified rollups through [BitVM](https://www.bitcoinrollups.io/bitvm).
+Bitcoin rollups are new phenomenons that were first introduced by [Trey Del Bonis](https://tr3y.io/articles/crypto/bitcoin-zk-rollups.html) and further researched by [John Light](https://bitcoinrollups.org/). Due to tradeoffs made to ensure decentralization of the Bitcoin protocol, it needs to use Layer 2 solutions to scale the amount of transactions it can process efficiently. Rollups are popular scaling solutions in the Ethereum space and are now being developed using the Bitcoin protocol for data availability. The rollups being developed on Bitcoin today are sovereign rollups and rollups that are optimistically verified rollups through [BitVM](https://www.bitcoinrollups.io/bitvm).
 
 ### Why Bitcoin rollups
 
