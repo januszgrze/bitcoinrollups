@@ -27,6 +27,7 @@ You can find the full list of video and audio materials in the sections below.
 - [Layer-2s: Panel Discussion w/ niftynei, John Light, Paul Sztorc, and Super Testnet - bitcoin++](https://www.youtube.com/watch?v=gzXzAtTvMhM)
 - [John Light: Building Trustless Bridges](https://www.youtube.com/watch?v=M40yzuv6DNY)
 - [Introducing Validity Proofs to Bitcoin - Bitcoin 2023](https://www.youtube.com/watch?v=rvOrbejf6_A)
+- [Activating Rollups on Bitcoin](https://www.youtube.com/watch?v=uQyBhWYY7Vo)
 
 ### Podcasts that cover ZK Rollups on Bitcoin
 
@@ -62,3 +63,5 @@ You can find the full list of video and audio materials in the sections below.
 - [ZeroSync - Bitcoin 2023](https://www.youtube.com/watch?v=rvOrbejf6_A&list=PLe0djdakvnFb0T-oZAeF49A-EZChise4n&index=92)
 - [The Great Ordinal Debate - Bitcoin 2023](https://www.youtube.com/watch?v=AdYsQ2DWt5M)
 - [Can the Bitcoin Blockchain be compressed from 600GB down to a few MBs? - Bitcoin News](https://twitter.com/robin_linus/status/1703310805846950201)
+- [Zero-knowledge proofs with Robin Linus - Hashing It Out](https://twitter.com/Logos_network/status/1745128366867361946)
+- [The next Bitcoin softfork - The Bitcoin Takeover](https://twitter.com/TheVladCostea/status/1741451824421363803)
