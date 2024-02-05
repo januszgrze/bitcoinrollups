@@ -1,0 +1,63 @@
+gm rollup enjoyers
+
+ICYMI, the ZeroSync team released a paper called BitVM that has some interesting properties that could potentially enable rollups on Bitcoin without a soft fork.
+
+Bitcoin educator Bob Bodily describes BitVM as a new computing paradigm that leverages the universal gate NAND (along with other gates) within Taproot leaves with pre-signed transactions in optimistic rollup prover/verifier/challenger fashion to theoretically enable any computation on Bitcoin itself.
+
+It’s okay if you don’t understand that immediately. We’ve built this page as a resource to help guide you through learning about BitVM.
+
+Before working through this guide, you should have some familiarity with:
+
+- Bitcoin Script
+- Blockchain Virtual Machines (maybe including the EVM)
+- NAND Gates
+
+### 1st - Read the BitVM paper
+
+The best place to start is at the source. Read the BitVM paper.
+
+{Link}
+
+### 2nd - Read Bob Bodily’s explainer(s)
+
+Bob Bodily released a breakdown on what this means, and how it could add more functionality to Bitcoin. This is a really digestible breakdown, and a great place to start.
+
+Read his breakdown here. After that, check out his 24 and 48 hour updates on this explanation for further context.
+
+### 3rd - Read Ichiro Kuwahara’s explainer on BitVM
+
+Ichiro Kuwahara released a “stupidly good explainer" on BitVM via this blog post. This is a great building block to further your understanding.
+
+Read the post here.
+
+### 4th - Listen to Stephan Rivera’s podcast with Robin Linus and Super Testnet
+
+Stephan Rivera hosted a discussion with Robin Linus and Super Testnet on BitVM. They break it down well here and provide a good tl;dr at the end of the episode.
+
+### 5th - Listen to Robin Linus’ talk on BitVM
+
+Rob Linus gave a presentation on BitVM at Bitcoin Amsterdam. This is a bit more technical than the podcast.
+
+Watch that here.
+
+## Pause
+
+After digesting all of this information, you should probably have a better understanding on what the technology means for Bitcoin. We recommend that you draft notes on all of these topics to help retain some of that information.
+
+Want to cross-reference your notes? Bitcoinrollups.io’s maintainer, Ian, drafted some notes on BitVM. You can find those here.
+
+### 6th - Listen to Cartsen Munk’s presentation on BitVM’s potential
+Carsten Munk of Cartesi Project has been one of the more active builders on BitVM. He gave a presentation on how BitVM could potentially enable a ZK Verifier in Bitcoin.
+
+Watch here.
+
+### 7th - Review tweets on BitVM’s potential applications
+There are a few tweets on different applications and development updates on BitVM. Check those out below. Even if you’re not a dev, it might be helpful to work through.
+
+[tweet links]
+
+### 8th - You’re up to speed!
+
+That wasn’t too painful was it? After reviewing all of that information, you should have a decent understanding on BitVM. 
+
+We recommend you join the BitVM telegram group to continue following the discussion and development around this. And, if you feel like this guide is missing anything, please add a section via our GitHub repo.
