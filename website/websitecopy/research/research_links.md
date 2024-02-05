@@ -30,11 +30,14 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [Bison Labs](https://bisonlabs.io/)
 - [Bnzk](https://bnzk.io/)
 - [Alpen Labs](https://alpenlabs.io/)
-- [Kasar Labs](https://www.kasar.io/)
-- [Taproot Wizards](https://taprootwizards.com/)
+- [Kasar Labs](https://www.kasar.io/) (in collaboration with[Taproot Wizards](https://taprootwizards.com/))
 - [Cartesi Project](https://cartesi.io/)
-- [Rollux](https://rollux.com/)
-  
+- [Sovryn](https://sovryn.com/bitcoinos)
+- [zkLayer](https://twitter.com/zkLayer_)
+- [Heliosphere](https://twitter.com/HeliosphereOne)
+
+*We do not add every project that claims to be a rollup on Bitcoin because their might be risks associated with using that project or interacting with its token. For a full list of teams building rollups on Bitcoin, we will be releasing "L2Bit", a site analyzing risks associated with Bitcoin rollups and other Layer 2s.*
+
 ### Open-source devs building zk-rollups on Bitcoin
 
 - [edisontim, SovCoin](https://github.com/edisontim/SovCoin)
