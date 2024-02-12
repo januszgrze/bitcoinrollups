@@ -20,6 +20,7 @@ You can find the full list of written materials in the sections below.
 
 ### Articles covering ZK Rollups on Bitcoin
 
+- [Bitcoin zk-rollups - Trey Del Bonis](https://tr3y.io/articles/crypto/bitcoin-zk-rollups.html)
 - [What Are Rollups and How Can They Work on Bitcoin - Trust Machines](https://trustmachines.co/learn/what-are-rollups-and-how-can-they-work-on-bitcoin/)
 - [Bitcoin Scaling Solution of the Week: ZK Rollups - Trust Machines](https://trustmachines.co/blog/bitcoin-scaling-solution-of-the-week-zk-rollups/)
 - [Are ZK-proofs the answer to Bitcoin’s Ordinal and BRC-20 problem? - Cointelegraph](https://cointelegraph.com/news/are-zk-proofs-the-answer-to-bitcoin-ordinal-and-brc-20-problem)
