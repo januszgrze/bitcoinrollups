@@ -26,7 +26,7 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [ZeroSync](https://zerosync.org/) - The team building BitVM (with support from other open-source contributors) that enables trust-minimized bridging between the Bitcoin main chain and Layer 2 solutions.
 - [Chainway](https://chainway.xyz) - Chainway is behind "Citrea". Citrea is a rollup that will leverage BitVM for bridging and zero-knowledge proofs to post data onto Bitcoin.
 - [Bison Labs](https://bisonlabs.io/) - Bison Labs is building a zk-rollup that supports BRC-20 trading.
-- [Bnzk](https://bnzk.io/) - 
+- [Bnzk](https://bnzk.io/) - Bznk is looking to use zk-tech to improve BRC-20 indexing. They could potentially be building a sovereign rollup.
 - [Alpen Labs](https://alpenlabs.io/) - Alpen Labs are an R&D company exploring various designs for validity rollups on Bitcoin.
 - [Kasar Labs](https://www.kasar.io/) (in collaboration with [Taproot Wizards](https://taprootwizards.com/)) - Kasar Labs developed "Barknet", a sovereign rollup leveraging the Cairo VM, that uses Bitcoin for data availability.
 - [Cartesi Project](https://cartesi.io/) - Cartesi Project are an optimistic rollup that uses a Linux-based VM. They are currently a part of the Ethereum space
