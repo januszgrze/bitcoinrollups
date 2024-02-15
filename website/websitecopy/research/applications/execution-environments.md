@@ -39,3 +39,30 @@ But, the only way users can use BTC on these sidechains is through federated bri
 Is this trustless? No. But, they would take on similar trust assumptions to Arbitrum, which is the most popular scaling solution in Ethereum today.
 
 This is arguably a better trust model than using today's sidechains, custodial scaling solutions, or custodial applications leveraged in other Layer 2 protocols.
+
+### Sidechains versus rollups
+
+Before we dive in here, it's worth noting that the distinction between a sidechain and a rollup is a bit hazy right now. But, we want to clarify why it might be better for teams to build rollups.
+
+Sidechains see users take on additional trust assumptions because they're interacting with an entirely different consensus protocol in addition to the 1-N trust assumption from BitVM. They have to trust validators of that consensus protocol that their transactions will be included in blocks and that the sidechain's data is made available to node operators.
+
+Now, these chains can be sufficiently decentralized, but this doesn't discount that users are trusting a completely separate consensus protocol.
+
+Rollups, on the otherhand, inherit consensus and data availability from Bitcoin. The major trust assumption users take on is 1-N 
+Other components of the blockchain’s architecture can be offloaded to other consensus protocols. Developers can use the Bitcoin L1 for data availability, BitVM to verify execution, and alternative consensus protocols for sequencing and proving. Or, they might opt for a centralized system for better performance. 
+
+Modularization enables developers to make tradeoffs specific to their application. For example, what’s the best sequencer design for your rollup?
+
+It completely depends on what you’re building.
+
+Privacy applications might be fine with slower performance for improved censorship resistance. On-chain gaming applications might be okay with a centralized sequencer even if there is a potential for liveness failures.
+
+
+But, this seems like a lot of development effort having to build sequencer protocols, decentralized prover coordination and more…
+
+Again, it completely depends on what the rollup’s goals are.
+
+Rollups might want to build their own decentralized sequencer and prover coordination protocol. That may see it get longer to market, for the tradeoff that it would have a dedicated design around decentralization. Or, rollups can opt-in to sharing a credibly neutral network that is shared by any number of rollups.
+
+All of these design choices are dependent on the goals of the rollup. And through protocol modularity, developers will have more flexibility and choice around how we construct protocols and applications.
+
