@@ -1,26 +1,28 @@
 ## Rollups can support a variety of new execution environments on Bitcoin
 
-Rollups on top of Bitcoin enable a whole new suite of functionality for BTC users.
+Rollups on top of Bitcoin would enable a whole new suite of functionality for BTC users.
 
 But how do we build these new applications, and how are they better than those built on existing sidechains today?
 
 ### New execution environments
 
-As mentioned in the "validity rollups on bitcoin" report, rollups would give Bitcoin developers, Bitcoin users, and BTC holders the ability to leverage alternative execution environments, such as the EVM. These new environments would exist on various rollups, not the Bitcoin network itself. However, the architecture of rollups will allow BTC and other Bitcoin assets (e.g. Ordinals) to be used in more expressive execution environments for new use cases, all with minimal trust assumptions.
+As mentioned in the "validity rollups on bitcoin" report, rollups would give Bitcoin developers, Bitcoin users, and BTC holders the ability to leverage alternative execution environments, such as the EVM. These new environments would exist on the rollups, not the Bitcoin network itself. However, the rollups would allow users to use BTC and other Bitcoin assets (e.g. Ordinals) in these execution environments with minimal trust assumptions.
 
-Users would be able to access these new applications by bridging their BTC over to the application. They would deposit their BTC into a bridge contract and then be able to access a wrapped version of the asset on the rollup.
+In blockchains, virtual machines generally define how transactions are executed and how blocks are created. If the virtual machine enables smart contracts, then developers can use these environments to create applications like on-chain gaming, decentralized finance and improved privacy protocols.
 
-Turing-complete execution environments give developers more freedom to build whatever they want on top of Bitcoin. Based on findings within the [Electric Capital developer report (2023)](https://www.developerreport.com/developer-report), we can see that there has been more growth in the Ethereum developer community compared to Bitcoin’s. We can also see that full-time developer communities in two of Ethereum’s rollup ecosystems, [Arbitrum and Optimism](https://www.developerreport.com/developer-report?s=optimism-1315-solana-888-arbitrum), have grown 1300% and 700% respectively over a three-year time horizon.
+Permissive [execution environments](https://celestia.org/glossary/execution-environment/) give developers more freedom to "build whatever" on top of Bitcoin. Based on findings within the [Electric Capital developer report (2023)](https://www.developerreport.com/developer-report), we can see that there has been more growth in the Ethereum developer community compared to Bitcoin’s. We can also see that full-time developer communities in two of Ethereum’s rollup ecosystems, [Arbitrum and Optimism](https://www.developerreport.com/developer-report?s=optimism-1315-solana-888-arbitrum), have grown 1300% and 700% respectively over a three-year time horizon.
 
-Some virtual machines that have been proposed for Bitcoin rollups are:
+These stats show that their is an appetite to build on protocols that enable smart contracts. It also shows that developers are building on top of rollups in the Ethereum ecosystem, as this is where the majority of user activity happens today.
+
+As the Bitcoin ecosystem explores building rollups, a number of virtual machines have been proposed. Some of them are:
 
 - [The Cairo VM](https://starkware.co/tech-stack/)
 - [The EVM](https://ethereum.org/developers/docs/evm)
 - [The Cartesi VM](https://docs.cartesi.io/machine/intro/)
 
-There are many teams looking to run different virtual machines because they have different specializations. Modularizing the stack enables developers to be more flexible with the programs that they write, which in turn gives users more applications they can interact with.
+There are many teams looking to run different virtual machines because they have different specializations. For example, the EVM is a more general virtual machine that has been mainly used to create on-chain financial applications. And the Cartesi VM, which is Linux-based, might be a better option for developers looking to build on-chain games. Bitcoin has a unique opportunity to not enshrine any specific virtual machine and allow developers to choose the one that with best suited for their use case.
 
-Reminder: even [recent breakthroughs](https://bitvm.org/bitvm.pdf) in Bitcoin scaling were partly inspired by development efforts undertaken in Ethereum. It’s important we don’t discount innovation that is happening in external ecosystems.
+They might also opt for a virtual machine that supports programming languages they're familiar. For a full list of programming languages developers could use in rollups, see this [list](https://bitcoinrollups.org/#section-3-enabling-new-functionality).
 
 ### Applications
 
@@ -30,39 +32,26 @@ Cartesi’s [Rollup Lab](https://rolluplab.io/) site also shows us how developer
 
 And, of course, the EVM supports a robust [ecosystem of on-chain applications](https://dappradar.com/rankings/protocol/ethereum) on the Ethereum mainchain and EVM-compatible rollups.
 
-### Minimized trust assumptions
+These VMs provide developers with more flexible programming langages, and the end result is more applications and utility for BTC. In the height of the 2021-2022 frenzy, [you can see](https://www.theblock.co/data/on-chain-metrics/comparison-bitcoin-ethereum/transaction-fees-daily) that the Ethereum network had a higher fee revenue than Bitcoin. This could be down to the fact that Ethereum enabled developers to build more applications, some found product market fit, and users paid fees to interact with these applications.
 
-Some might argue, “well, we have EVM-compatible sidechains, and hardly anyone uses those.”
+To ensure that Bitcoin has a healthy fee environment to replace the block subsidy, it might be worthwhile to have developers create new waves of applications. If some of these applications find product market fit, users will use them and then pay more fees to Bitcoin miners as a result.
 
-But, the only way users can use BTC on these sidechains is through federated bridges. As new offchain scaling solutions implement BitVM, sidechains and rollups will have bridges with minimized trust assumptions.
-
-Is this trustless? No. But, they would take on similar trust assumptions to Arbitrum, which is the most popular scaling solution in Ethereum today.
-
-This is arguably a better trust model than using today's sidechains, custodial scaling solutions, or custodial applications leveraged in other Layer 2 protocols.
+Rollups are a great candidate to provide more developer friendly environments.
 
 ### Sidechains versus rollups
 
-Before we dive in here, it's worth noting that the distinction between a sidechain and a rollup is a bit hazy right now. But, we want to clarify why it might be better for teams to build rollups.
+Some might argue, “well, we have EVM-compatible sidechains, and hardly anyone uses those.”
 
-Sidechains see users take on additional trust assumptions because they're interacting with an entirely different consensus protocol in addition to the 1-N trust assumption from BitVM. They have to trust validators of that consensus protocol that their transactions will be included in blocks and that the sidechain's data is made available to node operators.
+Currently, the only way users can use BTC on these sidechains is through federated bridges. As these projects implement more trust-minimized bridging, users will be able to take on less trust assumptions when interacting with these protocols.
 
-Now, these chains can be sufficiently decentralized, but this doesn't discount that users are trusting a completely separate consensus protocol.
+It's worth noting that the distinction between a sidechain and a rollup is a bit hazy right now. Candidly, current sidechains cannot enable unilateral exit, and proposed rollup implementations won't be able to do that either, so neither can be considered trustless.
 
-Rollups, on the otherhand, inherit consensus and data availability from Bitcoin. The major trust assumption users take on is 1-N 
-Other components of the blockchain’s architecture can be offloaded to other consensus protocols. Developers can use the Bitcoin L1 for data availability, BitVM to verify execution, and alternative consensus protocols for sequencing and proving. Or, they might opt for a centralized system for better performance. 
+But pushing for new bridging technologies will see users take on less trust assumptions. And by modularizing Bitcoin, projects can design tradeoffs specific to their application. This can show what's possible when developers can build 
 
-Modularization enables developers to make tradeoffs specific to their application. For example, what’s the best sequencer design for your rollup?
+Then long term, there will be a stronger argument for the addition of [new opcodes](https://bitcoinrollups.org/#section-5-building-validity-rollups-on-bitcoin) that would enable true validity rollups. These rollups will see users not forgoe self-custody of their BTC in order to interact with second layer protocols. 
 
-It completely depends on what you’re building.
+### To Finish
 
-Privacy applications might be fine with slower performance for improved censorship resistance. On-chain gaming applications might be okay with a centralized sequencer even if there is a potential for liveness failures.
+Rollups are no silver bullet, but they do enable more flexible developer environments. This could potentially create a wider range of applications on Bitcoin and give users more opportunities to spend BTC and pay fees to miners securing the network.
 
-
-But, this seems like a lot of development effort having to build sequencer protocols, decentralized prover coordination and more…
-
-Again, it completely depends on what the rollup’s goals are.
-
-Rollups might want to build their own decentralized sequencer and prover coordination protocol. That may see it get longer to market, for the tradeoff that it would have a dedicated design around decentralization. Or, rollups can opt-in to sharing a credibly neutral network that is shared by any number of rollups.
-
-All of these design choices are dependent on the goals of the rollup. And through protocol modularity, developers will have more flexibility and choice around how we construct protocols and applications.
-
+As teams build more scaling protocols in 2024, we should closely follow which onboard the most developers. We should also follow how new applications on these protocols pay fees directly to Bitcoin miners and strengthen the long-term security of the network.
