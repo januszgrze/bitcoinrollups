@@ -44,11 +44,15 @@ Some might argue, “well, we have EVM-compatible sidechains, and hardly anyone 
 
 Currently, the only way users can use BTC on these sidechains is through federated bridges. As these projects implement more trust-minimized bridging, users will be able to take on less trust assumptions when interacting with these protocols.
 
-It's worth noting that the distinction between a sidechain and a rollup is a bit hazy right now. Candidly, current sidechains cannot enable unilateral exit, and proposed rollup implementations won't be able to do that either, so neither can be considered trustless.
+It's worth noting that the distinction between a sidechain and a rollup is a bit hazy right now. Candidly, current sidechains and proposed rollup implementations cannot enable unilateral exit, so neither can be considered trustless.
 
-But pushing for new bridging technologies will see users take on less trust assumptions. And by modularizing Bitcoin, projects can design tradeoffs specific to their application. This can show what's possible when developers can build 
+Still, implementing new bridging technologies will see users take on less trust assumptions. And by modularizing Bitcoin, projects can design tradeoffs specific to their application. This enables a world where developers can design corresponding infrastructure to meet their applications' needs.
 
-Then, in the long term, there will be a stronger argument for the addition of [new opcodes](https://bitcoinrollups.org/#section-5-building-validity-rollups-on-bitcoin) that would enable true validity rollups. These rollups will see users not forgo self-custody of their BTC in order to interact with second-layer protocols. 
+For example, privacy applications would arguable need more decentralized infrasturcture for better censorship-resistance guarantees, whereas on-chain gaming applications might be okay with centralized infrastructure for improved performance.
+
+Developing these environments, with the current resources we have available to use, still has its advantages related to developer flexibility. And in the long term, the systems that are developed can present a stronger argument for the addition of [new opcodes](https://bitcoinrollups.org/#section-5-building-validity-rollups-on-bitcoin) that would enable true validity rollups. These rollups will see users not forgo self-custody of their BTC in order to interact with second-layer protocols.
+
+This would enable a truestless, self-custodial scaling option that could also enable a better developer experience.
 
 ### To Finish
 
