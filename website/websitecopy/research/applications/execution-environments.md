@@ -52,7 +52,7 @@ For example, privacy applications would arguable need more decentralized infrast
 
 Developing these environments, with the current resources we have available to use, still has its advantages related to developer flexibility. And in the long term, the systems that are developed can present a stronger argument for the addition of [new opcodes](https://bitcoinrollups.org/#section-5-building-validity-rollups-on-bitcoin) that would enable true validity rollups. These rollups will see users not forgo self-custody of their BTC in order to interact with second-layer protocols.
 
-This would enable a truestless, self-custodial scaling option that could also enable a better developer experience.
+This would enable a truestless, self-custodial scaling option that could provide a variety of new execution environments.
 
 ### To Finish
 
