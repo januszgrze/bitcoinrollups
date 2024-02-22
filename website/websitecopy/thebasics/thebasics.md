@@ -18,7 +18,7 @@ ELI15 - Users do a bunch of transactions offchain, provers take those transactio
 
 ### What is a sovereign rollup
 
-A [sovereign rollup](https://celestia.org/learn/sovereign-rollups/an-introduction/) is a blockchain that uses a Layer 1 blockchain for data availability, but not for settlement. Nodes in a sovereign rollup are responsible for verifying if a transaction is correct, and then transaction data is published to a Layer 1 blockchain for data availability and consensus. This is advantageous for blockchains that want to trustlessly explore different execution environments and functionalities, but still inherit the security of a decentralized Layer 1 protocol. There are also differences in how they upgrade their protocol versus validity rollups.
+A [sovereign rollup](https://celestia.org/learn/sovereign-rollups/an-introduction/) is a blockchain that uses a Layer 1 blockchain for data availability, but not for settlement. Nodes in a sovereign rollup are responsible for verifying if state changes are correct. In this design, they would read a validity proof containing a state change and verify that execution was done correctly. This is advantageous for blockchains that want to trustlessly explore different execution environments and functionalities, but still inherit the security of a decentralized Layer 1 protocol. There are also differences in how they upgrade their protocol versus validity rollups.
 
 ### What is a zero knowledge proof
 
