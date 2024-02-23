@@ -30,7 +30,7 @@ The list of materials specifically related to Bitcoin rollups is growing, and we
 - [Bnzk](https://bnzk.io/) - Bznk is looking to use zk-tech to improve BRC-20 indexing. They could potentially be building a sovereign rollup.
 - [Alpen Labs](https://alpenlabs.io/) - Alpen Labs are an R&D company exploring various designs for validity rollups on Bitcoin.
 - [Kasar Labs](https://www.kasar.io/) (in collaboration with [Taproot Wizards](https://taprootwizards.com/)) - Kasar Labs developed "Barknet", a sovereign rollup leveraging the Cairo VM, that uses Bitcoin for data availability.
-- [Cartesi Project](https://cartesi.io/) - Cartesi Project are an optimistic rollup that uses a Linux-based VM. They are currently a part of the Ethereum space
+- [Cartesi Project](https://cartesi.io/) - Cartesi Project are an optimistic rollup that uses a Linux-based VM. They are currently a part of the Ethereum space and are exploring Cartesi Rollups on Bitcoin.
 - [Sovryn](https://sovryn.com/bitcoinos) - Sovryn is building BitcoinOS, which aims to be a network of interoperable rollups.
 - [zkLayer](https://twitter.com/zkLayer_) - zkLayer is an upcoming project looking to build a zk-rollup on top of Bitcoin.
 - [Heliosphere](https://twitter.com/HeliosphereOne) - Heliosphere is an upcoming project looking to build an optimistic rollup on top of Bitcoin.
