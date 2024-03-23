@@ -54,7 +54,7 @@ Sequencers receive, include and order transactions in rollup blocks. Sequencers 
     
 ### What are provers
     
-### Provers take ordered rollup blocks from the sequencer and prove that they were executed correctly. They will generate a proof of execution (a validity proof) and then post the proof to the Bitcoin L1 so verifying nodes can verify that it was executed correctly. This process also provides scalability beneffits, as provers do not need post all of the rollup's transaction data to the L1, just proof that the transactions were executed correctly.
+Provers take ordered rollup blocks from the sequencer and prove that they were executed correctly. They will generate a proof of execution (a validity proof) and then post the proof to the Bitcoin L1 so verifying nodes can verify that it was executed correctly. This process also provides scalability beneffits, as provers do not need post all of the rollup's transaction data to the L1, just proof that the transactions were executed correctly.
 
 ### What are verifiers
     
